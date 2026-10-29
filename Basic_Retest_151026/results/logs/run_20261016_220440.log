@@ -1,0 +1,32 @@
+151026 | phase run | root E:\Code\run_151026 | 2026-10-16 22:04:40 | Windows-11-10.0.26200-SP0 | torch 2.14.0+cu126 | GPU NVIDIA GeForce RTX 3050
+
+==========================================================================================
+ PHASE SELFTEST
+==========================================================================================
+  [warn] no face detector available (YuNet model missing and no Haar cascade) - centre crops are used
+  [PASS] model output shapes
+  [PASS] attention sums to 1
+  [PASS] Grad-CAM++ shape and range
+  [PASS] augmentation keeps shape/dtype
+  [PASS] face detector runs (no face -> None)
+  [PASS] square face box inside frame
+  [PASS] split assigns every group
+  [PASS] near-duplicate screen
+  [PASS] temperature recovers x5 over-confidence
+  [PASS] threshold in range
+  [PASS] identity tokens FF++ pair
+  selftest PASSED | torch 2.14.0+cu126 | torchvision 0.29.1+cpu | CUDA True
+
+==========================================================================================
+ PHASE INVENTORY: original real / fake videos only
+==========================================================================================
+  BioDeepAV  real               REAL   2,010 videos  (E:\Datasets\BioDeepAV\real\videos)
+  BioDeepAV  fake               FAKE   1,693 videos  (E:\Datasets\BioDeepAV\fake\videos)
+  FF++       original           REAL   1,000 videos  (E:\Datasets\FaceForensics++_C23\original)
+  FF++       Deepfakes          FAKE   1,000 videos  (E:\Datasets\FaceForensics++_C23\Deepfakes)
+  FF++       Face2Face          FAKE   1,000 videos  (E:\Datasets\FaceForensics++_C23\Face2Face)
+  FF++       FaceShifter        FAKE   1,000 videos  (E:\Datasets\FaceForensics++_C23\FaceShifter)
+  FF++       FaceSwap           FAKE   1,000 videos  (E:\Datasets\FaceForensics++_C23\FaceSwap)
+  FF++       NeuralTextures     FAKE   1,000 videos  (E:\Datasets\FaceForensics++_C23\NeuralTextures)
+  FF++       DeepFakeDetection  FAKE   1,000 videos  (E:\Datasets\FaceForensics++_C23\DeepFakeDetection)
+  hashing 10,703 files (exact-duplicate screen) ...

@@ -1,0 +1,16 @@
+{
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pytorch": "2.14.0+cu126",
+  "cuda": "12.6",
+  "cudnn": 91002,
+  "torchvision": "0.29.1+cpu",
+  "opencv": "5.0.0",
+  "gpu": "NVIDIA GeForce RTX 3050",
+  "gpu_memory_gb": 6.44,
+  "numpy": "2.4.1",
+  "pandas": "2.3.3",
+  "script": "E:\\Code\\FINALTEST.py",
+  "script_sha256": "94be0af5c305514c0e78d1b898d4dfd1672fd05bf2dbe95e5a36ee9417103821",
+  "recorded_at": "2026-10-28 17:04:14"
+}

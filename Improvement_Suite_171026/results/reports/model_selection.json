@@ -1,0 +1,13 @@
+{
+  "best_config": "base30",
+  "best_run": "base30_s42",
+  "config_val_means": {
+    "base30": 0.9649171024655182,
+    "base20": 0.9565580180090089,
+    "harddro12": 0.9535847042522687,
+    "hardfix12": 0.9443322224919118,
+    "base12": 0.9436948325233264
+  },
+  "rule": "highest seed-mean validation macro-AUC; best seed within it",
+  "selected_at": "2026-10-17 20:51:49"
+}

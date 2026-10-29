@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-28 21:56:45",
+  "criteria": "Test 5 preprocessing hash unchanged, median pixel MAE <= 1.0 (0-255 scale) and max |delta P(fake)| <= 0.05",
+  "preprocessing_code_sha256_expected": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+  "preprocessing_code_sha256_found": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+  "preprocessing_hash_match": true,
+  "n_source_videos": 24,
+  "n_rows": 48,
+  "n_missing": 0,
+  "n_failed": 0,
+  "n_ok": 48,
+  "pixel_mae_median": 0.0,
+  "pixel_mae_max": 0.0,
+  "identical_fraction_mean": 1.0,
+  "abs_dp_mean": 0.0,
+  "abs_dp_max": 0.0,
+  "verdict_agreement": 1.0,
+  "by_version": {
+    "degraded": {
+      "n": 24,
+      "pixel_mae_median": 0.0,
+      "abs_dp_max": 0.0
+    },
+    "original": {
+      "n": 24,
+      "pixel_mae_median": 0.0,
+      "abs_dp_max": 0.0
+    }
+  },
+  "final_model": "train-Joint_seed42_F1",
+  "note": "Originals are re-extracted with fresh YuNet detection; degraded videos with their source's face boxes (as in the Test 5 cache). PASS means --predict on a raw video reproduces the evaluation input and probability."
+}

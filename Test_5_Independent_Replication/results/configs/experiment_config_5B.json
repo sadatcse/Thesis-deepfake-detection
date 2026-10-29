@@ -1,0 +1,142 @@
+{
+  "test": "Test 5 (independent)",
+  "variant": "5B",
+  "description": "5A + hard-degradation sampling (brightness, saturation, contrast, blur)",
+  "created": "2026-10-11 03:35:19",
+  "research_question": "Does hard-degradation-aware training improve detection robustness and Grad-CAM explanation stability?",
+  "stage1": {
+    "data": "clean training originals",
+    "epochs": 8,
+    "lr": 0.001,
+    "sampling": "class-balanced (oversampling cap 4.0x)",
+    "shared_across_variants": true,
+    "audio_policy": "mixed (0.5, 0.25, 0.25)"
+  },
+  "stage2": {
+    "init": "best Stage-1 checkpoint of the same (training set, seed)",
+    "epochs": 10,
+    "lr": 0.0003,
+    "paired": false,
+    "hard_sampling": true,
+    "hard_share": 0.5,
+    "hard_weights": {
+      "brightness": 0.3,
+      "saturation": 0.3,
+      "contrast": 0.2,
+      "blur": 0.2
+    },
+    "lambda_feat": 0.0,
+    "lambda_cam": 0.0,
+    "consistency_anchor": "clean (stop-gradient)",
+    "curriculum": {
+      "enabled": false,
+      "phase_end_epochs": [
+        3,
+        6
+      ],
+      "rule": "epochs 1-e1 mild, e1+1-e2 +medium, later all severities; if no allowed version exists the mildest version of the source is used"
+    },
+    "clip_mix": "each step: 32 clips = 16 original + 16 degraded (unpaired 5A/5B) or 16 original/degraded pairs (5C/5D)",
+    "degradation_mixture": "natural: uniform over the source's verified versions; hard: with probability hard_share a hard-type version drawn from the same (dataset, class) cell",
+    "audio_policy": "mixed clean/degraded/none (0.5, 0.25, 0.25)",
+    "class_balance": "class-balanced source draws"
+  },
+  "optimiser": {
+    "name": "AdamW",
+    "weight_decay": 0.0001,
+    "scheduler": "OneCycleLR (max lr = stage lr)",
+    "batch_clips": 32,
+    "grad_clip": null
+  },
+  "model": {
+    "name": "AudioVisualDeepFakeCNN",
+    "parameters": 584978,
+    "architecture_signature": "ab4b7aa4e7498a0d28a5707111bec319a39a389caf0e9887cc1dc4bc04a687d7",
+    "architecture_source_sha256": "1dcc99df056b60362dba03f917be8b8e2bd0ba5b2969ed98903b72753483438f",
+    "init": "PyTorch default initialisation, seeded by the training seed (no pretrained / Test 4 weights)"
+  },
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "train_sets": [
+    "BioDeepAV",
+    "FF++"
+  ],
+  "model_selection": "best epoch by validation score = mean(val original AUC, val degraded AUC) of the training dataset (Stage 1: val original AUC); threshold = validation balanced-accuracy optimum",
+  "evaluation": {
+    "test": "untouched Test 5 test split of BOTH datasets (in-domain + cross-dataset)",
+    "gradcam_pairs": "E:\\Code\\run_test5_independent\\manifests\\xai_pairs.csv",
+    "bootstrap": "cluster (source group) bootstrap, 1000 replicates"
+  },
+  "data": {
+    "split_manifest": "E:\\Code\\run_test5_independent\\splits\\split_manifest.csv",
+    "split_manifest_sha256": "56bc3edaf2f2a06d764f264d38171a0e1af4e77ba62d8ce84ccfc2f63ab2fd62",
+    "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+    "data_seed": 20261009
+  },
+  "preprocessing": {
+    "frame_sampling": "16 frames uniformly spaced over the decoded video (cv2 grab/retrieve; sequential fallback)",
+    "frames_cached": 16,
+    "clip_len": 8,
+    "clip_frames": "model clips use every 2th cached frame (evaluation averages the 2 offsets; training draws 8 random sorted frames)",
+    "decode_max_side": 960,
+    "resolution_normalisation": {
+      "frame_side": 360,
+      "face_px": 80,
+      "jpeg": 0
+    },
+    "face_detector": {
+      "backend": "none",
+      "model": "E:\\Code\\models\\face_detection_yunet_2023mar.onnx",
+      "model_sha256": null,
+      "opencv": "5.0.0",
+      "score_threshold": 0.6,
+      "nms": 0.3,
+      "top_k": 50,
+      "detect_max_side": 640,
+      "selection": "largest area x score"
+    },
+    "crop": {
+      "rule": "square side = max(w,h)*(1+2*margin), clipped inside the frame, 3-frame box smoothing, nearest-detection box for frames without a face, full frame when no face in the video",
+      "margin": 0.2,
+      "alignment": false,
+      "effective_face_resolution_px": 80,
+      "output_size": 128
+    },
+    "degraded_crops": "degraded videos are cropped with their SOURCE video's relative face boxes (pixel-aligned pairs)",
+    "normalisation": "uint8 RGB -> float (x/127.5 - 1)",
+    "audio": {
+      "sample_rate": 16000,
+      "samples": 48000,
+      "source": "external .wav if present, else ffmpeg audio stream; tiled/cropped to 3 s; silent/no audio -> zero spectrogram + mask 0",
+      "spectrogram": "STFT n_fft 512, hop 256, win 512 Hann, log1p magnitude, bilinear 128x128, per-clip z-score clip +-3 /3"
+    },
+    "failed_video_handling": "originals whose frames cannot be decoded are excluded before grouping (status recorded); degraded videos that fail decoding or the content-link test are excluded",
+    "label_independence": "no preprocessing function receives a label; real and fake videos share one code path",
+    "preprocessing_code_sha256": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+    "cache_namespace": "t5_",
+    "cache_dir": "E:\\Code\\run_test5_independent\\cache"
+  },
+  "unavoidable_differences": [
+    "5C introduces original/degraded pairing because Grad-CAM consistency needs pairs; 5C vs 5B therefore measures pairing + Grad-CAM consistency together",
+    "5D adds feature consistency AND the curriculum; 5D vs 5C measures both together"
+  ],
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pytorch": "2.14.0+cu126",
+    "cuda": "12.6",
+    "cudnn": 91002,
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "opencv": "5.0.0",
+    "ffprobe": "C:\\Users\\sadat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffprobe.EXE",
+    "ffmpeg": "C:\\Users\\sadat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.EXE",
+    "script": "E:\\Code\\9-10-26_test5_independent.py",
+    "script_sha256": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+    "recorded_at": "2026-10-11 03:35:19"
+  }
+}

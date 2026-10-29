@@ -1,0 +1,87 @@
+{
+  "created": "2026-10-15 22:16:59",
+  "passed": true,
+  "checks": {
+    "architecture forward/shapes": {
+      "ok": true,
+      "detail": "params 584,978, act (16, 128, 8, 8)"
+    },
+    "architecture signature == documented Test 4 family": {
+      "ok": true,
+      "detail": "signature identical (ab4b7aa4e749), random init only"
+    },
+    "independent seeded initialisation": {
+      "ok": true,
+      "detail": "seeds give distinct, reproducible initialisations"
+    },
+    "Grad-CAM + consistency losses": {
+      "ok": true,
+      "detail": "double-backprop grad 5.73e+03, self IoU 1.00"
+    },
+    "weighted (bootstrap) AUC": {
+      "ok": true,
+      "detail": "0.7348 == sklearn"
+    },
+    "grouped stratified split": {
+      "ok": true,
+      "detail": {
+        "test": 100,
+        "val": 50,
+        "train": 350
+      }
+    },
+    "identity tokens": {
+      "ok": true,
+      "detail": "['ff:000', 'ff:003'] ['dfd_actor:01', 'dfd_actor:02'] ['bio_yt:--Y9imYnfBw']"
+    },
+    "near-duplicate screen": {
+      "ok": true,
+      "detail": "pairs [(0, 1, 0.25, 1)]"
+    },
+    "face pipeline (synthetic video)": {
+      "ok": true,
+      "detail": "shape (16, 128, 128, 3), fallback True, deterministic"
+    },
+    "preprocessing is label-free": {
+      "ok": true,
+      "detail": "no preprocessing function takes a label"
+    },
+    "audio spectrogram + degradations": {
+      "ok": true,
+      "detail": "spec (1, 128, 128)"
+    },
+    "artifact guard": {
+      "ok": true,
+      "detail": "Test 4 cache path blocked; historical read-only allowed"
+    },
+    "hard-degradation sampling shares + class preservation": {
+      "ok": true,
+      "detail": {
+        "blur": 0.162,
+        "brightness": 0.208,
+        "compression": 0.063,
+        "contrast": 0.166,
+        "frame_drop": 0.061,
+        "motion_blur": 0.064,
+        "noise": 0.063,
+        "saturation": 0.213
+      }
+    }
+  },
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pytorch": "2.14.0+cu126",
+    "cuda": "12.6",
+    "cudnn": 91002,
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "opencv": "5.0.0",
+    "ffprobe": "C:\\Users\\sadat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffprobe.EXE",
+    "ffmpeg": "C:\\Users\\sadat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.EXE",
+    "script": "E:\\Code\\9-10-26_test5_independent.py",
+    "script_sha256": "e789a2a2a512ee07fb6d290b61155346b50c537e1ddf80f8172cea9592e6806f",
+    "recorded_at": "2026-10-15 22:16:59"
+  }
+}

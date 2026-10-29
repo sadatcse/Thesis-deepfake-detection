@@ -1,0 +1,75 @@
+{
+  "created": "2026-10-11 03:34:56",
+  "script_sha256": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+  "inventory_integrity": {
+    "files_checked": 30431,
+    "changed_or_missing": 0,
+    "examples": [],
+    "full_rehash": false,
+    "used_files_without_sha256": 0,
+    "split_originals_unchanged": true,
+    "passed": true
+  },
+  "group_isolation": {
+    "groups": 787,
+    "groups_in_multiple_splits": 0,
+    "identity_tokens": 2793,
+    "identity_tokens_in_multiple_splits": 0,
+    "examples": []
+  },
+  "original_degraded_grouping": {
+    "degraded_used": 19729,
+    "split_mismatch": 0,
+    "group_mismatch": 0,
+    "used_without_content_link": 0,
+    "used_without_metadata_link": 0,
+    "sources_with_degraded": 10686
+  },
+  "duplicates": {
+    "exact_file_duplicate_sets_across_splits": 0,
+    "exact_file_duplicate_sets_within_split": 344,
+    "exact_file_duplicate_sets_across_datasets": 0,
+    "exact_cross_split_details": [],
+    "decoded_duplicate_sets_across_splits": 0,
+    "decoded_duplicate_sets_within_split": 109,
+    "decoded_degenerate_duplicates_across_splits_unresolved": 0,
+    "decoded_cross_split_details": [],
+    "content_merges_before_split": 18604,
+    "merged_pairs_ending_in_different_splits": 0,
+    "near_duplicate_candidates_unmerged": 34983,
+    "near_duplicate_candidates_cross_split_unresolved": 2474,
+    "near_duplicate_candidates_cross_dataset": 0,
+    "near_duplicate_note": "Unmerged candidates have high dHash similarity and NCC >= 0.90 but miss the strong criterion; they are documented for manual investigation (data_audit/near_duplicate_candidates.csv), not counted as confirmed leakage. Fingerprint similarity alone is not proof of a shared source.",
+    "method_limits": "Exact screens find byte-identical files and identical decoded clips; the dHash/NCC screen finds re-encoded copies with nearly identical framing; it does NOT detect the same person filmed in different videos."
+  },
+  "independence": {
+    "artifact_reads_logged": 40,
+    "blocked_forbidden_reads": 0,
+    "historical_readonly_reads": 0,
+    "historical_readonly_files": [],
+    "cache_files_on_disk": 10,
+    "cache_files_without_provenance": [],
+    "cache_keys_match_current_data": {
+      "faceclean": true,
+      "facedeg": true
+    },
+    "cache_files_linked_or_hardlinked": [],
+    "cache_files_same_inode_as_other_runs": [],
+    "test4_imported": false,
+    "note": "Test 5 never searches other run directories for caches; all caches carry the t5_ namespace, a provenance record and a key derived from this run's inventory hashes."
+  },
+  "provenance_passed": true,
+  "confirmed_cross_split_leakage_count": 0,
+  "checks": {
+    "source inventory integrity verified": true,
+    "source-group split isolation verified": true,
+    "original/degraded grouping verified": true,
+    "exact cross-split duplicates investigated (none confirmed)": true,
+    "confirmed cross-split source leakage == 0": true,
+    "unresolved duplicates documented": true,
+    "no Test 4 / old Test 5 caches or checkpoints loaded": true,
+    "fresh Test 5 cache provenance verified": true,
+    "every dataset has >= 20 real and fake videos in val and test": true
+  },
+  "gate": "PASS"
+}

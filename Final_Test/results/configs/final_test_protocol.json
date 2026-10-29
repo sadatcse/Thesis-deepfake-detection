@@ -1,0 +1,312 @@
+{
+  "protocol": {
+    "test": "Final test of the thesis (FINALTEST.py)",
+    "question": "Does an ImageNet-pretrained, degradation-aware and explanation-consistent video detector with calibrated, selective decisions give robust detection and stable, faithful explanations under real-world degradation?",
+    "data": {
+      "source": "prepared Test 5 run (split, face-crop caches, verified degraded versions, Grad-CAM pairs), read-only"
+    },
+    "model": {
+      "name": "FinalDetector",
+      "backbone": "EfficientNet-B0, torchvision IMAGENET1K_V1",
+      "temporal": "1 transformer layer, 4 heads",
+      "pooling": "attention over frames",
+      "embedding": 256,
+      "input_px": 192,
+      "cache_px": 128,
+      "frames_cached": 16,
+      "clip_len_training": 8,
+      "frames_evaluation": 16,
+      "video_only": true,
+      "gradcam_layer": "last EfficientNet block (features[-1])"
+    },
+    "stage1": {
+      "name": "F0",
+      "epochs": 12,
+      "patience": 4,
+      "lr_backbone": 0.0001,
+      "lr_head": 0.001,
+      "data": "clean training originals"
+    },
+    "stage2": {
+      "epochs": 8,
+      "patience": 4,
+      "lr_backbone": 5e-05,
+      "lr_head": 0.0005,
+      "init": "best F0 checkpoint (EMA weights) of the same training set and seed",
+      "batch": "each step: half originals + half degraded clips (F1) or original/degraded pairs (F2)"
+    },
+    "common": {
+      "effective_batch_clips": 16,
+      "weight_decay": 0.0001,
+      "warmup_frac": 0.08,
+      "schedule": "linear warm-up + cosine",
+      "label_smoothing": 0.05,
+      "frame_loss_weight": 0.3,
+      "ema_decay": 0.998,
+      "grad_clip": 5.0,
+      "amp": "fp16 autocast on CUDA",
+      "augmentation": "151026 real-world operators (crop, flip, colour, JPEG, blur, down-scaling, erasing); identical parameters for both clips of a pair",
+      "sampler": {
+        "kind": "adaptive group-DRO over dataset x folder cells (171026 harddro)",
+        "eta": 2.0,
+        "floor": 0.5,
+        "momentum": 0.5
+      }
+    },
+    "variants": {
+      "F0": {
+        "paired": false,
+        "lambda_cam": 0.0,
+        "lambda_supcon": 0.0,
+        "description": "ImageNet EfficientNet-B0 + temporal transformer + attention pooling, fine-tuned on clean originals with the group-DRO dataset x folder sampler (151026 / harddro12 recipe)"
+      },
+      "F1": {
+        "paired": false,
+        "lambda_cam": 0.0,
+        "lambda_supcon": 0.0,
+        "description": "F0 + degradation-aware Stage 2: unpaired 50/50 original/degraded clips, natural degradation mixture"
+      },
+      "F2": {
+        "paired": true,
+        "lambda_cam": 0.05,
+        "lambda_supcon": 0.1,
+        "description": "F0 + explanation-consistent Stage 2: paired original/degraded clips + Grad-CAM consistency + supervised contrastive consistency (final system)"
+      }
+    },
+    "model_selection": "best epoch by validation score (EMA weights): F0 = mean over datasets of validation original AUC; F1/F2 = mean over datasets of mean(validation original AUC, validation degraded AUC)",
+    "calibration": "temperature scaling (NLL grid) on validation originals + degraded versions of the training set's datasets; threshold = maximum of the balanced accuracy averaged over datasets",
+    "final_model": {
+      "rule": "Joint F2 unless its mean validation score over seeds is more than 0.005 below Joint F1 (then F1); within the variant the seed with the highest validation score (validation data only)",
+      "calibration": "isotonic regression of the logit on validation",
+      "decision": "threshold = max mean balanced accuracy on the isotonic probability",
+      "abstention": "uncertain band tuned on validation for 90% coverage"
+    },
+    "evaluation": {
+      "test": "Test 5 test split of both datasets: originals + all verified degraded versions (in-domain, joint, cross-dataset)",
+      "gradcam": {
+        "pairs": "720 pre-registered Test 5 original/degraded pairs",
+        "frames": "every 2nd cached frame (offset 0; clean reference = offset 1)",
+        "target": "FAKE evidence",
+        "maps": [
+          "Grad-CAM",
+          "Grad-CAM++"
+        ],
+        "change_rule": "explanation changed = top-20 % IoU < 0.5"
+      },
+      "faithfulness": {
+        "pairs": "every 4th Grad-CAM pair, original and degraded version",
+        "maps": [
+          "gradcam",
+          "gradcam++",
+          "random"
+        ],
+        "perturbations": [
+          "grey",
+          "blur"
+        ],
+        "fractions": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.75
+        ],
+        "target": "predicted class"
+      }
+    },
+    "statistics": {
+      "bootstrap": "paired cluster bootstrap over source groups, seeds averaged",
+      "supported": "95 % CI excludes 0 and all seeds agree in sign",
+      "noninferiority": {
+        "auc": 0.01,
+        "iou": 0.05
+      },
+      "multiplicity": "Holm over PRIMARY",
+      "primary": [
+        [
+          "F1 - T5-5A",
+          "BioDeepAV",
+          "BioDeepAV",
+          "degraded_auc"
+        ],
+        [
+          "F1 - T5-5A",
+          "FF++",
+          "FF++",
+          "degraded_auc"
+        ],
+        [
+          "F1 - F0",
+          "Joint",
+          "BioDeepAV",
+          "degraded_auc"
+        ],
+        [
+          "F1 - F0",
+          "Joint",
+          "FF++",
+          "degraded_auc"
+        ],
+        [
+          "F2 - F1",
+          "Joint",
+          "BioDeepAV",
+          "gradcam_iou_hard"
+        ],
+        [
+          "F2 - F1",
+          "Joint",
+          "FF++",
+          "gradcam_iou_hard"
+        ],
+        [
+          "F2@Joint - T5-5A@BioDeepAV",
+          "Joint",
+          "BioDeepAV",
+          "degraded_auc"
+        ],
+        [
+          "F2@Joint - T5-5A@FF++",
+          "Joint",
+          "FF++",
+          "degraded_auc"
+        ]
+      ],
+      "comparisons": [
+        [
+          "F1",
+          "F0"
+        ],
+        [
+          "F2",
+          "F1"
+        ],
+        [
+          "F2",
+          "F0"
+        ],
+        [
+          "F1",
+          "T5-5A"
+        ],
+        [
+          "F2",
+          "T5-5A"
+        ],
+        [
+          "F2",
+          "T5-5C"
+        ],
+        [
+          "F1",
+          "T7-6A"
+        ],
+        [
+          "F2",
+          "T7-6B"
+        ]
+      ],
+      "cross_comparisons": [
+        [
+          [
+            "Joint",
+            "F2"
+          ],
+          [
+            "BioDeepAV",
+            "T5-5A"
+          ],
+          "BioDeepAV"
+        ],
+        [
+          [
+            "Joint",
+            "F2"
+          ],
+          [
+            "FF++",
+            "T5-5A"
+          ],
+          "FF++"
+        ],
+        [
+          [
+            "Joint",
+            "F2"
+          ],
+          [
+            "BioDeepAV",
+            "F2"
+          ],
+          "BioDeepAV"
+        ],
+        [
+          [
+            "Joint",
+            "F2"
+          ],
+          [
+            "FF++",
+            "F2"
+          ],
+          "FF++"
+        ]
+      ]
+    },
+    "hypotheses": [
+      [
+        "H1",
+        "An ImageNet-pretrained backbone improves robustness over the Test 5 baseline (F1 vs 5A, in-domain)"
+      ],
+      [
+        "H2",
+        "Degraded training also helps the pretrained detector (F1 vs F0)"
+      ],
+      [
+        "H3",
+        "Explanation-consistency training improves Grad-CAM stability without losing detection (F2 vs F1)"
+      ],
+      [
+        "H4",
+        "The final joint detector beats the best earlier detector on the same test videos (F2 Joint vs 5A)"
+      ],
+      [
+        "H5",
+        "The dataset-specific final detectors generalise across datasets (cross-dataset AUC CI above 0.5)"
+      ],
+      [
+        "H6",
+        "Isotonic calibration and abstention make decisions reliable on original and degraded videos"
+      ]
+    ],
+    "baselines": {
+      "T5-5A": "Test 5 baseline 5A (from-scratch AV CNN, degraded training)",
+      "T5-5C": "Test 5 variant 5C (+ paired Grad-CAM consistency)",
+      "T7-6A": "Test 7 variant 6A (MSTF-AV, degraded training)",
+      "T7-6B": "Test 7 variant 6B (MSTF-AV + Grad-CAM / contrastive consistency)"
+    }
+  },
+  "protocol_sha256": "3291c1a2bd3b5692ec40bfd7b043845c80485acc87c2cc24ce4a6d902906331a",
+  "seeds_planned": [
+    42,
+    123,
+    2026
+  ],
+  "train_sets_planned": [
+    "Joint",
+    "BioDeepAV",
+    "FF++"
+  ],
+  "variants_planned": [
+    "F0",
+    "F1",
+    "F2"
+  ],
+  "n_boot": 1000,
+  "faith_scope": "joint",
+  "registered_at": "2026-10-24 08:01:18",
+  "script_sha256": "3fcbf80ab5782bb6e04360d9d302174b34b0f3a6971bbad290e8d198f89617aa",
+  "note": "written before any training; every checkpoint records this protocol hash"
+}

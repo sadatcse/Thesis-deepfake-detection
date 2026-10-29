@@ -1,0 +1,219 @@
+====================================================================================================
+ FINALTEST.py | phase run | root E:\Code\run_FINALTEST | 2026-10-28 21:49:24
+====================================================================================================
+  Python 3.13.14 | PyTorch 2.14.0+cu126 (CUDA 12.6) | GPU NVIDIA GeForce RTX 3050 (6.44 GB) | OpenCV 5.0.0 | batch 8 x accum 2 | AMP True
+
+====================================================================================================
+ PHASE SELFTEST: unit tests of the model, losses, Grad-CAM, calibration and statistics (no data)
+====================================================================================================
+  [PASS] ImageNet EfficientNet-B0 weights available (torchvision cache)  [0.3s]
+  [PASS] model builds (EfficientNet-B0 + temporal transformer + attention pooling)  [0.1s]
+  [PASS] model: logit, frame logits, attention (sums to 1), embedding, 1280-channel Grad-CAM layer  [0.2s]
+  [PASS] model: frame positions reach the temporal transformer  [0.1s]
+  [PASS] to_input: resize + ImageNet normalisation  [0.0s]
+  [PASS] Grad-CAM / Grad-CAM++: shapes, ranges, temporal profile, sign (+1 FAKE / -1 REAL / per clip)  [0.3s]
+  [PASS] Grad-CAM consistency loss: gradient of a gradient through the transformer on cuda + AMP  [20.2s]
+  [PASS] Grad-CAM consistency loss: 0 for identical maps, 1 for disjoint maps  [0.0s]
+  [PASS] supervised contrastive loss: lower when same-class embeddings cluster  [0.0s]
+  [PASS] explanation metrics: Pearson r, top-20 % IoU, centre shift  [0.0s]
+  [PASS] temperature scaling recovers T and lowers ECE  [0.0s]
+  [PASS] isotonic calibration: monotone, in [0,1], lowers ECE, survives save/load  [0.0s]
+  [PASS] threshold = maximum mean balanced accuracy over datasets  [0.0s]
+  [PASS] abstention band keeps the target coverage  [0.0s]
+  [PASS] bootstrap AUC: weighted AUC == AUC of the resampled videos (with ties)  [0.0s]
+  [PASS] bootstrap ECE: weighted ECE == ECE of the resampled videos  [0.0s]
+  [PASS] Holm correction and bootstrap p-value  [0.0s]
+  [PASS] group-DRO sampler up-weights the hardest dataset x folder cell (with floor)  [0.0s]
+  [PASS] paired augmentation: identical parameters -> identical clips  [0.0s]
+  [PASS] EMA of the weights  [0.0s]
+  [PASS] learning-rate schedule: warm-up + cosine  [0.0s]
+  [PASS] artifact guard blocks checkpoints of earlier tests  [0.0s]
+  [PASS] faithfulness: deletion / insertion curves (grey, blur)  [0.5s]
+  [PASS] paired cluster bootstrap detects a clear improvement on synthetic data  [0.1s]
+  [PASS] pre-registered protocol is serialisable and hash-stable  [0.0s]
+  [PASS] Test 5 preprocessing importable and unchanged (needed for --predict only)  [0.6s]
+  [PASS] YuNet face model present (needed for --predict only)  [0.0s]
+  selftest PASSED (25/25 critical checks) in 23 s -> E:\Code\run_FINALTEST\reports\selftest_report.json
+
+====================================================================================================
+ PHASE LINK: verify the prepared Test 5 split + caches (read-only) and register the protocol
+====================================================================================================
+  [PASS] split manifest exists
+  [PASS] gate exists
+  [PASS] cache provenance exists
+  [PASS] xai pairs exists
+  [PASS] Test 5 leakage gate PASS
+  [PASS] split manifest SHA-256 matches the Test 5 gate
+  [PASS] Grad-CAM pair list SHA-256 matches the Test 5 gate
+  [PASS] cache file clean exists
+  [PASS] cache file clean_status exists
+  [PASS] cache file clean_info exists
+  [PASS] cache file deg exists
+  [PASS] cache file deg_status exists
+  [PASS] degraded cache was cropped with the boxes of this clean cache
+  [PASS] clean and degraded caches share one preprocessing code
+  [PASS] clean cache layout [N,16,128,128,3] uint8
+  [PASS] clean cache complete (no pending rows)
+  [PASS] degraded cache complete (no pending rows)
+  [PASS] every used original has an ok clean clip
+  [PASS] every used degraded video has an ok clip
+  [PASS] degraded videos are in their source's split
+  [PASS] train / val / test contain real and fake videos of both datasets
+  baseline T5-5A: 6 prediction files, 6 Grad-CAM files
+  baseline T5-5C: 6 prediction files, 6 Grad-CAM files
+  baseline T7-6A: 9 prediction files, 9 Grad-CAM files
+  baseline T7-6B: 9 prediction files, 9 Grad-CAM files
+  link status: PASS -> E:\Code\run_FINALTEST\reports\data_link.json
+  data: 10,702 originals, 19,729 degraded versions (Test 5 split, read-only caches)
+
+####################################################################################################
+ SEED 42 (1/3) | training sets Joint, BioDeepAV, FF++ | variants F0, F1, F2 | elapsed 00:23
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+ TRAIN
+----------------------------------------------------------------------------------------------------
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed42\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed42\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed42\F2.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed42\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed42\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed42\F2.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed42\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed42\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed42\F2.pt done
+
+----------------------------------------------------------------------------------------------------
+ EVALUATE
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ XAI
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ FAITH
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ ANALYZE
+----------------------------------------------------------------------------------------------------
+  analysing 57 runs (357,507 final-test prediction rows) ...
+  paired cluster bootstrap (1000 replicates) ...
+  metrics -> E:\Code\run_FINALTEST\metrics; figures -> E:\Code\run_FINALTEST\figures
+
+----------------------------------------------------------------------------------------------------
+ REPORT
+----------------------------------------------------------------------------------------------------
+  report -> E:\Code\run_FINALTEST\reports\FINAL_TEST_REPORT.md
+
+####################################################################################################
+ SEED 123 (2/3) | training sets Joint, BioDeepAV, FF++ | variants F0, F1, F2 | elapsed 02:17
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+ TRAIN
+----------------------------------------------------------------------------------------------------
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed123\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed123\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed123\F2.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed123\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed123\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed123\F2.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed123\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed123\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed123\F2.pt done
+
+----------------------------------------------------------------------------------------------------
+ EVALUATE
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ XAI
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ FAITH
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ ANALYZE
+----------------------------------------------------------------------------------------------------
+  analysing 57 runs (357,507 final-test prediction rows) ...
+  paired cluster bootstrap (1000 replicates) ...
+  metrics -> E:\Code\run_FINALTEST\metrics; figures -> E:\Code\run_FINALTEST\figures
+
+----------------------------------------------------------------------------------------------------
+ REPORT
+----------------------------------------------------------------------------------------------------
+  report -> E:\Code\run_FINALTEST\reports\FINAL_TEST_REPORT.md
+
+####################################################################################################
+ SEED 2026 (3/3) | training sets Joint, BioDeepAV, FF++ | variants F0, F1, F2 | elapsed 04:21
+####################################################################################################
+
+----------------------------------------------------------------------------------------------------
+ TRAIN
+----------------------------------------------------------------------------------------------------
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed2026\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed2026\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-Joint\seed2026\F2.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed2026\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed2026\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-BioDeepAV\seed2026\F2.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed2026\F0.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed2026\F1.pt done
+  [resume] E:\Code\run_FINALTEST\checkpoints\train-FFpp\seed2026\F2.pt done
+
+----------------------------------------------------------------------------------------------------
+ EVALUATE
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ XAI
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ FAITH
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ ANALYZE
+----------------------------------------------------------------------------------------------------
+  analysing 57 runs (357,507 final-test prediction rows) ...
+  paired cluster bootstrap (1000 replicates) ...
+  metrics -> E:\Code\run_FINALTEST\metrics; figures -> E:\Code\run_FINALTEST\figures
+
+----------------------------------------------------------------------------------------------------
+ REPORT
+----------------------------------------------------------------------------------------------------
+  report -> E:\Code\run_FINALTEST\reports\FINAL_TEST_REPORT.md
+
+====================================================================================================
+ PHASE FREEZE: select the final model on validation, isotonic calibration + abstention band, model card
+====================================================================================================
+  FINAL MODEL = train-Joint_seed42_F1 (validation score 0.8030; mean validation score per variant F1 0.7772, F2 0.7566)
+  isotonic threshold 0.560 | uncertain band +-0.006 (validation coverage 100.0%) | -> E:\Code\run_FINALTEST\final_model\FINAL_MODEL.pt
+| test_dataset | condition | n | auc | balanced_accuracy_all | coverage | balanced_accuracy_decided | ece_isotonic |
+|---|---|---|---|---|---|---|---|
+| BioDeepAV | original | 1420 | 0.958 | 0.937 | 0.973 | 0.932 | 0.054 |
+| BioDeepAV | degraded | 4076 | 0.942 | 0.874 | 0.971 | 0.869 | 0.058 |
+| FF++ | original | 2038 | 0.929 | 0.847 | 1.000 | 0.847 | 0.078 |
+| FF++ | degraded | 2411 | 0.860 | 0.776 | 1.000 | 0.776 | 0.053 |
+
+====================================================================================================
+ PHASE PREDICTCHECK: --predict on raw test videos vs the cached evaluation crops
+====================================================================================================
+  [>...............]   4.2% 1/24 source videos | 00:00     [=>..............]   8.3% 2/24 source videos | 00:01     [==>.............]  12.5% 3/24 source videos | 00:05     [==>.............]  16.7% 4/24 source videos | 00:06     [===>............]  20.8% 5/24 source videos | 00:06     [====>...........]  25.0% 6/24 source videos | 00:07     [====>...........]  29.2% 7/24 source videos | 00:08     [=====>..........]  33.3% 8/24 source videos | 00:12     [======>.........]  37.5% 9/24 source videos | 00:12     [======>.........]  41.7% 10/24 source videos | 00:13     [=======>........]  45.8% 11/24 source videos | 00:15     [========>.......]  50.0% 12/24 source videos | 00:16     [========>.......]  54.2% 13/24 source videos | 00:17     [=========>......]  58.3% 14/24 source videos | 00:19     [==========>.....]  62.5% 15/24 source videos | 00:20     [==========>.....]  66.7% 16/24 source videos | 00:23     [===========>....]  70.8% 17/24 source videos | 00:26     [============>...]  75.0% 18/24 source videos | 00:30     [============>...]  79.2% 19/24 source videos | 00:37     [=============>..]  83.3% 20/24 source videos | 00:43     [==============>.]  87.5% 21/24 source videos | 00:47     [==============>.]  91.7% 22/24 source videos | 00:51     [===============>]  95.8% 23/24 source videos | 00:59     [================] 100.0% 24/24 source videos | 01:00   
+  prediction-pipeline check: PASS | pixel MAE median 0.000 | max |dP| 0.0000 | verdict agreement 100%
+  analysing 57 runs (357,507 final-test prediction rows) ...
+  paired cluster bootstrap (1000 replicates) ...
+  metrics -> E:\Code\run_FINALTEST\metrics; figures -> E:\Code\run_FINALTEST\figures
+  report -> E:\Code\run_FINALTEST\reports\FINAL_TEST_REPORT.md
+
+====================================================================================================
+ FINAL TEST finished in 09:08
+  report:      E:\Code\run_FINALTEST\reports\FINAL_TEST_REPORT.md
+  summary:     E:\Code\run_FINALTEST\reports\final_summary.json
+  final model: E:\Code\run_FINALTEST\final_model\FINAL_MODEL.pt (+ MODEL_CARD.md)
+====================================================================================================

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "results": {
+    "parameter count 1.5-4 M": true,
+    "forward shapes (av / v_only / a_only)": true,
+    "audio mask 0 == video only": true,
+    "Grad-CAM layer is 8x8": true,
+    "soft Grad-CAM consistency is differentiable": true,
+    "gradient reversal (-lambda)": true,
+    "supervised contrastive finite": true,
+    "supcon lower for class-aligned embeddings": true,
+    "temperature recovers over-confidence (T>2 for x5 logits)": true,
+    "ECE drops after temperature scaling": true,
+    "WeightedAUC == roc_auc_score": true,
+    "weighted ECE == ECE": true,
+    "DRO up-weights the hardest type": true,
+    "DRO floor keeps every type >= floor/K": true,
+    "warm-up + cosine schedule": true,
+    "EMA moves halfway": true,
+    "audio augmentation + spectrogram": true,
+    "guard blocks Test 5 checkpoints": true
+  },
+  "parameters": 2280919,
+  "checked_at": "2026-10-22 22:35:00",
+  "architecture_signature": "4943176957d3a06ffaf76e2f4b2a692a0624ec568dd552206bb8943f30477b45"
+}

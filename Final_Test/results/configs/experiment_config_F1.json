@@ -1,0 +1,79 @@
+{
+  "test": "Final test",
+  "variant": "F1",
+  "description": "F0 + degradation-aware Stage 2: unpaired 50/50 original/degraded clips, natural degradation mixture",
+  "created": "2026-10-28 21:49:47",
+  "variant_config": {
+    "paired": false,
+    "lambda_cam": 0.0,
+    "lambda_supcon": 0.0
+  },
+  "model": {
+    "name": "FinalDetector",
+    "parameters": 4967167,
+    "architecture_signature": "4a545986bc8f6ea655a42ccf3c761e886b1be3a8e6d8950a96c44c43fc7edf53",
+    "architecture_source_sha256": "89ad8a10b93035b64467a69f50f21b6b7ce363dff765bb2023d42e31bcfe5eee",
+    "backbone": "EfficientNet-B0 (ImageNet)",
+    "input_px": 192
+  },
+  "training": {
+    "epochs": 8,
+    "patience": 4,
+    "lr_backbone": 5e-05,
+    "lr_head": 0.0005,
+    "init": "best F0 checkpoint (EMA weights) of the same training set and seed",
+    "batch": "each step: half originals + half degraded clips (F1) or original/degraded pairs (F2)"
+  },
+  "common": {
+    "effective_batch_clips": 16,
+    "weight_decay": 0.0001,
+    "warmup_frac": 0.08,
+    "schedule": "linear warm-up + cosine",
+    "label_smoothing": 0.05,
+    "frame_loss_weight": 0.3,
+    "ema_decay": 0.998,
+    "grad_clip": 5.0,
+    "amp": "fp16 autocast on CUDA",
+    "augmentation": "151026 real-world operators (crop, flip, colour, JPEG, blur, down-scaling, erasing); identical parameters for both clips of a pair",
+    "sampler": {
+      "kind": "adaptive group-DRO over dataset x folder cells (171026 harddro)",
+      "eta": 2.0,
+      "floor": 0.5,
+      "momentum": 0.5
+    }
+  },
+  "protocol_sha256": "3291c1a2bd3b5692ec40bfd7b043845c80485acc87c2cc24ce4a6d902906331a",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "train_sets": [
+    "Joint",
+    "BioDeepAV",
+    "FF++"
+  ],
+  "data": {
+    "split_manifest_sha256": "56bc3edaf2f2a06d764f264d38171a0e1af4e77ba62d8ce84ccfc2f63ab2fd62",
+    "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+    "xai_pairs_sha256": "950ded3aa2bc52d4e368cd3501e9898da10b28202ee9a9799ec0718eb0de5948",
+    "preprocessing_code_sha256": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+    "test5_root": "E:\\Code\\run_test5_independent"
+  },
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pytorch": "2.14.0+cu126",
+    "cuda": "12.6",
+    "cudnn": 91002,
+    "torchvision": "0.29.1+cpu",
+    "opencv": "5.0.0",
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "gpu_memory_gb": 6.44,
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "script": "E:\\Code\\FINALTEST.py",
+    "script_sha256": "94be0af5c305514c0e78d1b898d4dfd1672fd05bf2dbe95e5a36ee9417103821",
+    "recorded_at": "2026-10-28 21:49:47"
+  }
+}

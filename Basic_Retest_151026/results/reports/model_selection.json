@@ -1,0 +1,11 @@
+{
+  "chosen_seed": 42,
+  "val_macro_auc": 0.9454714723803475,
+  "candidates": [
+    {
+      "seed": 42,
+      "val_macro_auc": 0.9454714723803475
+    }
+  ],
+  "selected_at": "2026-10-17 00:14:13"
+}

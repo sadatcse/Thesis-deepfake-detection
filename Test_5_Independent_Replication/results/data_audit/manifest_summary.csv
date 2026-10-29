@@ -1,0 +1,10 @@
+folder,manifest,present,entries,tool,version,created,matched,unmatched,outputs,missing
+E:\Datasets\BioDeepAV\real\videos,E:\Datasets\BioDeepAV\real\videos\degraded_output\manifest.json,True,2010,DeepFake Bulk Video Degradation Tool,1.0.0,2026-09-25T15:17:59.547Z,2010,0,54312,0
+E:\Datasets\BioDeepAV\fake\videos,E:\Datasets\BioDeepAV\fake\videos\degraded_output\manifest.json,True,1693,DeepFake Bulk Video Degradation Tool,1.0.0,2026-09-25T15:17:59.275Z,1693,0,5079,0
+E:\Datasets\FaceForensics++_C23\original,E:\Datasets\FaceForensics++_C23\original\degraded_output\manifest.json,True,1000,DeepFake Bulk Video Degradation Tool,1.0.0,2026-10-07T03:29:17.922Z,1000,0,2871,0
+E:\Datasets\FaceForensics++_C23\Deepfakes,E:\Datasets\FaceForensics++_C23\Deepfakes\degraded_output\manifest.json,True,1000,DeepFake Bulk Video Degradation Tool,1.0.0,2026-10-07T03:29:17.217Z,1000,0,2864,0
+E:\Datasets\FaceForensics++_C23\Face2Face,E:\Datasets\FaceForensics++_C23\Face2Face\degraded_output\manifest.json,True,1000,DeepFake Bulk Video Degradation Tool,1.0.0,2026-10-07T03:29:17.370Z,1000,0,2864,0
+E:\Datasets\FaceForensics++_C23\FaceShifter,E:\Datasets\FaceForensics++_C23\FaceShifter\degraded_output\manifest.json,True,1000,DeepFake Bulk Video Degradation Tool,1.0.0,2026-10-07T03:29:17.540Z,1000,0,2864,0
+E:\Datasets\FaceForensics++_C23\FaceSwap,E:\Datasets\FaceForensics++_C23\FaceSwap\degraded_output\manifest.json,True,1000,DeepFake Bulk Video Degradation Tool,1.0.0,2026-10-07T03:29:17.752Z,1000,0,2864,0
+E:\Datasets\FaceForensics++_C23\NeuralTextures,E:\Datasets\FaceForensics++_C23\NeuralTextures\degraded_output\manifest.json,True,1000,DeepFake Bulk Video Degradation Tool,1.0.0,2026-10-07T03:29:18.016Z,1000,0,2864,0
+E:\Datasets\FaceForensics++_C23\DeepFakeDetection,E:\Datasets\FaceForensics++_C23\DeepFakeDetection\degraded_output\manifest.json,True,1000,DeepFake Bulk Video Degradation Tool,1.0.0,2026-09-25T15:17:59.652Z,1000,0,3000,0

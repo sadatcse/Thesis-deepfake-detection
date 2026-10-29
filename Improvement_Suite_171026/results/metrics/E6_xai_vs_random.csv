@@ -1,0 +1,13 @@
+method,pred_class,metric,n,mean,ci95_low,ci95_high,better_than_random_pct,verdict
+gradcam++,REAL,deletion_gain_vs_random,85,-0.322867429000062,-0.37266289440359796,-0.2712357298906134,11.76470588235294,worse than random
+gradcam++,REAL,insertion_gain_vs_random,85,0.4547029366424208,0.42560103364861285,0.4843317484187643,100.0,faithful (better than random)
+gradcam++,FAKE,deletion_gain_vs_random,75,0.035139758460762505,-0.032200125910170005,0.09711189701395191,50.66666666666667,not distinguishable from random
+gradcam++,FAKE,insertion_gain_vs_random,75,-0.003470744598161283,-0.0620789453528075,0.05536062413317356,57.333333333333336,not distinguishable from random
+integrated_gradients,REAL,deletion_gain_vs_random,85,-0.39351558590507085,-0.43768229095649497,-0.3481403818263866,9.411764705882353,worse than random
+integrated_gradients,REAL,insertion_gain_vs_random,85,0.5057036715640968,0.47906216283054454,0.5349812621059051,100.0,faithful (better than random)
+integrated_gradients,FAKE,deletion_gain_vs_random,75,0.12792523940587835,0.06900395100115964,0.18241722177218792,74.66666666666667,faithful (better than random)
+integrated_gradients,FAKE,insertion_gain_vs_random,75,-0.2854818681992812,-0.32838689683459993,-0.24232123822935717,4.0,worse than random
+occlusion,REAL,deletion_gain_vs_random,85,-0.2263523644407709,-0.2612460486278414,-0.19253284580078903,10.588235294117647,worse than random
+occlusion,REAL,insertion_gain_vs_random,85,0.33843071462604085,0.3090875751473663,0.3692801383324434,97.6470588235294,faithful (better than random)
+occlusion,FAKE,deletion_gain_vs_random,75,0.12398963643140071,0.07111987631900152,0.17702471009558995,68.0,faithful (better than random)
+occlusion,FAKE,insertion_gain_vs_random,75,-0.046603559257556715,-0.09227510307333418,0.0017766542948407355,49.333333333333336,not distinguishable from random

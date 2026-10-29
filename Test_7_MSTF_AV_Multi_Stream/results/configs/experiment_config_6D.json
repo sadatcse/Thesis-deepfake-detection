@@ -1,0 +1,91 @@
+{
+  "test": "Test 6",
+  "variant": "6D",
+  "description": "6C + class-conditional shortcut adversaries (resolution tercile; dataset in joint training)",
+  "created": "2026-10-22 22:35:01",
+  "variant_config": {
+    "paired": true,
+    "lambda_cam": 0.05,
+    "lambda_supcon": 0.1,
+    "dro": true,
+    "ema": true,
+    "label_smooth": 0.05,
+    "lambda_adv": 0.1,
+    "description": "6C + class-conditional shortcut adversaries (resolution tercile; dataset in joint training)"
+  },
+  "model": {
+    "name": "MSTF-AV",
+    "parameters": 2280919,
+    "embedding_dim": 192,
+    "architecture_signature": "4943176957d3a06ffaf76e2f4b2a692a0624ec568dd552206bb8943f30477b45",
+    "architecture_source_sha256": "6a0946e3fb317105dda7036db0007f59121047219d000dd78834da7f7fd47a76",
+    "streams": [
+      "RGB residual CNN + SE",
+      "SRM noise-residual CNN",
+      "cross-stream gate (16x16)",
+      "temporal transformer (2x4 heads)",
+      "audio residual CNN tokens",
+      "gated cross-modal attention"
+    ]
+  },
+  "stage1": {
+    "data": "clean training originals",
+    "epochs": 8,
+    "lr": 0.001,
+    "loss": "cross-entropy",
+    "shared_across_variants": true
+  },
+  "stage2": {
+    "epochs": 10,
+    "lr": 0.0003,
+    "batch_clips": 32,
+    "accum": 1,
+    "amp": true,
+    "warmup_frac": 0.15,
+    "dro": {
+      "eta": 2.0,
+      "floor": 0.5,
+      "momentum": 0.5
+    },
+    "ema_decay": 0.999,
+    "grad_clip": 5.0
+  },
+  "optimiser": {
+    "name": "AdamW",
+    "weight_decay": 0.0005,
+    "schedule": "linear warm-up + cosine"
+  },
+  "calibration": "temperature scaling on validation (original + degraded), NLL grid search",
+  "threshold": "validation balanced-accuracy optimum on the calibrated probability",
+  "model_selection": "best epoch by validation mean(original AUC, degraded AUC); Joint: macro over datasets; 6C/6D on EMA weights",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "train_sets": [
+    "BioDeepAV",
+    "FF++",
+    "Joint"
+  ],
+  "data": {
+    "source": "Test 5 prepared run (read-only)",
+    "split_manifest_sha256": "56bc3edaf2f2a06d764f264d38171a0e1af4e77ba62d8ce84ccfc2f63ab2fd62",
+    "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+    "xai_pairs_sha256": "950ded3aa2bc52d4e368cd3501e9898da10b28202ee9a9799ec0718eb0de5948",
+    "test5_root": "E:\\Code\\run_test5_independent"
+  },
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pytorch": "2.14.0+cu126",
+    "cuda": "12.6",
+    "cudnn": 91002,
+    "gpu": "NVIDIA GeForce RTX 3050",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "script": "E:\\Code\\161026.py",
+    "script_sha256": "b093dd7e223dc94ead65c2f6a5dc809ca68cf4c0fc628cd726b1638f04804aa0",
+    "recorded_at": "2026-10-22 22:35:01"
+  }
+}

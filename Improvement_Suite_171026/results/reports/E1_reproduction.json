@@ -1,0 +1,28 @@
+{
+  "split_identical": true,
+  "groups_identical": true,
+  "split_sha256_151026": "c0b494ad05426e2fd942ef9e0247bb1e89a52c459b91a9b49d2d0999c5e42d72",
+  "split_sha256_rederived": "c0b494ad05426e2fd942ef9e0247bb1e89a52c459b91a9b49d2d0999c5e42d72",
+  "best_epoch_151026": 11,
+  "best_epoch_rerun": 11,
+  "same_best_epoch": true,
+  "max_abs_val_auc_diff_per_epoch": 0.007001107309334453,
+  "val_score_151026": 0.9454714723803475,
+  "val_score_rerun": 0.9463703747732151,
+  "threshold_151026": 0.38,
+  "threshold_rerun": 0.36,
+  "temperature_151026": 1.4542154334489537,
+  "temperature_rerun": 1.4909760458230987,
+  "same_test_videos": true,
+  "prediction_agreement": 0.9188514357053683,
+  "p_fake_spearman": 0.9628326627538907,
+  "bitwise_identical_predictions": false,
+  "metrics_within_tolerance": false,
+  "reproduced": false,
+  "tolerance": {
+    "auc": 0.01,
+    "accuracy": 0.015
+  },
+  "checked_at": "2026-10-17 07:30:29",
+  "note": "cuDNN autotuning / atomics make GPU training non-bitwise reproducible; use --deterministic for a slower, more repeatable run"
+}

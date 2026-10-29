@@ -1,0 +1,169 @@
+{
+  "created": "2026-10-11 02:00:38",
+  "data_seed": 20261009,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.1,
+    "test": 0.2
+  },
+  "grouping_policy": {
+    "identity": "union-find over identity tokens (BioDeepAV real: YouTube id; BioDeepAV fake: own file (no metadata); FF++: target+source sequence ids; DFD: individual actors)",
+    "content": "merged before splitting: identical file SHA-256, identical .wav SHA-256, identical decoded face clip, identical decoded audio, strong near-duplicate face crops / spectrograms (mean dHash <= 3.0, max <= 6, NCC >= 0.95)",
+    "stratification": "(datasets, label or 'mixed') of each group; largest groups first",
+    "degraded": "every degraded version inherits its source video's group and split (assigned after this step)"
+  },
+  "n_groups": 787,
+  "n_originals_used": 10702,
+  "n_excluded": 1,
+  "n_content_merges": 18604,
+  "n_near_dup_candidates_unmerged": 34983,
+  "largest_groups": [
+    {
+      "group_id": "Gfee9d2cd274d",
+      "n_videos": 910,
+      "stratum": "BioDeepAV|mixed",
+      "merge_reasons": "{\"exact file SHA-256\": 158, \"exact external .wav SHA-256\": 752, \"identical decoded face clip\": 157, \"identical decoded audio waveform\": 752, \"near-duplicate video (strong)\": 3674, \"near-duplicate audio (strong)\": 6861}",
+      "split": "test"
+    },
+    {
+      "group_id": "Gd8024c02978e",
+      "n_videos": 838,
+      "stratum": "FF++|1",
+      "merge_reasons": "{\"near-duplicate video (strong)\": 240}",
+      "split": "test"
+    },
+    {
+      "group_id": "G7e32795ce697",
+      "n_videos": 205,
+      "stratum": "BioDeepAV|0",
+      "merge_reasons": "identity tokens only",
+      "split": "test"
+    },
+    {
+      "group_id": "Gb16d705f578c",
+      "n_videos": 183,
+      "stratum": "BioDeepAV|0",
+      "merge_reasons": "identity tokens only",
+      "split": "val"
+    },
+    {
+      "group_id": "Ge7bf609b543c",
+      "n_videos": 178,
+      "stratum": "BioDeepAV|mixed",
+      "merge_reasons": "{\"exact external .wav SHA-256\": 136, \"identical decoded audio waveform\": 138, \"near-duplicate video (strong)\": 392, \"near-duplicate audio (strong)\": 601}",
+      "split": "val"
+    },
+    {
+      "group_id": "G10d4cb210cdc",
+      "n_videos": 167,
+      "stratum": "BioDeepAV|0",
+      "merge_reasons": "identity tokens only",
+      "split": "train"
+    },
+    {
+      "group_id": "G9dcc68bc54c2",
+      "n_videos": 133,
+      "stratum": "BioDeepAV|0",
+      "merge_reasons": "{\"exact external .wav SHA-256\": 3, \"identical decoded audio waveform\": 6, \"near-duplicate audio (strong)\": 8}",
+      "split": "train"
+    },
+    {
+      "group_id": "G09966a431cfa",
+      "n_videos": 126,
+      "stratum": "BioDeepAV|0",
+      "merge_reasons": "{\"identical decoded audio waveform\": 1, \"near-duplicate audio (strong)\": 1}",
+      "split": "train"
+    },
+    {
+      "group_id": "G0d44f12cfd7b",
+      "n_videos": 122,
+      "stratum": "BioDeepAV|0",
+      "merge_reasons": "identity tokens only",
+      "split": "train"
+    },
+    {
+      "group_id": "G2ad01c55a6fd",
+      "n_videos": 113,
+      "stratum": "BioDeepAV|0",
+      "merge_reasons": "identity tokens only",
+      "split": "train"
+    }
+  ],
+  "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+  "split_originals_sha256": "674c7afda1e6a96d8023552cd2774ffb93ce453b2ef58ee7404cc872b44e17ed",
+  "group_manifest_sha256": "339e19e342edec66f2a9b0db842926e8aa65fae0c51efc1f858d55f2271a6de4",
+  "counts": [
+    {
+      "dataset": "BioDeepAV",
+      "label": 0,
+      "split": "test",
+      "n": 414
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label": 0,
+      "split": "train",
+      "n": 1396
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label": 0,
+      "split": "val",
+      "n": 200
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label": 1,
+      "split": "test",
+      "n": 1006
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label": 1,
+      "split": "train",
+      "n": 453
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label": 1,
+      "split": "val",
+      "n": 233
+    },
+    {
+      "dataset": "FF++",
+      "label": 0,
+      "split": "test",
+      "n": 200
+    },
+    {
+      "dataset": "FF++",
+      "label": 0,
+      "split": "train",
+      "n": 700
+    },
+    {
+      "dataset": "FF++",
+      "label": 0,
+      "split": "val",
+      "n": 100
+    },
+    {
+      "dataset": "FF++",
+      "label": 1,
+      "split": "test",
+      "n": 1838
+    },
+    {
+      "dataset": "FF++",
+      "label": 1,
+      "split": "train",
+      "n": 3563
+    },
+    {
+      "dataset": "FF++",
+      "label": 1,
+      "split": "val",
+      "n": 599
+    }
+  ]
+}

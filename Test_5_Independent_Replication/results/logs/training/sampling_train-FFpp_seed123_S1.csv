@@ -1,0 +1,17 @@
+run,epoch,max_level,cell,mode,degradation,n
+train-FFpp_seed123_S1,1,2,FF++|fake,clean,-,2179
+train-FFpp_seed123_S1,1,2,FF++|real,clean,-,2109
+train-FFpp_seed123_S1,2,2,FF++|fake,clean,-,2130
+train-FFpp_seed123_S1,2,2,FF++|real,clean,-,2158
+train-FFpp_seed123_S1,3,2,FF++|real,clean,-,2148
+train-FFpp_seed123_S1,3,2,FF++|fake,clean,-,2140
+train-FFpp_seed123_S1,4,2,FF++|fake,clean,-,2131
+train-FFpp_seed123_S1,4,2,FF++|real,clean,-,2157
+train-FFpp_seed123_S1,5,2,FF++|fake,clean,-,2156
+train-FFpp_seed123_S1,5,2,FF++|real,clean,-,2132
+train-FFpp_seed123_S1,6,2,FF++|real,clean,-,2138
+train-FFpp_seed123_S1,6,2,FF++|fake,clean,-,2150
+train-FFpp_seed123_S1,7,2,FF++|real,clean,-,2059
+train-FFpp_seed123_S1,7,2,FF++|fake,clean,-,2229
+train-FFpp_seed123_S1,8,2,FF++|real,clean,-,2145
+train-FFpp_seed123_S1,8,2,FF++|fake,clean,-,2143

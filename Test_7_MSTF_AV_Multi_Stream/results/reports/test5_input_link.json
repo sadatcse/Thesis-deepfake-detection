@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-22 22:35:01",
+  "test5_root": "E:\\Code\\run_test5_independent",
+  "checks": {
+    "split manifest exists": true,
+    "gate exists": true,
+    "cache provenance exists": true,
+    "xai pairs exists": true,
+    "Test 5 leakage gate PASS": true,
+    "split manifest SHA-256 matches the Test 5 gate": true,
+    "XAI pair list SHA-256 matches the Test 5 gate": true,
+    "cache file clean exists": true,
+    "cache file clean_status exists": true,
+    "cache file clean_info exists": true,
+    "cache file deg exists": true,
+    "cache file deg_status exists": true,
+    "cache file spec exists": true,
+    "cache file wave exists": true,
+    "cache file audio_status exists": true,
+    "clean cache complete (no pending rows)": true,
+    "degraded cache complete (no pending rows)": true,
+    "audio cache complete": true,
+    "every used original has an ok clean clip": true,
+    "every used degraded video has an ok clip": true,
+    "degraded videos are in their source's split": true
+  },
+  "originals": 10702,
+  "degraded": 19729,
+  "split_counts": {
+    "('BioDeepAV', 'test')": 1420,
+    "('BioDeepAV', 'train')": 1849,
+    "('BioDeepAV', 'val')": 433,
+    "('FF++', 'test')": 2038,
+    "('FF++', 'train')": 4263,
+    "('FF++', 'val')": 699
+  },
+  "split_manifest_sha256": "56bc3edaf2f2a06d764f264d38171a0e1af4e77ba62d8ce84ccfc2f63ab2fd62",
+  "xai_pairs_sha256": "950ded3aa2bc52d4e368cd3501e9898da10b28202ee9a9799ec0718eb0de5948",
+  "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+  "test5_script_sha256": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+  "cache_files": {
+    "clean": "E:\\Code\\run_test5_independent\\cache\\t5_faceclean_T16_S128_n10703_4e4e56fffed5b286.npy",
+    "clean_status": "E:\\Code\\run_test5_independent\\cache\\t5_faceclean_T16_S128_n10703_4e4e56fffed5b286.status.npy",
+    "clean_info": "E:\\Code\\run_test5_independent\\cache\\t5_faceclean_T16_S128_n10703_4e4e56fffed5b286.info.npz",
+    "deg": "E:\\Code\\run_test5_independent\\cache\\t5_facedeg_T16_S128_n19791_9465e0347498a176.npy",
+    "deg_status": "E:\\Code\\run_test5_independent\\cache\\t5_facedeg_T16_S128_n19791_9465e0347498a176.status.npy",
+    "spec": "E:\\Code\\run_test5_independent\\cache\\t5_audio_n10703_7164fb07e6ea5ca3.spec.npy",
+    "wave": "E:\\Code\\run_test5_independent\\cache\\t5_audio_n10703_7164fb07e6ea5ca3.wave.npy",
+    "audio_status": "E:\\Code\\run_test5_independent\\cache\\t5_audio_n10703_7164fb07e6ea5ca3.status.npy"
+  },
+  "note": "Test 6 re-uses the Test 5 split, caches and XAI pairs read-only; Test 5 checkpoints are blocked by guard()."
+}

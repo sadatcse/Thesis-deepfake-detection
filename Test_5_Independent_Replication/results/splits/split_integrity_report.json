@@ -1,0 +1,576 @@
+{
+  "created": "2026-10-11 03:35:19",
+  "data_seed": 20261009,
+  "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+  "split_manifest_sha256": "56bc3edaf2f2a06d764f264d38171a0e1af4e77ba62d8ce84ccfc2f63ab2fd62",
+  "group_manifest_sha256": "339e19e342edec66f2a9b0db842926e8aa65fae0c51efc1f858d55f2271a6de4",
+  "counts": [
+    {
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "split": "test",
+      "originals": 1006
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "split": "train",
+      "originals": 453
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "split": "val",
+      "originals": 233
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "split": "test",
+      "originals": 414
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "split": "train",
+      "originals": 1396
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "split": "val",
+      "originals": 200
+    },
+    {
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "split": "test",
+      "originals": 838
+    },
+    {
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "split": "train",
+      "originals": 63
+    },
+    {
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "split": "val",
+      "originals": 99
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "split": "test",
+      "originals": 200
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "split": "train",
+      "originals": 700
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "split": "val",
+      "originals": 100
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "split": "test",
+      "originals": 200
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "split": "train",
+      "originals": 700
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "split": "val",
+      "originals": 100
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "split": "test",
+      "originals": 200
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "split": "train",
+      "originals": 700
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "split": "val",
+      "originals": 100
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "split": "test",
+      "originals": 200
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "split": "train",
+      "originals": 700
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "split": "val",
+      "originals": 100
+    },
+    {
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "split": "test",
+      "originals": 200
+    },
+    {
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "split": "train",
+      "originals": 700
+    },
+    {
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "split": "val",
+      "originals": 100
+    },
+    {
+      "dataset": "FF++",
+      "subset": "original",
+      "split": "test",
+      "originals": 200
+    },
+    {
+      "dataset": "FF++",
+      "subset": "original",
+      "split": "train",
+      "originals": 700
+    },
+    {
+      "dataset": "FF++",
+      "subset": "original",
+      "split": "val",
+      "originals": 100
+    }
+  ],
+  "degraded_counts": [
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "blur",
+      "degraded": 526
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "brightness",
+      "degraded": 501
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "compression",
+      "degraded": 490
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "contrast",
+      "degraded": 502
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "frame_drop",
+      "degraded": 515
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "motion_blur",
+      "degraded": 494
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "noise",
+      "degraded": 494
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "degradation": "saturation",
+      "degraded": 554
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "blur",
+      "degraded": 682
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "brightness",
+      "degraded": 679
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "compression",
+      "degraded": 702
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "contrast",
+      "degraded": 685
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "frame_drop",
+      "degraded": 699
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "motion_blur",
+      "degraded": 691
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "noise",
+      "degraded": 685
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "degradation": "saturation",
+      "degraded": 699
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "blur",
+      "degraded": 157
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "brightness",
+      "degraded": 135
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "compression",
+      "degraded": 162
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "contrast",
+      "degraded": 164
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "frame_drop",
+      "degraded": 176
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "motion_blur",
+      "degraded": 164
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "noise",
+      "degraded": 171
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "degradation": "saturation",
+      "degraded": 150
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "blur",
+      "degraded": 250
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "brightness",
+      "degraded": 252
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "compression",
+      "degraded": 313
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "contrast",
+      "degraded": 279
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "fps_reduction",
+      "degraded": 161
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "frame_drop",
+      "degraded": 292
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "low_resolution",
+      "degraded": 71
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "motion_blur",
+      "degraded": 266
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "noise",
+      "degraded": 246
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "degradation": "saturation",
+      "degraded": 281
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "blur",
+      "degraded": 586
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "brightness",
+      "degraded": 692
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "compression",
+      "degraded": 572
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "contrast",
+      "degraded": 522
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "fps_reduction",
+      "degraded": 562
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "frame_drop",
+      "degraded": 602
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "low_resolution",
+      "degraded": 291
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "motion_blur",
+      "degraded": 533
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "noise",
+      "degraded": 568
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "degradation": "saturation",
+      "degraded": 628
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "blur",
+      "degraded": 88
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "brightness",
+      "degraded": 100
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "compression",
+      "degraded": 98
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "contrast",
+      "degraded": 100
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "fps_reduction",
+      "degraded": 72
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "frame_drop",
+      "degraded": 103
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "low_resolution",
+      "degraded": 54
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "motion_blur",
+      "degraded": 87
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "noise",
+      "degraded": 84
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "degradation": "saturation",
+      "degraded": 99
+    }
+  ],
+  "split_shares": [
+    {
+      "dataset": "BioDeepAV",
+      "split": "train",
+      "share": 0.4994597514856834
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "test",
+      "share": 0.3835764451647758
+    },
+    {
+      "dataset": "BioDeepAV",
+      "split": "val",
+      "share": 0.11696380334954079
+    },
+    {
+      "dataset": "FF++",
+      "split": "train",
+      "share": 0.609
+    },
+    {
+      "dataset": "FF++",
+      "split": "test",
+      "share": 0.29114285714285715
+    },
+    {
+      "dataset": "FF++",
+      "split": "val",
+      "share": 0.09985714285714285
+    }
+  ],
+  "classes_below_minimum": [],
+  "min_per_class_required": 20,
+  "excluded": {
+    "excluded: content link to source not verified": 62,
+    "excluded: face-clip extraction failed": 1
+  },
+  "identity_status": [
+    {
+      "dataset": "BioDeepAV",
+      "identity_status": "unverifiable",
+      "n": 1692
+    },
+    {
+      "dataset": "BioDeepAV",
+      "identity_status": "unverified",
+      "n": 26
+    },
+    {
+      "dataset": "BioDeepAV",
+      "identity_status": "verified",
+      "n": 1984
+    },
+    {
+      "dataset": "FF++",
+      "identity_status": "verified",
+      "n": 7000
+    }
+  ],
+  "group_isolation": {
+    "groups": 787,
+    "groups_in_multiple_splits": 0,
+    "identity_tokens": 2793,
+    "identity_tokens_in_multiple_splits": 0,
+    "examples": []
+  },
+  "original_degraded_grouping": {
+    "degraded_used": 19729,
+    "split_mismatch": 0,
+    "group_mismatch": 0,
+    "used_without_content_link": 0,
+    "used_without_metadata_link": 0,
+    "sources_with_degraded": 10686
+  },
+  "test4_split_overlap": {
+    "note": "Test 4 split read read-only for documentation; not used for any Test 5 decision.",
+    "files": {}
+  }
+}

@@ -1,0 +1,17 @@
+run,epoch,max_level,cell,mode,degradation,n
+train-BioDeepAV_seed2026_S1,1,2,BioDeepAV|real,clean,-,923
+train-BioDeepAV_seed2026_S1,1,2,BioDeepAV|fake,clean,-,933
+train-BioDeepAV_seed2026_S1,2,2,BioDeepAV|real,clean,-,922
+train-BioDeepAV_seed2026_S1,2,2,BioDeepAV|fake,clean,-,934
+train-BioDeepAV_seed2026_S1,3,2,BioDeepAV|real,clean,-,870
+train-BioDeepAV_seed2026_S1,3,2,BioDeepAV|fake,clean,-,986
+train-BioDeepAV_seed2026_S1,4,2,BioDeepAV|real,clean,-,938
+train-BioDeepAV_seed2026_S1,4,2,BioDeepAV|fake,clean,-,918
+train-BioDeepAV_seed2026_S1,5,2,BioDeepAV|fake,clean,-,943
+train-BioDeepAV_seed2026_S1,5,2,BioDeepAV|real,clean,-,913
+train-BioDeepAV_seed2026_S1,6,2,BioDeepAV|fake,clean,-,889
+train-BioDeepAV_seed2026_S1,6,2,BioDeepAV|real,clean,-,967
+train-BioDeepAV_seed2026_S1,7,2,BioDeepAV|fake,clean,-,950
+train-BioDeepAV_seed2026_S1,7,2,BioDeepAV|real,clean,-,906
+train-BioDeepAV_seed2026_S1,8,2,BioDeepAV|real,clean,-,897
+train-BioDeepAV_seed2026_S1,8,2,BioDeepAV|fake,clean,-,959

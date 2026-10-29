@@ -1,0 +1,15 @@
+{
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.14.0+cu126",
+  "cuda": "12.6",
+  "cudnn": 91002,
+  "gpu": "NVIDIA GeForce RTX 3050",
+  "numpy": "2.4.1",
+  "pandas": "2.3.3",
+  "opencv": "5.0.0",
+  "matplotlib": "3.11.2",
+  "sklearn": "1.8.0",
+  "scipy": "1.17.0",
+  "torchvision": "0.29.1+cpu"
+}

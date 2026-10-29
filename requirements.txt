@@ -1,0 +1,10 @@
+torch>=2.4
+torchvision>=0.19
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python
+matplotlib
+tqdm
+openpyxl

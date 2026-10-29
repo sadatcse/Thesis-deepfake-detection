@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-28 21:49:47",
+  "test5_root": "E:\\Code\\run_test5_independent",
+  "test7_root": "E:\\Code\\run_16-10-26_test6",
+  "checks": {
+    "split manifest exists": true,
+    "gate exists": true,
+    "cache provenance exists": true,
+    "xai pairs exists": true,
+    "Test 5 leakage gate PASS": true,
+    "split manifest SHA-256 matches the Test 5 gate": true,
+    "Grad-CAM pair list SHA-256 matches the Test 5 gate": true,
+    "cache file clean exists": true,
+    "cache file clean_status exists": true,
+    "cache file clean_info exists": true,
+    "cache file deg exists": true,
+    "cache file deg_status exists": true,
+    "degraded cache was cropped with the boxes of this clean cache": true,
+    "clean and degraded caches share one preprocessing code": true,
+    "clean cache layout [N,16,128,128,3] uint8": true,
+    "clean cache complete (no pending rows)": true,
+    "degraded cache complete (no pending rows)": true,
+    "every used original has an ok clean clip": true,
+    "every used degraded video has an ok clip": true,
+    "degraded videos are in their source's split": true,
+    "train / val / test contain real and fake videos of both datasets": true
+  },
+  "originals": 10702,
+  "degraded": 19729,
+  "split_counts": {
+    "BioDeepAV|test": 1420,
+    "BioDeepAV|train": 1849,
+    "BioDeepAV|val": 433,
+    "FF++|test": 2038,
+    "FF++|train": 4263,
+    "FF++|val": 699
+  },
+  "degraded_counts": {
+    "BioDeepAV|test": 4076,
+    "BioDeepAV|train": 5522,
+    "BioDeepAV|val": 1279,
+    "FF++|test": 2411,
+    "FF++|train": 5556,
+    "FF++|val": 885
+  },
+  "split_manifest_sha256": "56bc3edaf2f2a06d764f264d38171a0e1af4e77ba62d8ce84ccfc2f63ab2fd62",
+  "xai_pairs_sha256": "950ded3aa2bc52d4e368cd3501e9898da10b28202ee9a9799ec0718eb0de5948",
+  "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+  "test5_script_sha256_at_gate": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+  "preprocessing_code_sha256": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+  "cache_files": {
+    "clean": "E:\\Code\\run_test5_independent\\cache\\t5_faceclean_T16_S128_n10703_4e4e56fffed5b286.npy",
+    "clean_status": "E:\\Code\\run_test5_independent\\cache\\t5_faceclean_T16_S128_n10703_4e4e56fffed5b286.status.npy",
+    "clean_info": "E:\\Code\\run_test5_independent\\cache\\t5_faceclean_T16_S128_n10703_4e4e56fffed5b286.info.npz",
+    "deg": "E:\\Code\\run_test5_independent\\cache\\t5_facedeg_T16_S128_n19791_9465e0347498a176.npy",
+    "deg_status": "E:\\Code\\run_test5_independent\\cache\\t5_facedeg_T16_S128_n19791_9465e0347498a176.status.npy"
+  },
+  "baselines": {
+    "T5-5A": {
+      "predictions": 6,
+      "gradcam": 6,
+      "description": "Test 5 baseline 5A (from-scratch AV CNN, degraded training)"
+    },
+    "T5-5C": {
+      "predictions": 6,
+      "gradcam": 6,
+      "description": "Test 5 variant 5C (+ paired Grad-CAM consistency)"
+    },
+    "T7-6A": {
+      "predictions": 9,
+      "gradcam": 9,
+      "description": "Test 7 variant 6A (MSTF-AV, degraded training)"
+    },
+    "T7-6B": {
+      "predictions": 9,
+      "gradcam": 9,
+      "description": "Test 7 variant 6B (MSTF-AV + Grad-CAM / contrastive consistency)"
+    }
+  },
+  "protocol_sha256": "3291c1a2bd3b5692ec40bfd7b043845c80485acc87c2cc24ce4a6d902906331a",
+  "note": "The final test re-uses the Test 5 split, caches and Grad-CAM pairs read-only; checkpoints of earlier tests are blocked by guard(); Test 5 / Test 7 predictions and Grad-CAM rows are read as paired baselines only."
+}

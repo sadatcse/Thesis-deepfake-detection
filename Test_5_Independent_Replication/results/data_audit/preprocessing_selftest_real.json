@@ -1,0 +1,223 @@
+{
+  "created": "2026-10-11 02:00:21",
+  "checks": [
+    {
+      "item_id": "BioDeepAV/fake/6af51070-907d-4113-9546-8117e603879d.mp4",
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "BioDeepAV/fake/47de82a1-dc44-49cd-8665-32cb2dbab0e1.mp4",
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "4-255",
+      "fallback": false
+    },
+    {
+      "item_id": "BioDeepAV/real/04-JxYnzcq0_0015_S823_E856_L594_T28_R962_B396.mp4",
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "BioDeepAV/real/0B5ojfWryqA_0023_S396_E464_L364_T5_R764_B405.mp4",
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/DeepFakeDetection/02_01__secret_conversation__YVGY8LOK.mp4",
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "3-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/DeepFakeDetection/20_15__outside_talking_pan_laughing__99NHTFBM.mp4",
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/Deepfakes/851_552.mp4",
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-250",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/Deepfakes/263_284.mp4",
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "1-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/Face2Face/337_522.mp4",
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "1-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/Face2Face/411_410.mp4",
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/FaceShifter/334_318.mp4",
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/FaceShifter/365_307.mp4",
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/FaceSwap/259_345.mp4",
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "15-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/FaceSwap/642_635.mp4",
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/NeuralTextures/971_564.mp4",
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/NeuralTextures/177_211.mp4",
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-240",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/original/170.mp4",
+      "dataset": "FF++",
+      "subset": "original",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "2-255",
+      "fallback": false
+    },
+    {
+      "item_id": "FF++/original/402.mp4",
+      "dataset": "FF++",
+      "subset": "original",
+      "shape_ok": true,
+      "dtype_ok": true,
+      "deterministic": true,
+      "value_range": "0-255",
+      "fallback": false
+    }
+  ],
+  "all_deterministic": true,
+  "all_shapes_ok": true,
+  "preprocessing_signatures": {
+    "extract_face_clip": [
+      "path",
+      "n_frames",
+      "size",
+      "detector",
+      "margin",
+      "norm",
+      "ref"
+    ],
+    "crop_face": [
+      "frame",
+      "box_rel",
+      "size",
+      "norm"
+    ],
+    "face_bottleneck": [
+      "patch",
+      "size",
+      "face_px",
+      "jpeg"
+    ],
+    "load_audio_waveform": [
+      "wav",
+      "video_path",
+      "n_samples"
+    ],
+    "waveform_to_spec": [
+      "audio"
+    ]
+  },
+  "label_free_signatures": true,
+  "cache_status": {
+    "ok": 10702,
+    "failed": 1
+  }
+}

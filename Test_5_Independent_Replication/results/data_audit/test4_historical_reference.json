@@ -1,0 +1,5 @@
+{
+  "note": "Historical Test 4 results as reported by Test 4 on ITS OWN split (seed 42). Test 5 uses a newly generated split, so any comparison is across different evaluation splits, not a controlled paired comparison.",
+  "test4_script_sha256": "7807bf2aea6617771943dc18d07867e7619afbb3ea3177fd99c968b5fd2e55fd",
+  "runs": {}
+}

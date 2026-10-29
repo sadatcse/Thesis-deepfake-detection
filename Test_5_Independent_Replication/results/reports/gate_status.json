@@ -1,0 +1,19 @@
+{
+  "gate": "PASS",
+  "checked_at": "2026-10-11 03:35:19",
+  "checks": {
+    "source inventory integrity verified": true,
+    "source-group split isolation verified": true,
+    "original/degraded grouping verified": true,
+    "exact cross-split duplicates investigated (none confirmed)": true,
+    "confirmed cross-split source leakage == 0": true,
+    "unresolved duplicates documented": true,
+    "no Test 4 / old Test 5 caches or checkpoints loaded": true,
+    "fresh Test 5 cache provenance verified": true,
+    "every dataset has >= 20 real and fake videos in val and test": true
+  },
+  "split_manifest_sha256": "56bc3edaf2f2a06d764f264d38171a0e1af4e77ba62d8ce84ccfc2f63ab2fd62",
+  "split_hash_originals": "6ae9fe14ca0dbd443ffa6a0bdc17167e95e69c8c8bd9bc439f264ef20a81f93a",
+  "script_sha256": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+  "xai_pairs_sha256": "950ded3aa2bc52d4e368cd3501e9898da10b28202ee9a9799ec0718eb0de5948"
+}

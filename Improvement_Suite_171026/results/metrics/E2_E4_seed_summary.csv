@@ -1,0 +1,61 @@
+config,test_set,n_seeds,auc,accuracy,balanced_accuracy,real_recognised,fake_detected,ece
+base12,ALL,3,0.933 ± 0.006,0.815 ± 0.012,0.841 ± 0.008,0.902 ± 0.003,0.780 ± 0.017,0.197 ± 0.020
+base12,BioDeepAV,3,0.982 ± 0.004,0.933 ± 0.019,0.934 ± 0.021,0.921 ± 0.007,0.948 ± 0.040,0.102 ± 0.028
+base12,BioDeepAV/fake,3,,0.948 ± 0.040,,,,
+base12,BioDeepAV/real,3,,0.921 ± 0.007,,,,
+base12,FF++,3,0.880 ± 0.003,0.752 ± 0.008,0.799 ± 0.009,0.866 ± 0.022,0.731 ± 0.011,0.293 ± 0.012
+base12,FF++/DeepFakeDetection,3,,1.000 ± 0.000,,,,
+base12,FF++/Deepfakes,3,,0.892 ± 0.013,,,,
+base12,FF++/Face2Face,3,,0.707 ± 0.016,,,,
+base12,FF++/FaceShifter,3,,0.756 ± 0.016,,,,
+base12,FF++/FaceSwap,3,,0.711 ± 0.047,,,,
+base12,FF++/NeuralTextures,3,,0.486 ± 0.004,,,,
+base12,FF++/original,3,,0.866 ± 0.022,,,,
+base20,ALL,3,0.942 ± 0.001,0.834 ± 0.015,0.852 ± 0.005,0.895 ± 0.020,0.810 ± 0.029,0.164 ± 0.006
+base20,BioDeepAV,3,0.974 ± 0.010,0.899 ± 0.020,0.897 ± 0.024,0.921 ± 0.022,0.873 ± 0.071,0.104 ± 0.010
+base20,BioDeepAV/fake,3,,0.873 ± 0.071,,,,
+base20,BioDeepAV/real,3,,0.921 ± 0.022,,,,
+base20,FF++,3,0.902 ± 0.002,0.800 ± 0.014,0.819 ± 0.008,0.846 ± 0.034,0.792 ± 0.023,0.229 ± 0.009
+base20,FF++/DeepFakeDetection,3,,1.000 ± 0.000,,,,
+base20,FF++/Deepfakes,3,,0.917 ± 0.021,,,,
+base20,FF++/Face2Face,3,,0.740 ± 0.015,,,,
+base20,FF++/FaceShifter,3,,0.850 ± 0.025,,,,
+base20,FF++/FaceSwap,3,,0.799 ± 0.018,,,,
+base20,FF++/NeuralTextures,3,,0.573 ± 0.048,,,,
+base20,FF++/original,3,,0.846 ± 0.034,,,,
+base30,ALL,3,0.938 ± 0.004,0.836 ± 0.007,0.853 ± 0.010,0.893 ± 0.020,0.813 ± 0.004,0.124 ± 0.012
+base30,BioDeepAV,3,0.960 ± 0.010,0.886 ± 0.024,0.884 ± 0.024,0.905 ± 0.028,0.864 ± 0.033,0.083 ± 0.003
+base30,BioDeepAV/fake,3,,0.864 ± 0.033,,,,
+base30,BioDeepAV/real,3,,0.905 ± 0.028,,,,
+base30,FF++,3,0.916 ± 0.002,0.810 ± 0.011,0.835 ± 0.005,0.872 ± 0.006,0.798 ± 0.014,0.181 ± 0.016
+base30,FF++/DeepFakeDetection,3,,1.000 ± 0.000,,,,
+base30,FF++/Deepfakes,3,,0.927 ± 0.011,,,,
+base30,FF++/Face2Face,3,,0.764 ± 0.031,,,,
+base30,FF++/FaceShifter,3,,0.833 ± 0.020,,,,
+base30,FF++/FaceSwap,3,,0.811 ± 0.011,,,,
+base30,FF++/NeuralTextures,3,,0.579 ± 0.028,,,,
+base30,FF++/original,3,,0.872 ± 0.006,,,,
+harddro12,ALL,3,0.948 ± 0.002,0.856 ± 0.024,0.871 ± 0.014,0.908 ± 0.010,0.835 ± 0.038,0.123 ± 0.020
+harddro12,BioDeepAV,3,0.983 ± 0.001,0.944 ± 0.009,0.944 ± 0.009,0.939 ± 0.005,0.949 ± 0.014,0.051 ± 0.016
+harddro12,BioDeepAV/fake,3,,0.949 ± 0.014,,,,
+harddro12,BioDeepAV/real,3,,0.939 ± 0.005,,,,
+harddro12,FF++,3,0.902 ± 0.004,0.810 ± 0.034,0.826 ± 0.009,0.850 ± 0.034,0.802 ± 0.046,0.186 ± 0.020
+harddro12,FF++/DeepFakeDetection,3,,1.000 ± 0.000,,,,
+harddro12,FF++/Deepfakes,3,,0.919 ± 0.034,,,,
+harddro12,FF++/Face2Face,3,,0.766 ± 0.041,,,,
+harddro12,FF++/FaceShifter,3,,0.841 ± 0.028,,,,
+harddro12,FF++/FaceSwap,3,,0.762 ± 0.056,,,,
+harddro12,FF++/NeuralTextures,3,,0.646 ± 0.091,,,,
+harddro12,FF++/original,3,,0.850 ± 0.034,,,,
+hardfix12,ALL,3,0.931 ± 0.009,0.826 ± 0.034,0.846 ± 0.020,0.893 ± 0.025,0.799 ± 0.054,0.199 ± 0.011
+hardfix12,BioDeepAV,3,0.984 ± 0.002,0.943 ± 0.011,0.945 ± 0.011,0.921 ± 0.020,0.969 ± 0.026,0.088 ± 0.009
+hardfix12,BioDeepAV/fake,3,,0.969 ± 0.026,,,,
+hardfix12,BioDeepAV/real,3,,0.921 ± 0.020,,,,
+hardfix12,FF++,3,0.877 ± 0.010,0.764 ± 0.048,0.796 ± 0.017,0.841 ± 0.037,0.750 ± 0.063,0.295 ± 0.012
+hardfix12,FF++/DeepFakeDetection,3,,0.995 ± 0.009,,,,
+hardfix12,FF++/Deepfakes,3,,0.813 ± 0.067,,,,
+hardfix12,FF++/Face2Face,3,,0.722 ± 0.074,,,,
+hardfix12,FF++/FaceShifter,3,,0.787 ± 0.048,,,,
+hardfix12,FF++/FaceSwap,3,,0.648 ± 0.067,,,,
+hardfix12,FF++/NeuralTextures,3,,0.687 ± 0.085,,,,
+hardfix12,FF++/original,3,,0.841 ± 0.037,,,,

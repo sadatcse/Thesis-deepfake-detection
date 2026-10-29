@@ -1,0 +1,34 @@
+201026 | phase selftest | seeds [42, 123, 2026] | root E:\Code\run_201026 | suite E:\Code\run_171026 | base E:\Code\run_151026 | 2026-10-20 06:20:06 | GPU NVIDIA GeForce RTX 3050
+
+==========================================================================================
+ SELFTEST (201026 additions)
+==========================================================================================
+
+==========================================================================================
+ SELFTEST
+==========================================================================================
+  [PASS] IG completeness (sum attr ~ f(x) - f(x0))
+  [PASS] IG map shape
+  [PASS] deletion / insertion curves
+  [PASS] temperature calibration lowers ECE
+  [PASS] calibration raw in [0,1]
+  [PASS] calibration temperature in [0,1]
+  [PASS] calibration platt in [0,1]
+  [PASS] calibration isotonic in [0,1]
+  [PASS] Youden threshold in range
+  [PASS] DRO up-weights the hardest cell
+  [PASS] DRO floor
+  [PASS] weighted AUC == roc_auc
+  [PASS] model randomisation changes outputs
+  selftest PASSED
+  [PASS] 171026 selftest
+  [PASS] harddro20 = harddro12 sampler + base20 epochs/patience
+  [PASS] existing configs unchanged
+  [PASS] DRO logging wrapper does not change weights
+  [PASS] leak-free Grad-CAM++ == 151026.gradcam_pp (both targets)
+  [PASS] leak-free Grad-CAM++ does not accumulate GPU memory
+  [PASS] CAM metrics: identical maps -> r 1, IoU 1, shift 0
+  [PASS] probes keep shape / dtype and change pixels
+  [PASS] Holm
+  [PASS] bootstrap extension == 171026.bootstrap_compare
+  selftest PASSED

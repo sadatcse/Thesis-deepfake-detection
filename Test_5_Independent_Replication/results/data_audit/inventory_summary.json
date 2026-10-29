@@ -1,0 +1,1117 @@
+{
+  "created": "2026-10-11 00:39:03",
+  "n_originals": 10703,
+  "n_degraded_listed": 79582,
+  "n_degraded_exist": 79582,
+  "n_degraded_link_ok": 79582,
+  "n_orphans": 6030,
+  "originals_probe_failed": 0,
+  "exact_duplicate_files": 2007,
+  "exact_duplicate_sets": 447,
+  "hash_scope": "all",
+  "per_folder": [
+    {
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "videos": 1693,
+      "probe_ok": 1693,
+      "audio_stream": 1693,
+      "external_wav": 1693,
+      "median_width": 512.0,
+      "median_height": 512.0,
+      "median_fps": 25.0,
+      "median_duration_s": 10.2,
+      "degraded_available": 5079.0
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "videos": 2010,
+      "probe_ok": 2010,
+      "audio_stream": 2010,
+      "external_wav": 2010,
+      "median_width": 168.0,
+      "median_height": 168.0,
+      "median_fps": 25.0,
+      "median_duration_s": 2.72,
+      "degraded_available": 54312.0
+    },
+    {
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "videos": 1000,
+      "probe_ok": 1000,
+      "audio_stream": 0,
+      "external_wav": 0,
+      "median_width": 1920.0,
+      "median_height": 1080.0,
+      "median_fps": 24.0,
+      "median_duration_s": 30.125,
+      "degraded_available": 3000.0
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "videos": 1000,
+      "probe_ok": 1000,
+      "audio_stream": 0,
+      "external_wav": 0,
+      "median_width": 854.0,
+      "median_height": 480.0,
+      "median_fps": 25.0,
+      "median_duration_s": 16.653333500000002,
+      "degraded_available": 2864.0
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "videos": 1000,
+      "probe_ok": 1000,
+      "audio_stream": 0,
+      "external_wav": 0,
+      "median_width": 832.0,
+      "median_height": 480.0,
+      "median_fps": 25.0,
+      "median_duration_s": 16.64,
+      "degraded_available": 2864.0
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "videos": 1000,
+      "probe_ok": 1000,
+      "audio_stream": 0,
+      "external_wav": 0,
+      "median_width": 854.0,
+      "median_height": 480.0,
+      "median_fps": 25.0,
+      "median_duration_s": 16.64,
+      "degraded_available": 2864.0
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "videos": 1000,
+      "probe_ok": 1000,
+      "audio_stream": 0,
+      "external_wav": 0,
+      "median_width": 854.0,
+      "median_height": 480.0,
+      "median_fps": 25.0,
+      "median_duration_s": 13.833333,
+      "degraded_available": 2864.0
+    },
+    {
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "videos": 1000,
+      "probe_ok": 1000,
+      "audio_stream": 0,
+      "external_wav": 0,
+      "median_width": 832.0,
+      "median_height": 480.0,
+      "median_fps": 25.0,
+      "median_duration_s": 13.833333,
+      "degraded_available": 2864.0
+    },
+    {
+      "dataset": "FF++",
+      "subset": "original",
+      "videos": 1000,
+      "probe_ok": 1000,
+      "audio_stream": 0,
+      "external_wav": 0,
+      "median_width": 854.0,
+      "median_height": 480.0,
+      "median_fps": 25.0,
+      "median_duration_s": 16.64,
+      "degraded_available": 2871.0
+    }
+  ],
+  "identity_status": [
+    {
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "identity_status": "unverifiable",
+      "n": 1693
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "identity_status": "unverified",
+      "n": 26
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "identity_status": "verified",
+      "n": 1984
+    },
+    {
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "identity_status": "verified",
+      "n": 1000
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "identity_status": "verified",
+      "n": 1000
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "identity_status": "verified",
+      "n": 1000
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "identity_status": "verified",
+      "n": 1000
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "identity_status": "verified",
+      "n": 1000
+    },
+    {
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "identity_status": "verified",
+      "n": 1000
+    },
+    {
+      "dataset": "FF++",
+      "subset": "original",
+      "identity_status": "verified",
+      "n": 1000
+    }
+  ],
+  "degraded_types": [
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "blur",
+      "severity": "medium",
+      "n": 216
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "blur",
+      "severity": "mild",
+      "n": 208
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "blur",
+      "severity": "severe",
+      "n": 222
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "brightness",
+      "severity": "medium",
+      "n": 194
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "brightness",
+      "severity": "mild",
+      "n": 206
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "brightness",
+      "severity": "severe",
+      "n": 222
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "compression",
+      "severity": "medium",
+      "n": 213
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "compression",
+      "severity": "mild",
+      "n": 220
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "compression",
+      "severity": "severe",
+      "n": 202
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "contrast",
+      "severity": "medium",
+      "n": 205
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "contrast",
+      "severity": "mild",
+      "n": 206
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "contrast",
+      "severity": "severe",
+      "n": 215
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "frame_drop",
+      "severity": "medium",
+      "n": 195
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "frame_drop",
+      "severity": "mild",
+      "n": 214
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "frame_drop",
+      "severity": "severe",
+      "n": 218
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "motion_blur",
+      "severity": "medium",
+      "n": 187
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "motion_blur",
+      "severity": "mild",
+      "n": 210
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "motion_blur",
+      "severity": "severe",
+      "n": 231
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "noise",
+      "severity": "medium",
+      "n": 227
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "noise",
+      "severity": "mild",
+      "n": 221
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "noise",
+      "severity": "severe",
+      "n": 190
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "saturation",
+      "severity": "medium",
+      "n": 220
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "saturation",
+      "severity": "mild",
+      "n": 221
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "fake",
+      "degradation": "saturation",
+      "severity": "severe",
+      "n": 216
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "blur",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "blur",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "blur",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "brightness",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "brightness",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "brightness",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "compression",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "compression",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "compression",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "contrast",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "contrast",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "contrast",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "fps_reduction",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "fps_reduction",
+      "severity": "mild",
+      "n": 1787
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "fps_reduction",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "frame_drop",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "frame_drop",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "frame_drop",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "low_resolution",
+      "severity": "medium",
+      "n": 23
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "low_resolution",
+      "severity": "mild",
+      "n": 6
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "low_resolution",
+      "severity": "severe",
+      "n": 236
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "motion_blur",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "motion_blur",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "motion_blur",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "noise",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "noise",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "noise",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "saturation",
+      "severity": "medium",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "saturation",
+      "severity": "mild",
+      "n": 2010
+    },
+    {
+      "dataset": "BioDeepAV",
+      "label_name": "real",
+      "degradation": "saturation",
+      "severity": "severe",
+      "n": 2010
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "blur",
+      "severity": "medium",
+      "n": 572
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "blur",
+      "severity": "mild",
+      "n": 573
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "blur",
+      "severity": "severe",
+      "n": 638
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "brightness",
+      "severity": "medium",
+      "n": 693
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "brightness",
+      "severity": "mild",
+      "n": 698
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "brightness",
+      "severity": "severe",
+      "n": 722
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "compression",
+      "severity": "medium",
+      "n": 591
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "compression",
+      "severity": "mild",
+      "n": 612
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "compression",
+      "severity": "severe",
+      "n": 662
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "contrast",
+      "severity": "medium",
+      "n": 630
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "contrast",
+      "severity": "mild",
+      "n": 648
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "contrast",
+      "severity": "severe",
+      "n": 635
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "fps_reduction",
+      "severity": "medium",
+      "n": 465
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "fps_reduction",
+      "severity": "mild",
+      "n": 450
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "fps_reduction",
+      "severity": "severe",
+      "n": 460
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "frame_drop",
+      "severity": "medium",
+      "n": 690
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "frame_drop",
+      "severity": "mild",
+      "n": 668
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "frame_drop",
+      "severity": "severe",
+      "n": 704
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "low_resolution",
+      "severity": "medium",
+      "n": 180
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "low_resolution",
+      "severity": "mild",
+      "n": 45
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "low_resolution",
+      "severity": "severe",
+      "n": 545
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "motion_blur",
+      "severity": "medium",
+      "n": 571
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "motion_blur",
+      "severity": "mild",
+      "n": 582
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "motion_blur",
+      "severity": "severe",
+      "n": 586
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "noise",
+      "severity": "medium",
+      "n": 570
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "noise",
+      "severity": "mild",
+      "n": 671
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "noise",
+      "severity": "severe",
+      "n": 570
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "saturation",
+      "severity": "medium",
+      "n": 656
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "saturation",
+      "severity": "mild",
+      "n": 591
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "fake",
+      "degradation": "saturation",
+      "severity": "severe",
+      "n": 642
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "blur",
+      "severity": "medium",
+      "n": 109
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "blur",
+      "severity": "mild",
+      "n": 97
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "blur",
+      "severity": "severe",
+      "n": 94
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "brightness",
+      "severity": "medium",
+      "n": 111
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "brightness",
+      "severity": "mild",
+      "n": 96
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "brightness",
+      "severity": "severe",
+      "n": 107
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "compression",
+      "severity": "medium",
+      "n": 101
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "compression",
+      "severity": "mild",
+      "n": 112
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "compression",
+      "severity": "severe",
+      "n": 104
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "contrast",
+      "severity": "medium",
+      "n": 98
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "contrast",
+      "severity": "mild",
+      "n": 91
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "contrast",
+      "severity": "severe",
+      "n": 90
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "fps_reduction",
+      "severity": "medium",
+      "n": 119
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "fps_reduction",
+      "severity": "mild",
+      "n": 92
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "fps_reduction",
+      "severity": "severe",
+      "n": 102
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "frame_drop",
+      "severity": "medium",
+      "n": 95
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "frame_drop",
+      "severity": "mild",
+      "n": 93
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "frame_drop",
+      "severity": "severe",
+      "n": 106
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "low_resolution",
+      "severity": "medium",
+      "n": 44
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "low_resolution",
+      "severity": "mild",
+      "n": 6
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "low_resolution",
+      "severity": "severe",
+      "n": 105
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "motion_blur",
+      "severity": "medium",
+      "n": 93
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "motion_blur",
+      "severity": "mild",
+      "n": 94
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "motion_blur",
+      "severity": "severe",
+      "n": 85
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "noise",
+      "severity": "medium",
+      "n": 88
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "noise",
+      "severity": "mild",
+      "n": 100
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "noise",
+      "severity": "severe",
+      "n": 118
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "saturation",
+      "severity": "medium",
+      "n": 110
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "saturation",
+      "severity": "mild",
+      "n": 107
+    },
+    {
+      "dataset": "FF++",
+      "label_name": "real",
+      "degradation": "saturation",
+      "severity": "severe",
+      "n": 104
+    }
+  ],
+  "manifests": [
+    {
+      "folder": "E:\\Datasets\\BioDeepAV\\real\\videos",
+      "manifest": "E:\\Datasets\\BioDeepAV\\real\\videos\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 2010,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-09-25T15:17:59.547Z",
+      "matched": 2010,
+      "unmatched": 0,
+      "outputs": 54312,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\BioDeepAV\\fake\\videos",
+      "manifest": "E:\\Datasets\\BioDeepAV\\fake\\videos\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1693,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-09-25T15:17:59.275Z",
+      "matched": 1693,
+      "unmatched": 0,
+      "outputs": 5079,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\original",
+      "manifest": "E:\\Datasets\\FaceForensics++_C23\\original\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1000,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-10-07T03:29:17.922Z",
+      "matched": 1000,
+      "unmatched": 0,
+      "outputs": 2871,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\Deepfakes",
+      "manifest": "E:\\Datasets\\FaceForensics++_C23\\Deepfakes\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1000,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-10-07T03:29:17.217Z",
+      "matched": 1000,
+      "unmatched": 0,
+      "outputs": 2864,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\Face2Face",
+      "manifest": "E:\\Datasets\\FaceForensics++_C23\\Face2Face\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1000,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-10-07T03:29:17.370Z",
+      "matched": 1000,
+      "unmatched": 0,
+      "outputs": 2864,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\FaceShifter",
+      "manifest": "E:\\Datasets\\FaceForensics++_C23\\FaceShifter\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1000,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-10-07T03:29:17.540Z",
+      "matched": 1000,
+      "unmatched": 0,
+      "outputs": 2864,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\FaceSwap",
+      "manifest": "E:\\Datasets\\FaceForensics++_C23\\FaceSwap\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1000,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-10-07T03:29:17.752Z",
+      "matched": 1000,
+      "unmatched": 0,
+      "outputs": 2864,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\NeuralTextures",
+      "manifest": "E:\\Datasets\\FaceForensics++_C23\\NeuralTextures\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1000,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-10-07T03:29:18.016Z",
+      "matched": 1000,
+      "unmatched": 0,
+      "outputs": 2864,
+      "missing": 0
+    },
+    {
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\DeepFakeDetection",
+      "manifest": "E:\\Datasets\\FaceForensics++_C23\\DeepFakeDetection\\degraded_output\\manifest.json",
+      "present": true,
+      "entries": 1000,
+      "tool": "DeepFake Bulk Video Degradation Tool",
+      "version": "1.0.0",
+      "created": "2026-09-25T15:17:59.652Z",
+      "matched": 1000,
+      "unmatched": 0,
+      "outputs": 3000,
+      "missing": 0
+    }
+  ],
+  "localization_annotation_dirs": [],
+  "notes": [
+    "BioDeepAV fake videos carry no identity/source metadata (UUID names): identity overlap with real videos cannot be verified from metadata and is screened by face-crop and audio duplicate checks instead.",
+    "FF++ manipulation folders: degradation type/severity counts are identical across Deepfakes/Face2Face/FaceShifter/FaceSwap/NeuralTextures (same random assignment per sequence id) - documented, not leakage."
+  ]
+}

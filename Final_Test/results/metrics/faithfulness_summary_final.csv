@@ -1,0 +1,145 @@
+train_on,variant,version,pred_class,metric,n_pairs,n_seeds,mean,ci95_low,ci95_high,verdict
+Joint,F0,degraded,ALL,gc_del_gain_grey,180,3,-0.17008148182001978,-0.2625284715227142,-0.07194417317708474,worse than random
+Joint,F0,degraded,ALL,gc_ins_gain_grey,180,3,0.2381594302214138,0.14643537462945488,0.3166523346069198,faithful (better than random)
+Joint,F0,degraded,ALL,gc_del_gain_blur,180,3,-0.0037907099088367122,-0.03764798854281628,0.035830051037360484,not distinguishable from random
+Joint,F0,degraded,ALL,gc_ins_gain_blur,180,3,0.11221569757847835,0.0645091057640365,0.14911231029676866,faithful (better than random)
+Joint,F0,degraded,ALL,gcpp_del_gain_grey,180,3,-0.10686184917361952,-0.15123233656020602,-0.050709284761583394,worse than random
+Joint,F0,degraded,ALL,gcpp_ins_gain_grey,180,3,0.13957286209418476,0.08084110975577165,0.19047890549347155,faithful (better than random)
+Joint,F0,degraded,ALL,gcpp_del_gain_blur,180,3,0.02727030932532624,-0.011951480696556785,0.08509161672756436,not distinguishable from random
+Joint,F0,degraded,ALL,gcpp_ins_gain_blur,180,3,0.09064139912020709,0.04550338581372741,0.12870523279462276,faithful (better than random)
+Joint,F0,original,ALL,gc_del_gain_grey,180,3,-0.14820055682421265,-0.2497705805402742,-0.045744669690179866,worse than random
+Joint,F0,original,ALL,gc_ins_gain_grey,180,3,0.2199678010359532,0.11831067943740908,0.3140870017213637,faithful (better than random)
+Joint,F0,original,ALL,gc_del_gain_blur,180,3,0.0084060299523575,-0.02572868906191271,0.05315293596254409,not distinguishable from random
+Joint,F0,original,ALL,gc_ins_gain_blur,180,3,0.10364168458125635,0.041985337047295186,0.14750292997430314,faithful (better than random)
+Joint,F0,original,ALL,gcpp_del_gain_grey,180,3,-0.10694172263275051,-0.16410044465608284,-0.03777161515738767,worse than random
+Joint,F0,original,ALL,gcpp_ins_gain_grey,180,3,0.12970440750778983,0.04529437419668017,0.19824310989724886,faithful (better than random)
+Joint,F0,original,ALL,gcpp_del_gain_blur,180,3,0.04281253528214306,-0.0057742192327858224,0.11789656164883765,not distinguishable from random
+Joint,F0,original,ALL,gcpp_ins_gain_blur,180,3,0.08196196117866932,0.0252005350723764,0.12863126271232514,faithful (better than random)
+Joint,F1,degraded,ALL,gc_del_gain_grey,180,3,,,,not distinguishable from random
+Joint,F1,degraded,ALL,gc_ins_gain_grey,180,3,0.2588445282706765,0.15309394436486728,0.35227503737134314,faithful (better than random)
+Joint,F1,degraded,ALL,gc_del_gain_blur,180,3,-0.018104819826976756,-0.06007857263669426,0.030106698785413683,not distinguishable from random
+Joint,F1,degraded,ALL,gc_ins_gain_blur,180,3,0.11909640385473638,0.06294073308964804,0.1639218351919964,faithful (better than random)
+Joint,F1,degraded,ALL,gcpp_del_gain_grey,180,3,,,,not distinguishable from random
+Joint,F1,degraded,ALL,gcpp_ins_gain_grey,180,3,0.20023205675696096,0.13007611831644422,0.2573070926019722,faithful (better than random)
+Joint,F1,degraded,ALL,gcpp_del_gain_blur,180,3,0.0341510101973392,-0.006607098030716039,0.09169058695871621,not distinguishable from random
+Joint,F1,degraded,ALL,gcpp_ins_gain_blur,180,3,0.11108898210423704,0.05554566677011706,0.15802980776662562,faithful (better than random)
+Joint,F1,original,ALL,gc_del_gain_grey,180,3,-0.234312241691814,-0.33320299923609936,-0.13347132554841942,worse than random
+Joint,F1,original,ALL,gc_ins_gain_grey,180,3,0.2974165657548436,0.19189796844509105,0.3950302873125712,faithful (better than random)
+Joint,F1,original,ALL,gc_del_gain_blur,180,3,0.0012136649855667514,-0.039388027139480315,0.05065440944597713,not distinguishable from random
+Joint,F1,original,ALL,gc_ins_gain_blur,180,3,0.09643279458047453,0.027249179489413983,0.15573199060051948,faithful (better than random)
+Joint,F1,original,ALL,gcpp_del_gain_grey,180,3,-0.13102453865368985,-0.20672670217007008,-0.05115916260357591,worse than random
+Joint,F1,original,ALL,gcpp_ins_gain_grey,180,3,0.2579965520602711,0.18437868826883394,0.3175791761346928,faithful (better than random)
+Joint,F1,original,ALL,gcpp_del_gain_blur,180,3,0.07553803203186164,0.026199241708759195,0.14587996534624897,faithful (better than random)
+Joint,F1,original,ALL,gcpp_ins_gain_blur,180,3,0.09891158466125434,0.03476822343628901,0.15576615132801064,faithful (better than random)
+Joint,F2,degraded,ALL,gc_del_gain_grey,180,3,-0.19251437478712335,-0.2723236003802135,-0.1068583418921813,worse than random
+Joint,F2,degraded,ALL,gc_ins_gain_grey,180,3,,,,not distinguishable from random
+Joint,F2,degraded,ALL,gc_del_gain_blur,180,3,0.004807003313101706,-0.04933994878534992,0.061805073218899956,not distinguishable from random
+Joint,F2,degraded,ALL,gc_ins_gain_blur,180,3,0.08706791381664745,0.008200363150545118,0.16143315655611706,faithful (better than random)
+Joint,F2,degraded,ALL,gcpp_del_gain_grey,180,3,-0.08795060039759768,-0.14173469964647334,-0.023577210992994375,worse than random
+Joint,F2,degraded,ALL,gcpp_ins_gain_grey,180,3,,,,not distinguishable from random
+Joint,F2,degraded,ALL,gcpp_del_gain_blur,180,3,0.090080013097222,0.02682559250756532,0.17707389225515766,faithful (better than random)
+Joint,F2,degraded,ALL,gcpp_ins_gain_blur,180,3,0.09831991976082609,0.023448519936198193,0.17290936792236924,faithful (better than random)
+Joint,F2,original,ALL,gc_del_gain_grey,180,3,-0.23000317816994503,-0.31989218266151936,-0.1324314791732186,worse than random
+Joint,F2,original,ALL,gc_ins_gain_grey,180,3,0.25844505005721696,0.16016209183367205,0.35136361098331026,faithful (better than random)
+Joint,F2,original,ALL,gc_del_gain_blur,180,3,0.02480444882084449,-0.027369569636659277,0.08409831277091692,not distinguishable from random
+Joint,F2,original,ALL,gc_ins_gain_blur,180,3,0.06761656944450763,-0.020355022394853657,0.15448729412959894,not distinguishable from random
+Joint,F2,original,ALL,gcpp_del_gain_grey,180,3,-0.10050888846201765,-0.1718719665541924,-0.02290636328160952,worse than random
+Joint,F2,original,ALL,gcpp_ins_gain_grey,180,3,0.26971282240636313,0.20674364479470828,0.32401296475903885,faithful (better than random)
+Joint,F2,original,ALL,gcpp_del_gain_blur,180,3,0.13552250694033247,0.06066403951597666,0.22930021441345372,faithful (better than random)
+Joint,F2,original,ALL,gcpp_ins_gain_blur,180,3,0.09202497728201633,0.013776549239328537,0.170459371793426,faithful (better than random)
+Joint,F0,degraded,FAKE,gc_del_gain_grey,75,3,,,,not distinguishable from random
+Joint,F0,degraded,FAKE,gc_ins_gain_grey,75,3,,,,not distinguishable from random
+Joint,F0,degraded,FAKE,gc_del_gain_blur,75,3,-0.12523932250115552,-0.1614079963983306,-0.09230214175398568,worse than random
+Joint,F0,degraded,FAKE,gc_ins_gain_blur,75,3,0.3031663671204982,0.2479165355115734,0.3487343214204946,faithful (better than random)
+Joint,F0,degraded,FAKE,gcpp_del_gain_grey,75,3,,,,not distinguishable from random
+Joint,F0,degraded,FAKE,gcpp_ins_gain_grey,75,3,,,,not distinguishable from random
+Joint,F0,degraded,FAKE,gcpp_del_gain_blur,75,3,-0.25136028319408704,-0.2876547276612575,-0.2154087298231077,worse than random
+Joint,F0,degraded,FAKE,gcpp_ins_gain_blur,75,3,0.2344672351832375,0.18561854371415823,0.28083146767256234,faithful (better than random)
+Joint,F0,original,FAKE,gc_del_gain_grey,83,3,,,,not distinguishable from random
+Joint,F0,original,FAKE,gc_ins_gain_grey,83,3,,,,not distinguishable from random
+Joint,F0,original,FAKE,gc_del_gain_blur,83,3,-0.13024548927490218,-0.16105307213062106,-0.09899328459800402,worse than random
+Joint,F0,original,FAKE,gc_ins_gain_blur,83,3,0.3161854729420426,0.26537176055848977,0.35800518693394046,faithful (better than random)
+Joint,F0,original,FAKE,gcpp_del_gain_grey,83,3,,,,not distinguishable from random
+Joint,F0,original,FAKE,gcpp_ins_gain_grey,83,3,,,,not distinguishable from random
+Joint,F0,original,FAKE,gcpp_del_gain_blur,83,3,-0.300866613865725,-0.33676336431205306,-0.2634286994704791,worse than random
+Joint,F0,original,FAKE,gcpp_ins_gain_blur,83,3,0.2183531195605059,0.1720720738906015,0.2581801724554601,faithful (better than random)
+Joint,F1,degraded,FAKE,gc_del_gain_grey,83,3,,,,not distinguishable from random
+Joint,F1,degraded,FAKE,gc_ins_gain_grey,83,3,,,,not distinguishable from random
+Joint,F1,degraded,FAKE,gc_del_gain_blur,83,3,-0.16744395025370828,-0.20233697465939068,-0.1333380223976107,worse than random
+Joint,F1,degraded,FAKE,gc_ins_gain_blur,83,3,0.30176018225081336,0.26062194276781786,0.33629567034787,faithful (better than random)
+Joint,F1,degraded,FAKE,gcpp_del_gain_grey,83,3,,,,not distinguishable from random
+Joint,F1,degraded,FAKE,gcpp_ins_gain_grey,83,3,,,,not distinguishable from random
+Joint,F1,degraded,FAKE,gcpp_del_gain_blur,83,3,-0.3122769595748508,-0.34810595311934694,-0.27459157012916013,worse than random
+Joint,F1,degraded,FAKE,gcpp_ins_gain_blur,83,3,0.2431343392791385,0.20052313331707197,0.2812135461180575,faithful (better than random)
+Joint,F1,original,FAKE,gc_del_gain_grey,79,3,,,,not distinguishable from random
+Joint,F1,original,FAKE,gc_ins_gain_grey,79,3,,,,not distinguishable from random
+Joint,F1,original,FAKE,gc_del_gain_blur,79,3,-0.21079061173643357,-0.2511372497902851,-0.16861353230703655,worse than random
+Joint,F1,original,FAKE,gc_ins_gain_blur,79,3,0.32500499381226294,0.2775121880459766,0.37216908944636684,faithful (better than random)
+Joint,F1,original,FAKE,gcpp_del_gain_grey,79,3,,,,not distinguishable from random
+Joint,F1,original,FAKE,gcpp_ins_gain_grey,79,3,,,,not distinguishable from random
+Joint,F1,original,FAKE,gcpp_del_gain_blur,79,3,-0.3830932990219126,-0.41318450810509594,-0.35092581857801,worse than random
+Joint,F1,original,FAKE,gcpp_ins_gain_blur,79,3,0.2508906579302648,0.20186132132454826,0.29317711199486013,faithful (better than random)
+Joint,F2,degraded,FAKE,gc_del_gain_grey,59,3,,,,not distinguishable from random
+Joint,F2,degraded,FAKE,gc_ins_gain_grey,59,3,,,,not distinguishable from random
+Joint,F2,degraded,FAKE,gc_del_gain_blur,59,3,-0.10734393308027851,-0.17922729291250414,-0.05082939229710602,worse than random
+Joint,F2,degraded,FAKE,gc_ins_gain_blur,59,3,0.18590464378763266,0.13243606567356725,0.24948365160661173,faithful (better than random)
+Joint,F2,degraded,FAKE,gcpp_del_gain_grey,59,3,,,,not distinguishable from random
+Joint,F2,degraded,FAKE,gcpp_ins_gain_grey,59,3,,,,not distinguishable from random
+Joint,F2,degraded,FAKE,gcpp_del_gain_blur,59,3,-0.2542393047569545,-0.3246693712759258,-0.2000119346641939,worse than random
+Joint,F2,degraded,FAKE,gcpp_ins_gain_blur,59,3,0.12989278236802712,0.08081078162776151,0.19327872493999412,faithful (better than random)
+Joint,F2,original,FAKE,gc_del_gain_grey,45,3,,,,not distinguishable from random
+Joint,F2,original,FAKE,gc_ins_gain_grey,45,3,,,,not distinguishable from random
+Joint,F2,original,FAKE,gc_del_gain_blur,45,3,-0.13087399448254347,-0.23799809061464963,-0.04844385985720982,worse than random
+Joint,F2,original,FAKE,gc_ins_gain_blur,45,3,0.20383381538905757,0.12725297895042487,0.30337999659799025,faithful (better than random)
+Joint,F2,original,FAKE,gcpp_del_gain_grey,45,3,,,,not distinguishable from random
+Joint,F2,original,FAKE,gcpp_ins_gain_grey,45,3,,,,not distinguishable from random
+Joint,F2,original,FAKE,gcpp_del_gain_blur,45,3,-0.32551108831640696,-0.4138018972076789,-0.25616081067530844,worse than random
+Joint,F2,original,FAKE,gcpp_ins_gain_blur,45,3,0.11995473984511719,0.05761152797166945,0.19753512446710983,faithful (better than random)
+Joint,F0,degraded,REAL,gc_del_gain_grey,166,3,-0.2535356209204674,-0.3146484592498278,-0.17333062229343235,worse than random
+Joint,F0,degraded,REAL,gc_ins_gain_grey,166,3,0.3519548978349979,0.29452741851629954,0.3876882870325354,faithful (better than random)
+Joint,F0,degraded,REAL,gc_del_gain_blur,166,3,0.06743853524677462,0.003877865217216408,0.14067147698095966,not distinguishable from random
+Joint,F0,degraded,REAL,gc_ins_gain_blur,166,3,0.010103941435678975,-0.0784597364830618,0.0863031149977046,not distinguishable from random
+Joint,F0,degraded,REAL,gcpp_del_gain_grey,166,3,-0.18484675093837172,-0.21303183864071412,-0.15363112269533882,worse than random
+Joint,F0,degraded,REAL,gcpp_ins_gain_grey,166,3,0.24431028225947984,0.21836573589738628,0.27672865540932856,faithful (better than random)
+Joint,F0,degraded,REAL,gcpp_del_gain_blur,166,3,0.1620984066685116,0.0731536916680389,0.2752422410499866,faithful (better than random)
+Joint,F0,degraded,REAL,gcpp_ins_gain_blur,166,3,0.006882486818943799,-0.06995203925502373,0.07730148148510518,not distinguishable from random
+Joint,F0,original,REAL,gc_del_gain_grey,164,3,-0.23606325142849957,-0.3002672996734056,-0.161049946770627,worse than random
+Joint,F0,original,REAL,gc_ins_gain_grey,164,3,0.3464905587395995,0.2907974460197597,0.38505836070895955,faithful (better than random)
+Joint,F0,original,REAL,gc_del_gain_blur,164,3,0.08662544074393011,0.019510896023732842,0.16155518589729892,faithful (better than random)
+Joint,F0,original,REAL,gc_ins_gain_blur,164,3,-0.024031687242744126,-0.13543851839125812,0.07314621697392049,not distinguishable from random
+Joint,F0,original,REAL,gcpp_del_gain_grey,164,3,-0.17993277875248742,-0.2088916171460403,-0.1366024455448098,worse than random
+Joint,F0,original,REAL,gcpp_ins_gain_grey,164,3,0.2649820464321229,0.24319751243193793,0.2926466833449423,faithful (better than random)
+Joint,F0,original,REAL,gcpp_del_gain_blur,164,3,0.21375735321401612,0.10312520440624054,0.33221214529874865,faithful (better than random)
+Joint,F0,original,REAL,gcpp_ins_gain_blur,164,3,-0.006083412292719729,-0.0935442866309075,0.07920798989401805,not distinguishable from random
+Joint,F1,degraded,REAL,gc_del_gain_grey,169,3,,,,not distinguishable from random
+Joint,F1,degraded,REAL,gc_ins_gain_grey,169,3,,,,not distinguishable from random
+Joint,F1,degraded,REAL,gc_del_gain_blur,169,3,0.07714080448669332,-0.0038671293482155774,0.16677729318936527,not distinguishable from random
+Joint,F1,degraded,REAL,gc_ins_gain_blur,169,3,0.012035818427833921,-0.08786374960284195,0.10216086255670533,not distinguishable from random
+Joint,F1,degraded,REAL,gcpp_del_gain_grey,169,3,,,,not distinguishable from random
+Joint,F1,degraded,REAL,gcpp_ins_gain_grey,169,3,,,,not distinguishable from random
+Joint,F1,degraded,REAL,gcpp_del_gain_blur,169,3,0.20561524764712102,0.1038047985496948,0.32009824015305793,faithful (better than random)
+Joint,F1,degraded,REAL,gcpp_ins_gain_blur,169,3,0.013704229000612972,-0.07989867109650553,0.10121382109977649,not distinguishable from random
+Joint,F1,original,REAL,gc_del_gain_grey,172,3,,,,not distinguishable from random
+Joint,F1,original,REAL,gc_ins_gain_grey,172,3,0.4070309909898456,0.3322408725691719,0.4601552132994878,faithful (better than random)
+Joint,F1,original,REAL,gc_del_gain_blur,172,3,0.098121201127849,0.018166410896499546,0.19303030439197127,faithful (better than random)
+Joint,F1,original,REAL,gc_ins_gain_blur,172,3,-0.01542235093467517,-0.13216817422733018,0.09191885591216206,not distinguishable from random
+Joint,F1,original,REAL,gcpp_del_gain_grey,172,3,,,,not distinguishable from random
+Joint,F1,original,REAL,gcpp_ins_gain_grey,172,3,0.3870364785940217,0.36936447054334315,0.4062988120676196,faithful (better than random)
+Joint,F1,original,REAL,gcpp_del_gain_blur,172,3,0.25350437338286896,0.1373152613848878,0.3739609572358926,faithful (better than random)
+Joint,F1,original,REAL,gcpp_ins_gain_blur,172,3,0.009968852045263692,-0.09196292901885228,0.10286119096920628,not distinguishable from random
+Joint,F2,degraded,REAL,gc_del_gain_grey,172,3,,,,not distinguishable from random
+Joint,F2,degraded,REAL,gc_ins_gain_grey,172,3,,,,not distinguishable from random
+Joint,F2,degraded,REAL,gc_del_gain_blur,172,3,0.05300561654027919,-0.022420614360538174,0.13441999363367757,not distinguishable from random
+Joint,F2,degraded,REAL,gc_ins_gain_blur,172,3,0.04293974262634656,-0.06061090392509712,0.1373654348061737,not distinguishable from random
+Joint,F2,degraded,REAL,gcpp_del_gain_grey,172,3,,,,not distinguishable from random
+Joint,F2,degraded,REAL,gcpp_ins_gain_grey,172,3,,,,not distinguishable from random
+Joint,F2,degraded,REAL,gcpp_del_gain_blur,172,3,0.17586073410544475,0.07941654538648187,0.2866872854899213,faithful (better than random)
+Joint,F2,degraded,REAL,gcpp_ins_gain_blur,172,3,0.05902617105565427,-0.03906681146938944,0.1549007289589856,not distinguishable from random
+Joint,F2,original,REAL,gc_del_gain_grey,177,3,,,,not distinguishable from random
+Joint,F2,original,REAL,gc_ins_gain_grey,177,3,,,,not distinguishable from random
+Joint,F2,original,REAL,gc_del_gain_blur,177,3,0.06597031221614648,-0.003368615449564726,0.14661855505984506,not distinguishable from random
+Joint,F2,original,REAL,gc_ins_gain_blur,177,3,0.023390386550643363,-0.089896210257463,0.12894711981048004,not distinguishable from random
+Joint,F2,original,REAL,gcpp_del_gain_grey,177,3,,,,not distinguishable from random
+Joint,F2,original,REAL,gcpp_ins_gain_grey,177,3,,,,not distinguishable from random
+Joint,F2,original,REAL,gcpp_del_gain_blur,177,3,0.21233765443286562,0.10954422384558518,0.3248314182118212,faithful (better than random)
+Joint,F2,original,REAL,gcpp_ins_gain_blur,177,3,0.05927454642521803,-0.03851025217185403,0.15420446420864495,not distinguishable from random

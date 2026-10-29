@@ -1,0 +1,31 @@
+comparison,metric,mean_diff,ci95_low,ci95_high,p_boot,margin,verdict,primary
+harddro20 - harddro12,deletion_gain_grey,0.01861213410752162,-0.03951343072246698,0.07058541473819131,0.597,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - harddro12,insertion_gain_grey,0.00536023333748839,-0.03782076255610721,0.05298009007984111,0.737,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - harddro12,deletion_gain_blur,0.024721045306512035,-0.015690150444653907,0.061312518078862954,0.241,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - harddro12,insertion_gain_blur,0.04229320709000309,-0.0031272810506692457,0.08734828919972305,0.069,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - harddro12,stability_iou,-0.023220270987988734,-0.030149984447929663,-0.014152472483310226,0.001,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - harddro12,stability_pearson,-0.01578503503428197,-0.020853596180355035,-0.009349671159589483,0.001,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - base20,deletion_gain_grey,0.051392352963478924,-0.027476995483452,0.11288020114945495,0.211,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - base20,insertion_gain_grey,-0.013457621877721815,-0.07837479431737375,0.06710778988337843,0.821,0.05,inconclusive,True
+harddro20 - base20,deletion_gain_blur,-0.01209211433361554,-0.0578087341757175,0.03896749295939245,0.695,0.05,inconclusive,True
+harddro20 - base20,insertion_gain_blur,0.02403747618814145,-0.05313312098668433,0.08354765217838662,0.529,0.05,inconclusive,True
+harddro20 - base20,stability_iou,0.0013046067799011851,-0.014540140686347739,0.01793258032089278,0.897,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - base20,stability_pearson,-0.006524649356001944,-0.017002738204488988,0.004486295050462383,0.293,0.05,non-inferior (CI lower bound > -margin),True
+harddro20 - base12,deletion_gain_grey,0.04750961303692246,-0.0016554439542155726,0.09031052668455726,0.061,0.05,non-inferior (CI lower bound > -margin),False
+harddro20 - base12,insertion_gain_grey,0.029416564332537476,-0.021436999377779885,0.08650440306383443,0.247,0.05,non-inferior (CI lower bound > -margin),False
+harddro20 - base12,deletion_gain_blur,0.003350055806634779,-0.048900901101128914,0.05613640468618937,0.923,0.05,non-inferior (CI lower bound > -margin),False
+harddro20 - base12,insertion_gain_blur,0.051712256643221766,-0.022070106465378558,0.11150490239549438,0.161,0.05,non-inferior (CI lower bound > -margin),False
+harddro20 - base12,stability_iou,-0.014712262034273671,-0.0316407620134957,0.003101629642440811,0.121,0.05,non-inferior (CI lower bound > -margin),False
+harddro20 - base12,stability_pearson,-0.016554638647964137,-0.02767953821298594,-0.004709884856052422,0.003,0.05,non-inferior (CI lower bound > -margin),False
+harddro12 - base12,deletion_gain_grey,0.02889747892940084,-0.007355318468854964,0.07038449802198558,0.131,0.05,non-inferior (CI lower bound > -margin),False
+harddro12 - base12,insertion_gain_grey,0.024056330995049086,-0.019393392992929206,0.061631945307596046,0.255,0.05,non-inferior (CI lower bound > -margin),False
+harddro12 - base12,deletion_gain_blur,-0.021370989499877258,-0.0653222023642208,0.020421701345762835,0.343,0.05,inconclusive,False
+harddro12 - base12,insertion_gain_blur,0.009419049553218678,-0.041152179590534015,0.06321950675924194,0.729,0.05,non-inferior (CI lower bound > -margin),False
+harddro12 - base12,stability_iou,0.008508008953715063,-0.004756417742949884,0.021600014849832004,0.195,0.05,non-inferior (CI lower bound > -margin),False
+harddro12 - base12,stability_pearson,-0.0007696036136821682,-0.009562516747749272,0.0069350930976722165,0.939,0.05,non-inferior (CI lower bound > -margin),False
+base20 - base12,deletion_gain_grey,-0.0038827399265564666,-0.045157342970873975,0.05458223838849555,0.913,0.05,non-inferior (CI lower bound > -margin),False
+base20 - base12,insertion_gain_grey,0.04287418621025929,0.004760793688751521,0.07133925441345425,0.037,0.05,non-inferior (CI lower bound > -margin),False
+base20 - base12,deletion_gain_blur,0.01544217014025032,-0.032530404495991136,0.06756601911045537,0.649,0.05,non-inferior (CI lower bound > -margin),False
+base20 - base12,insertion_gain_blur,0.027674780455080317,0.0004881454631861214,0.05905315860324868,0.049,0.05,non-inferior (CI lower bound > -margin),False
+base20 - base12,stability_iou,-0.016016868814174856,-0.02445030913352545,-0.004466407168445003,0.005,0.05,non-inferior (CI lower bound > -margin),False
+base20 - base12,stability_pearson,-0.010029989291962194,-0.014845948372368651,-0.004492896152901367,0.003,0.05,non-inferior (CI lower bound > -margin),False

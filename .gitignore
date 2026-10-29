@@ -1,0 +1,26 @@
+# Large files that are not kept in the repository
+*.npy
+*.npz
+checkpoints/*.pt
+checkpoints/**/*.pt
+*.pt
+!Final_Test/results/final_model/FINAL_MODEL.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Datasets and videos
+*.mp4
+*.avi
+*.mov
+*.wav
+
+# OS
+Thumbs.db
+.DS_Store

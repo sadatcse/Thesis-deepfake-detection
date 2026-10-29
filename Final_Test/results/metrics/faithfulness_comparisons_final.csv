@@ -1,0 +1,73 @@
+comparison,train_on,variant,version,metric,n_pairs,mean_diff,ci95_low,ci95_high,p_boot,verdict,noninferior
+degraded - original,Joint,F0,paired,gc_del_gain_grey,180,-0.01779715448992281,-0.03873117206342049,0.004874436835161718,0.123,no supported change,True
+degraded - original,Joint,F0,paired,gc_ins_gain_grey,180,0.010796716306335233,-0.027662435971027282,0.04343392806856164,0.565,no supported change,True
+degraded - original,Joint,F0,paired,gc_del_gain_blur,180,-0.012196739861194215,-0.031997982186886424,0.001819349320551775,0.079,no supported change,True
+degraded - original,Joint,F0,paired,gc_ins_gain_blur,180,0.008574012997222005,-0.008516437046816637,0.036607243115149686,0.391,no supported change,True
+degraded - original,Joint,F0,paired,gcpp_del_gain_grey,180,0.0026906839891594207,-0.024682186561518393,0.02514225600539739,0.789,no supported change,True
+degraded - original,Joint,F0,paired,gcpp_ins_gain_grey,180,-4.2072540174092515e-05,-0.032088752947534854,0.034966112344832184,0.989,no supported change,True
+degraded - original,Joint,F0,paired,gcpp_del_gain_blur,180,-0.015542225956816846,-0.04913404922491423,0.008071594141701784,0.179,no supported change,True
+degraded - original,Joint,F0,paired,gcpp_ins_gain_blur,180,0.00867943794153773,-0.008133600266930559,0.03518574207315015,0.379,no supported change,True
+degraded - original,Joint,F1,paired,gc_del_gain_grey,180,,,,,no supported change,False
+degraded - original,Joint,F1,paired,gc_ins_gain_grey,180,-0.0315495181421459,-0.05342347205485857,-0.007521340226969424,0.007,lower on degraded videos,False
+degraded - original,Joint,F1,paired,gc_del_gain_blur,180,-0.01931848481254351,-0.03962156019410594,-0.0009766812129323166,0.043000000000000003,lower on degraded videos,True
+degraded - original,Joint,F1,paired,gc_ins_gain_blur,180,0.022663609274261868,0.0013372262393774963,0.053478328964872895,0.033,higher on degraded videos,True
+degraded - original,Joint,F1,paired,gcpp_del_gain_grey,180,,,,,no supported change,False
+degraded - original,Joint,F1,paired,gcpp_ins_gain_grey,180,-0.052645005693294666,-0.0781455769426129,-0.021655558302233858,0.001,lower on degraded videos,False
+degraded - original,Joint,F1,paired,gcpp_del_gain_blur,180,-0.041483974630361097,-0.07629379454644894,-0.015930881178262097,0.001,lower on degraded videos,False
+degraded - original,Joint,F1,paired,gcpp_ins_gain_blur,180,0.012177397442982735,-0.004868262333280228,0.03941817884283615,0.185,no supported change,True
+degraded - original,Joint,F2,paired,gc_del_gain_grey,180,0.03588935129199353,0.010194678564316767,0.05600480760085814,0.013000000000000001,higher on degraded videos,True
+degraded - original,Joint,F2,paired,gc_ins_gain_grey,180,,,,,no supported change,False
+degraded - original,Joint,F2,paired,gc_del_gain_blur,180,-0.019341880185639728,-0.036841339029323544,0.0012992999532819326,0.065,no supported change,True
+degraded - original,Joint,F2,paired,gc_ins_gain_blur,180,0.01895745512514545,0.003032903084277238,0.039656061258746184,0.017,higher on degraded videos,True
+degraded - original,Joint,F2,paired,gcpp_del_gain_grey,180,0.010722003666876074,-0.014032243793198201,0.029921236072980882,0.413,no supported change,True
+degraded - original,Joint,F2,paired,gcpp_ins_gain_grey,180,,,,,no supported change,False
+degraded - original,Joint,F2,paired,gcpp_del_gain_blur,180,-0.04505802026441928,-0.06961297249347417,-0.0278400592986033,0.001,lower on degraded videos,False
+degraded - original,Joint,F2,paired,gcpp_ins_gain_blur,180,0.0057672515706136025,-0.006854169454573604,0.021963879697016304,0.389,no supported change,True
+F2 - F1,Joint,F2 vs F1,original,gc_del_gain_grey,180,0.004309063521868927,-0.03454059398809073,0.03440885928711049,0.821,no supported change,True
+F2 - F1,Joint,F2 vs F1,original,gc_ins_gain_grey,180,-0.038971515697626885,-0.06484300763357342,-0.017090149644297274,0.003,lower,False
+F2 - F1,Joint,F2 vs F1,original,gc_del_gain_blur,180,0.02359078383527774,0.003287800566505563,0.049718005426766555,0.025,higher,True
+F2 - F1,Joint,F2 vs F1,original,gc_ins_gain_blur,180,-0.028816225135966912,-0.07027202499523541,0.0037605114127893064,0.093,no supported change,False
+F2 - F1,Joint,F2 vs F1,original,gcpp_del_gain_grey,180,0.030515650191672107,0.003474079203115451,0.06082784440954457,0.015,higher,True
+F2 - F1,Joint,F2 vs F1,original,gcpp_ins_gain_grey,180,0.01171627034609173,-0.013283052355746982,0.04130473326900406,0.341,no supported change,True
+F2 - F1,Joint,F2 vs F1,original,gcpp_del_gain_blur,180,0.05998447490847071,0.026599076716649375,0.1066420673838074,0.001,higher,True
+F2 - F1,Joint,F2 vs F1,original,gcpp_ins_gain_blur,180,-0.0068866073792380345,-0.04266321581141349,0.021961972630632848,0.689,no supported change,True
+F2 - F0,Joint,F2 vs F0,original,gc_del_gain_grey,180,-0.08180262134573238,-0.13072323454363752,-0.048197006563286765,0.001,lower,False
+F2 - F0,Joint,F2 vs F0,original,gc_ins_gain_grey,180,0.03847724902126362,-0.016592215312309175,0.08021235236821214,0.157,no supported change,True
+F2 - F0,Joint,F2 vs F0,original,gc_del_gain_blur,180,0.016398418868486975,-0.015559496555003792,0.05563638727500069,0.359,no supported change,True
+F2 - F0,Joint,F2 vs F0,original,gc_ins_gain_blur,180,-0.03602511513674877,-0.10205422106495274,0.01713028382681428,0.233,no supported change,False
+F2 - F0,Joint,F2 vs F0,original,gcpp_del_gain_grey,180,0.00643283417073276,-0.026150519615905594,0.059375157688610444,0.777,no supported change,True
+F2 - F0,Joint,F2 vs F0,original,gcpp_ins_gain_grey,180,0.14000841489857313,0.10493147767239776,0.17286643142127103,0.001,higher,True
+F2 - F0,Joint,F2 vs F0,original,gcpp_del_gain_blur,180,0.0927099716581893,0.05101516186804423,0.14613257232566268,0.001,higher,True
+F2 - F0,Joint,F2 vs F0,original,gcpp_ins_gain_blur,180,0.010063016103346945,-0.04497201756792297,0.05218776005537612,0.729,no supported change,True
+F1 - F0,Joint,F1 vs F0,original,gc_del_gain_grey,180,-0.08611168486760135,-0.10831181646037052,-0.07105415701572348,0.001,lower,False
+F1 - F0,Joint,F1 vs F0,original,gc_ins_gain_grey,180,0.07744876471889045,0.034842747813136135,0.1089192288884049,0.003,higher,True
+F1 - F0,Joint,F1 vs F0,original,gc_del_gain_blur,180,-0.00719236496679077,-0.031836046686758906,0.01968721927932665,0.541,no supported change,True
+F1 - F0,Joint,F1 vs F0,original,gc_ins_gain_blur,180,-0.00720889000078184,-0.04449411417516024,0.019886435389504263,0.665,no supported change,True
+F1 - F0,Joint,F1 vs F0,original,gcpp_del_gain_grey,180,-0.024082816020939375,-0.04830812269218593,0.011806395940689182,0.209,no supported change,True
+F1 - F0,Joint,F1 vs F0,original,gcpp_ins_gain_grey,180,0.12829214455248145,0.09890245207743793,0.1559453762237486,0.001,higher,True
+F1 - F0,Joint,F1 vs F0,original,gcpp_del_gain_blur,180,0.03272549674971861,0.003338017192453904,0.06533024213004143,0.033,higher,True
+F1 - F0,Joint,F1 vs F0,original,gcpp_ins_gain_blur,180,0.016949623482584976,-0.013552887102725916,0.037100652594358484,0.209,no supported change,True
+F2 - F1,Joint,F2 vs F1,degraded,gc_del_gain_grey,180,,,,,no supported change,False
+F2 - F1,Joint,F2 vs F1,degraded,gc_ins_gain_grey,180,,,,,no supported change,False
+F2 - F1,Joint,F2 vs F1,degraded,gc_del_gain_blur,180,0.022911823140078478,0.001471333966931797,0.05458827474840019,0.041,higher,True
+F2 - F1,Joint,F2 vs F1,degraded,gc_ins_gain_blur,180,-0.032028490038088865,-0.07512265976451221,0.002585993876485625,0.089,no supported change,False
+F2 - F1,Joint,F2 vs F1,degraded,gcpp_del_gain_grey,180,,,,,no supported change,False
+F2 - F1,Joint,F2 vs F1,degraded,gcpp_ins_gain_grey,180,,,,,no supported change,False
+F2 - F1,Joint,F2 vs F1,degraded,gcpp_del_gain_blur,180,0.05592900289988283,0.021253551679779846,0.10712125088758416,0.001,higher,True
+F2 - F1,Joint,F2 vs F1,degraded,gcpp_ins_gain_blur,180,-0.012769062343411014,-0.05350954579191717,0.01989544966280281,0.517,no supported change,False
+F2 - F0,Joint,F2 vs F0,degraded,gc_del_gain_grey,180,-0.02243289296710344,-0.07541739704276092,0.008306089550926923,0.195,no supported change,False
+F2 - F0,Joint,F2 vs F0,degraded,gc_ins_gain_grey,180,,,,,no supported change,False
+F2 - F0,Joint,F2 vs F0,degraded,gc_del_gain_blur,180,0.008597713221938415,-0.019849038737467593,0.04673419688033699,0.615,no supported change,True
+F2 - F0,Joint,F2 vs F0,degraded,gc_ins_gain_blur,180,-0.025147783761830845,-0.08127226195531333,0.021692376088066265,0.349,no supported change,False
+F2 - F0,Joint,F2 vs F0,degraded,gcpp_del_gain_grey,180,0.018911248776021815,-0.009803427344973564,0.06293852855470827,0.207,no supported change,True
+F2 - F0,Joint,F2 vs F0,degraded,gcpp_ins_gain_grey,180,,,,,no supported change,False
+F2 - F0,Joint,F2 vs F0,degraded,gcpp_del_gain_blur,180,0.06280970377189579,0.029972283584833503,0.1114490531720401,0.001,higher,True
+F2 - F0,Joint,F2 vs F0,degraded,gcpp_ins_gain_blur,180,0.007678520640618964,-0.04732148128722276,0.05080216275558309,0.841,no supported change,True
+F1 - F0,Joint,F1 vs F0,degraded,gc_del_gain_grey,180,,,,,no supported change,False
+F1 - F0,Joint,F1 vs F0,degraded,gc_ins_gain_grey,180,0.020685098049262815,-0.015471744222370333,0.04430242278743881,0.225,no supported change,True
+F1 - F0,Joint,F1 vs F0,degraded,gc_del_gain_blur,180,-0.014314109918140064,-0.032879693113731984,0.006399704105634561,0.175,no supported change,True
+F1 - F0,Joint,F1 vs F0,degraded,gc_ins_gain_blur,180,0.0068807062762580315,-0.016188257632696147,0.022907860246267772,0.547,no supported change,True
+F1 - F0,Joint,F1 vs F0,degraded,gcpp_del_gain_grey,180,,,,,no supported change,False
+F1 - F0,Joint,F1 vs F0,degraded,gcpp_ins_gain_grey,180,0.06065919466277647,0.03347240477724624,0.0818452627412239,0.001,higher,True
+F1 - F0,Joint,F1 vs F0,degraded,gcpp_del_gain_blur,180,0.006880700872012974,-0.01424179565961649,0.025832288336960028,0.481,no supported change,True
+F1 - F0,Joint,F1 vs F0,degraded,gcpp_ins_gain_blur,180,0.02044758298402998,-0.0037519550991267545,0.03730100402510973,0.077,no supported change,True

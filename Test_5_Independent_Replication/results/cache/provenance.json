@@ -1,0 +1,87 @@
+{
+  "faceclean": {
+    "fname": "t5_faceclean_T16_S128_n10703_4e4e56fffed5b286",
+    "created_by": "9-10-26_test5_independent.py",
+    "script_sha256": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+    "preprocessing_code_sha256": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+    "recorded_at": "2026-10-11 01:54:27",
+    "key_src_sha256": "4e4e56fffed5b2862c9518b6310b57c591a94b989a1f4df47ded5da42376e655",
+    "n": 10703,
+    "T": 16,
+    "S": 128,
+    "ok": 10702,
+    "failed": 1,
+    "kind": "clean face clips",
+    "preprocessing": {
+      "frame_sampling": "16 frames uniformly spaced over the decoded video (cv2 grab/retrieve; sequential fallback)",
+      "frames_cached": 16,
+      "clip_len": 8,
+      "clip_frames": "model clips use every 2th cached frame (evaluation averages the 2 offsets; training draws 8 random sorted frames)",
+      "decode_max_side": 960,
+      "resolution_normalisation": {
+        "frame_side": 360,
+        "face_px": 80,
+        "jpeg": 0
+      },
+      "face_detector": {
+        "backend": "none",
+        "model": "E:\\Code\\models\\face_detection_yunet_2023mar.onnx",
+        "model_sha256": null,
+        "opencv": "5.0.0",
+        "score_threshold": 0.6,
+        "nms": 0.3,
+        "top_k": 50,
+        "detect_max_side": 640,
+        "selection": "largest area x score"
+      },
+      "crop": {
+        "rule": "square side = max(w,h)*(1+2*margin), clipped inside the frame, 3-frame box smoothing, nearest-detection box for frames without a face, full frame when no face in the video",
+        "margin": 0.2,
+        "alignment": false,
+        "effective_face_resolution_px": 80,
+        "output_size": 128
+      },
+      "degraded_crops": "degraded videos are cropped with their SOURCE video's relative face boxes (pixel-aligned pairs)",
+      "normalisation": "uint8 RGB -> float (x/127.5 - 1)",
+      "audio": {
+        "sample_rate": 16000,
+        "samples": 48000,
+        "source": "external .wav if present, else ffmpeg audio stream; tiled/cropped to 3 s; silent/no audio -> zero spectrogram + mask 0",
+        "spectrogram": "STFT n_fft 512, hop 256, win 512 Hann, log1p magnitude, bilinear 128x128, per-clip z-score clip +-3 /3"
+      },
+      "failed_video_handling": "originals whose frames cannot be decoded are excluded before grouping (status recorded); degraded videos that fail decoding or the content-link test are excluded",
+      "label_independence": "no preprocessing function receives a label; real and fake videos share one code path",
+      "preprocessing_code_sha256": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+      "cache_namespace": "t5_",
+      "cache_dir": "E:\\Code\\run_test5_independent\\cache"
+    }
+  },
+  "audio": {
+    "fname": "t5_audio_n10703_7164fb07e6ea5ca3",
+    "created_by": "9-10-26_test5_independent.py",
+    "script_sha256": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+    "preprocessing_code_sha256": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+    "recorded_at": "2026-10-11 01:58:06",
+    "key_src_sha256": "7164fb07e6ea5ca35896f4f3b845bef8f39b4b014e11e26888261b8edf0421cd",
+    "n": 10703,
+    "with_audio": 3702,
+    "spec_file": "t5_audio_n10703_7164fb07e6ea5ca3.spec.npy",
+    "wave_file": "t5_audio_n10703_7164fb07e6ea5ca3.wave.npy",
+    "status_file": "t5_audio_n10703_7164fb07e6ea5ca3.status.npy"
+  },
+  "facedeg": {
+    "fname": "t5_facedeg_T16_S128_n19791_9465e0347498a176",
+    "created_by": "9-10-26_test5_independent.py",
+    "script_sha256": "d40fd0340969bcdc67246c1d712a428a7ba3798789c68d5e88987a7296459457",
+    "preprocessing_code_sha256": "ce57c0c8e3c402de96c44a0424498f1af349103946c2f3ca6846d1174f7378b5",
+    "recorded_at": "2026-10-11 03:31:58",
+    "key_src_sha256": "9465e0347498a176e8575d497d816a2f16b4367231b3f817ac1034ec610f7d1d",
+    "n": 19791,
+    "T": 16,
+    "S": 128,
+    "ok": 19791,
+    "failed": 0,
+    "kind": "degraded face clips (source boxes)",
+    "clean_cache": "t5_faceclean_T16_S128_n10703_4e4e56fffed5b286"
+  }
+}

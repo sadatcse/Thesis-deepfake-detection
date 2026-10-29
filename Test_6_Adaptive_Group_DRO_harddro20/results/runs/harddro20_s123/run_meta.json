@@ -1,0 +1,82 @@
+{
+  "run": "harddro20_s123",
+  "config": "harddro20",
+  "seed": 123,
+  "sampler": "harddro",
+  "epochs_max": 20,
+  "patience": 5,
+  "epochs_completed": 20,
+  "early_stopped": false,
+  "best_epoch": 18,
+  "val_macro_auc": 0.9633180189759177,
+  "val_at_best": {
+    "epoch": 18.0,
+    "train_loss": 0.38799763780667074,
+    "epoch_time_s": 167.2536301612854,
+    "val_auc_BioDeepAV": 0.983074790069846,
+    "val_auc_FF++": 0.9435612478819895,
+    "val_score": 0.9633180189759177
+  },
+  "temperature": 1.1909496919332674,
+  "threshold": 0.67,
+  "last_epoch": 20,
+  "optimizer_updates": 9380,
+  "lr_final": [
+    3.3129749943405787e-12,
+    3.3129749943405786e-11
+  ],
+  "checkpoints": {
+    "best": "E:\\Code\\run_201026\\runs\\harddro20_s123\\best.pt",
+    "final": "E:\\Code\\run_201026\\runs\\harddro20_s123\\last.pt"
+  },
+  "best_contains": "EMA model weights, T, threshold, history, config",
+  "final_contains": "model, EMA, optimizer, LR scheduler, AMP scaler, history, DRO cell losses, sampler log, epoch",
+  "training_constants": {
+    "lr_backbone": 0.0001,
+    "lr_head": 0.001,
+    "weight_decay": 0.0001,
+    "warmup_frac": 0.08,
+    "label_smooth": 0.05,
+    "frame_loss_w": 0.3,
+    "ema_decay": 0.998,
+    "n_frames": 16,
+    "clip_frames": 8,
+    "max_oversample": 4.0,
+    "img": 192,
+    "face_px": 112,
+    "batch": 8,
+    "accum": 2,
+    "amp": true,
+    "deterministic": false,
+    "pretrained": true,
+    "dro": {
+      "eta": 2.0,
+      "floor": 0.5,
+      "momentum": 0.5,
+      "cells": "dataset x folder"
+    },
+    "grad_clip": 5.0,
+    "optimiser": "AdamW",
+    "schedule": "linear warm-up + cosine over max_epochs x steps",
+    "checkpoint_rule": "EMA weights at the epoch with the best validation macro-AUC (mean of BioDeepAV and FF++ AUC)"
+  },
+  "provenance": {
+    "scripts": {
+      "201026.py": "fc0c8a206f4452ce6f8e9a3ee64f92ffa77545686b040f2907ee4cf038d4fb1f",
+      "151026.py": "cfd1ce5f99333a5af4d131271014da45573b1d161af4529bbaebe2a977ac87d5",
+      "171026.py": "90605e0adcb672b786aa9c9b18b5e1690621fd7c1f017f8f3c04051967061c72"
+    },
+    "config_sha256": {
+      "base12": "2061ab19fe584041d78c4094a435da895e07094bb99662f7f7d4279452b29f30",
+      "harddro12": "33b80c50ed5ff94e4de8b5312afefe1c243b947760966b93a3aed13f61595201",
+      "base20": "045d9a2fa40b014ec6c1e58f06ba0d5d06c0ce6937727d894136f2a95c0d55a4",
+      "harddro20": "a748723eb0cf4fe0800cbfdf6b390f7c5b895a53097fe9e0145de88c54d365b0"
+    },
+    "training_constants_sha256": "e4dad6c0166342b101c186c9ccb2db5cdecb9fd04f6ada6bbc3a725d8ddccbed",
+    "git": "not a git repository - sha256 of the scripts is the source revision"
+  },
+  "resumed_from_epoch": 21,
+  "this_call_started": "2026-10-20 07:01:32",
+  "this_call_seconds": 0.15468788146972656,
+  "already_finished_before_this_call": true
+}

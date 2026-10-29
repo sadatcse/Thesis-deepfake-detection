@@ -1,0 +1,66 @@
+{
+  "folders": [
+    {
+      "dataset": "BioDeepAV",
+      "subset": "real",
+      "label": 0,
+      "folder": "E:\\Datasets\\BioDeepAV\\real\\videos"
+    },
+    {
+      "dataset": "BioDeepAV",
+      "subset": "fake",
+      "label": 1,
+      "folder": "E:\\Datasets\\BioDeepAV\\fake\\videos"
+    },
+    {
+      "dataset": "FF++",
+      "subset": "original",
+      "label": 0,
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\original"
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Deepfakes",
+      "label": 1,
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\Deepfakes"
+    },
+    {
+      "dataset": "FF++",
+      "subset": "Face2Face",
+      "label": 1,
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\Face2Face"
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceShifter",
+      "label": 1,
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\FaceShifter"
+    },
+    {
+      "dataset": "FF++",
+      "subset": "FaceSwap",
+      "label": 1,
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\FaceSwap"
+    },
+    {
+      "dataset": "FF++",
+      "subset": "NeuralTextures",
+      "label": 1,
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\NeuralTextures"
+    },
+    {
+      "dataset": "FF++",
+      "subset": "DeepFakeDetection",
+      "label": 1,
+      "folder": "E:\\Datasets\\FaceForensics++_C23\\DeepFakeDetection"
+    }
+  ],
+  "bio_root": "E:\\Datasets\\BioDeepAV",
+  "ffpp_root": "E:\\Datasets\\FaceForensics++_C23",
+  "datasets": "bio,ffpp",
+  "max_per_folder": null,
+  "discovery": "folder glob *.mp4 + <folder>/degraded_output/manifest.json",
+  "dfd_grouping": "actor",
+  "data_seed": 20261009,
+  "recorded_at": "2026-10-10 22:53:38"
+}

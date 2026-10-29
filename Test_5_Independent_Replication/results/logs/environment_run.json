@@ -1,0 +1,16 @@
+{
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pytorch": "2.14.0+cu126",
+  "cuda": "12.6",
+  "cudnn": 91002,
+  "gpu": "NVIDIA GeForce RTX 3050",
+  "numpy": "2.4.1",
+  "pandas": "2.3.3",
+  "opencv": "5.0.0",
+  "ffprobe": "C:\\Users\\sadat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffprobe.EXE",
+  "ffmpeg": "C:\\Users\\sadat\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.EXE",
+  "script": "E:\\Code\\9-10-26_test5_independent.py",
+  "script_sha256": "e789a2a2a512ee07fb6d290b61155346b50c537e1ddf80f8172cea9592e6806f",
+  "recorded_at": "2026-10-15 22:16:56"
+}

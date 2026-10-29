@@ -1,0 +1,8 @@
+====================================================================================================
+ FINALTEST.py | phase analyze | root E:\Code\run_FINALTEST | 2026-10-28 17:04:14
+====================================================================================================
+  Python 3.13.14 | PyTorch 2.14.0+cu126 (CUDA 12.6) | GPU NVIDIA GeForce RTX 3050 (6.44 GB) | OpenCV 5.0.0 | batch 8 x accum 2 | AMP True
+  analysing 57 runs (357,507 final-test prediction rows) ...
+  paired cluster bootstrap (1000 replicates) ...
+  metrics -> E:\Code\run_FINALTEST\metrics; figures -> E:\Code\run_FINALTEST\figures
+  report -> E:\Code\run_FINALTEST\reports\FINAL_TEST_REPORT.md

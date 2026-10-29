@@ -1,0 +1,51 @@
+[
+  {
+    "hypothesis": "H1",
+    "statement": "An ImageNet-pretrained backbone improves robustness over the Test 5 baseline (F1 vs 5A, in-domain)",
+    "comparison": "F1 - T5-5A (in-domain)",
+    "verdict": "partially supported",
+    "evidence": "BioDeepAV->BioDeepAV degraded_auc: +0.0430 [+0.0096, +0.0639] (supported improvement); BioDeepAV->BioDeepAV worst_type_auc: +0.0625 [-0.0300, +0.1163] (inconclusive); FF++->FF++ degraded_auc: +0.1939 [+0.1665, +0.2371] (supported improvement); FF++->FF++ worst_type_auc: +0.2151 [+0.0852, +0.3426] (supported improvement)"
+  },
+  {
+    "hypothesis": "H2",
+    "statement": "Degraded training also helps the pretrained detector (F1 vs F0)",
+    "comparison": "F1 - F0",
+    "verdict": "partially supported",
+    "evidence": "BioDeepAV->BioDeepAV degraded_auc: +0.0355 [+0.0157, +0.0822] (supported improvement); BioDeepAV->BioDeepAV worst_type_auc: +0.0741 [+0.0495, +0.2012] (supported improvement); BioDeepAV->BioDeepAV flip_rate_pct: -4.8413 [-6.5276, -0.7491] (supported improvement); Joint->BioDeepAV degraded_auc: +0.0306 [+0.0037, +0.0628] (supported improvement); Joint->BioDeepAV worst_type_auc: +0.0992 [-0.0041, +0.1354] (inconclusive); Joint->BioDeepAV flip_rate_pct: -3.3530 [-4.7099, +0.0767] (inconclusive); FF++->FF++ degraded_auc: +0.0399 [+0.0271, +0.0637] (supported improvement); FF++->FF++ worst_type_auc: +0.0507 [-0.0146, +0.1630] (inconclusive); FF++->FF++ flip_rate_pct: -1.8664 [-3.0932, -1.1712] (supported improvement); Joint->FF++ degraded_auc: +0.0312 [+0.0221, +0.0470] (supported improvement); Joint->FF++ worst_type_auc: +0.0766 [-0.0022, +0.1608] (inconclusive); Joint->FF++ flip_rate_pct: -0.4839 [-1.3628, +0.9025] (inconclusive)"
+  },
+  {
+    "hypothesis": "H3",
+    "statement": "Explanation-consistency training improves Grad-CAM stability without losing detection (F2 vs F1)",
+    "comparison": "F2 - F1",
+    "verdict": "partially supported for stability, but detection not non-inferior (margin 0.01)",
+    "evidence": "BioDeepAV->BioDeepAV gradcam_iou_all: +0.0297 [+0.0191, +0.0460] (supported improvement); BioDeepAV->BioDeepAV gradcam_iou_hard: +0.0312 [+0.0162, +0.0501] (inconclusive); Joint->BioDeepAV gradcam_iou_all: +0.0572 [+0.0118, +0.0697] (inconclusive); Joint->BioDeepAV gradcam_iou_hard: +0.0679 [-0.0082, +0.0912] (inconclusive); FF++->FF++ gradcam_iou_all: +0.0656 [+0.0473, +0.0807] (supported improvement); FF++->FF++ gradcam_iou_hard: +0.0666 [+0.0457, +0.0848] (supported improvement); Joint->FF++ gradcam_iou_all: +0.0537 [+0.0301, +0.0751] (supported improvement); Joint->FF++ gradcam_iou_hard: +0.0772 [+0.0441, +0.0987] (supported improvement) | detection non-inferiority (CI lower bound > -0.01): BioDeepAV->BioDeepAV clean_auc: -0.0046 [-0.0242, -0.0014] (not shown non-inferior); BioDeepAV->BioDeepAV degraded_auc: -0.0089 [-0.0293, -0.0032] (not shown non-inferior); Joint->BioDeepAV clean_auc: -0.0156 [-0.0408, +0.0058] (not shown non-inferior); Joint->BioDeepAV degraded_auc: -0.0347 [-0.0423, +0.0005] (not shown non-inferior); FF++->FF++ clean_auc: -0.0028 [-0.0129, +0.0019] (not shown non-inferior); FF++->FF++ degraded_auc: -0.0059 [-0.0156, -0.0010] (not shown non-inferior); Joint->FF++ clean_auc: +0.0096 [-0.0006, +0.0312] (non-inferior); Joint->FF++ degraded_auc: +0.0304 [+0.0234, +0.0394] (non-inferior)"
+  },
+  {
+    "hypothesis": "H4",
+    "statement": "The final joint detector beats the best earlier detector on the same test videos (F2 Joint vs 5A)",
+    "comparison": "F2 (Joint) - 5A (dataset-specific)",
+    "verdict": "partially supported",
+    "evidence": "Joint->BioDeepAV degraded_auc: -0.0332 [-0.0997, +0.0282] (inconclusive); Joint->BioDeepAV worst_type_auc: -0.0491 [-0.1476, +0.0295] (inconclusive); Joint->BioDeepAV flip_rate_pct: +5.5528 [-7.9155, +10.2355] (inconclusive); Joint->FF++ degraded_auc: +0.1100 [+0.0868, +0.1415] (supported improvement); Joint->FF++ worst_type_auc: +0.1107 [+0.0013, +0.2166] (inconclusive); Joint->FF++ flip_rate_pct: -2.0047 [-6.9322, +1.0767] (inconclusive)"
+  },
+  {
+    "hypothesis": "H5",
+    "statement": "The dataset-specific final detectors generalise across datasets (cross-dataset AUC CI above 0.5)",
+    "comparison": "cross-dataset AUC level (F2)",
+    "verdict": "not supported",
+    "evidence": "FF++->BioDeepAV clean_auc: 0.393 [0.088, 0.528]; FF++->BioDeepAV degraded_auc: 0.351 [0.095, 0.464]; BioDeepAV->FF++ clean_auc: 0.579 [0.499, 0.642]; BioDeepAV->FF++ degraded_auc: 0.528 [0.493, 0.565]"
+  },
+  {
+    "hypothesis": "H6",
+    "statement": "Isotonic calibration and abstention make decisions reliable on original and degraded videos",
+    "comparison": "Joint F2: isotonic vs temperature; 90 % vs 100 % coverage",
+    "verdict": "supported",
+    "evidence": "degraded: ECE temperature 0.157 -> isotonic 0.083; original: ECE temperature 0.206 -> isotonic 0.128 | degraded: balanced accuracy 100 % coverage 0.755 -> 90 % coverage 0.773; original: balanced accuracy 100 % coverage 0.803 -> 90 % coverage 0.825 | isotonic ECE lower in every seed/test set/condition: True; abstention raises balanced accuracy everywhere: True"
+  },
+  {
+    "hypothesis": "RQ",
+    "statement": "Exploratory: does degradation change Grad-CAM faithfulness (Joint F2, degraded - original)?",
+    "comparison": "degraded - original",
+    "verdict": "reported (exploratory)",
+    "evidence": "gc_del_gain_grey: +0.0359 [+0.0102, +0.0560] (higher on degraded videos); gc_ins_gain_grey: +nan [+nan, +nan] (no supported change)"
+  }
+]

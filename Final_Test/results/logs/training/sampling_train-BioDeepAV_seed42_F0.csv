@@ -1,0 +1,13 @@
+run,epoch,cell,degradation,n,cell_share
+train-BioDeepAV_seed42_F0,1,BioDeepAV|real,original,967,0.5
+train-BioDeepAV_seed42_F0,1,BioDeepAV|fake,original,889,0.5
+train-BioDeepAV_seed42_F0,2,BioDeepAV|fake,original,911,0.4986597501929499
+train-BioDeepAV_seed42_F0,2,BioDeepAV|real,original,945,0.50134024980705
+train-BioDeepAV_seed42_F0,3,BioDeepAV|fake,original,933,0.49854854265397086
+train-BioDeepAV_seed42_F0,3,BioDeepAV|real,original,923,0.5014514573460291
+train-BioDeepAV_seed42_F0,4,BioDeepAV|fake,original,937,0.49026095787794366
+train-BioDeepAV_seed42_F0,4,BioDeepAV|real,original,919,0.5097390421220563
+train-BioDeepAV_seed42_F0,5,BioDeepAV|real,original,1001,0.5279738299806406
+train-BioDeepAV_seed42_F0,5,BioDeepAV|fake,original,855,0.4720261700193594
+train-BioDeepAV_seed42_F0,6,BioDeepAV|real,original,962,0.5161951885849625
+train-BioDeepAV_seed42_F0,6,BioDeepAV|fake,original,894,0.4838048114150376

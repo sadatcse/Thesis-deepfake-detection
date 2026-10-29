@@ -1,0 +1,799 @@
+run_id,train_on,variant,seed,threshold,source_test,test_dataset,setting,condition,subset,n,recall,specificity,auc_vs_reals
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,original,original (real),200,,0.435,
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,original,Deepfakes,200,0.525,,0.48143749999999996
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.951073985680191,,0.7590751789976133
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,original,Face2Face,200,0.54,,0.4960874999999999
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,original,FaceShifter,200,0.64,,0.54635
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,original,FaceSwap,200,0.535,,0.47815
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,original,NeuralTextures,200,0.52,,0.4853875
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,degraded,original (real),574,,0.49477351916376305,
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.49,,0.47614982578397214
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.7398568019093079,,0.6340611045046692
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,degraded,Face2Face,200,0.53,,0.5104355400696864
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.515,,0.5004878048780488
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.48,,0.4833841463414634
+train-BioDeepAV_seed123_F0,BioDeepAV,F0,123,0.17,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.4623115577889447,,0.4849771505611682
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,original,original (real),200,,0.42,
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,original,Deepfakes,200,0.555,,0.4884875
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.9427207637231504,,0.7484606205250597
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,original,Face2Face,200,0.57,,0.4981375
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,original,FaceShifter,200,0.69,,0.5629375000000001
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,original,FaceSwap,200,0.535,,0.4883875
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,original,NeuralTextures,200,0.555,,0.48285
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,degraded,original (real),574,,0.45818815331010454,
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.525,,0.48117595818815334
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.7768496420047732,,0.6283055308391475
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,degraded,Face2Face,200,0.585,,0.5115156794425088
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.595,,0.5219947735191637
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.535,,0.49236062717770035
+train-BioDeepAV_seed123_F1,BioDeepAV,F1,123,0.22,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.5376884422110553,,0.48646980547335983
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,original,original (real),200,,0.435,
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,original,Deepfakes,200,0.53,,0.4877875
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.931980906921241,,0.7494272076372315
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,original,Face2Face,200,0.535,,0.4983875
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,original,FaceShifter,200,0.66,,0.5642874999999999
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,original,FaceSwap,200,0.5,,0.48123749999999993
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,original,NeuralTextures,200,0.535,,0.48248750000000007
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,degraded,original (real),574,,0.47735191637630664,
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.495,,0.48388937282229966
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.7673031026252983,,0.6337232750950079
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,degraded,Face2Face,200,0.555,,0.511794425087108
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.575,,0.5197909407665505
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.495,,0.48770470383275266
+train-BioDeepAV_seed123_F2,BioDeepAV,F2,123,0.27,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.5025125628140703,,0.48774359602892514
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,original,original (real),200,,0.205,
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,original,Deepfakes,200,0.77,,0.4957
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,original,DeepFakeDetection,838,0.7684964200477327,,0.5197673031026253
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,original,Face2Face,200,0.82,,0.49787500000000007
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,original,FaceShifter,200,0.835,,0.541925
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,original,FaceSwap,200,0.805,,0.5058250000000001
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,original,NeuralTextures,200,0.8,,0.48695
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,degraded,original (real),574,,0.21080139372822299,
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,degraded,Deepfakes,200,0.775,,0.492308362369338
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.7410501193317423,,0.4727969364589657
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,degraded,Face2Face,200,0.825,,0.50948606271777
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,degraded,FaceShifter,200,0.825,,0.5441202090592334
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,degraded,FaceSwap,200,0.8,,0.5188327526132404
+train-BioDeepAV_seed123_T5-5A,BioDeepAV,T5-5A,123,0.01,Test 5,FF++,cross-dataset,degraded,NeuralTextures,199,0.8040201005025126,,0.5041846864986956
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,original,original (real),200,,0.22,
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,original,Deepfakes,200,0.775,,0.501425
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,original,DeepFakeDetection,838,0.581145584725537,,0.35273269689737474
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,original,Face2Face,200,0.795,,0.49929999999999997
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,original,FaceShifter,200,0.805,,0.5106999999999999
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,original,FaceSwap,200,0.785,,0.51085
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,original,NeuralTextures,200,0.78,,0.490425
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,degraded,original (real),574,,0.2735191637630662,
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,degraded,Deepfakes,200,0.735,,0.5014372822299652
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.4665871121718377,,0.33646769727158576
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,degraded,Face2Face,200,0.73,,0.49272648083623694
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,degraded,FaceShifter,200,0.735,,0.5188066202090592
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,degraded,FaceSwap,200,0.72,,0.5037891986062718
+train-BioDeepAV_seed123_T5-5C,BioDeepAV,T5-5C,123,0.06,Test 5,FF++,cross-dataset,degraded,NeuralTextures,199,0.7386934673366834,,0.49458967310419694
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,original,original (real),200,,0.125,
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,original,Deepfakes,200,0.845,,0.4506375000000001
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,original,DeepFakeDetection,838,0.8818615751789977,,0.3720316229116945
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,original,Face2Face,200,0.845,,0.49263750000000006
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,original,FaceShifter,200,0.845,,0.46541249999999995
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,original,FaceSwap,200,0.885,,0.51805
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,original,NeuralTextures,200,0.825,,0.4553125
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,degraded,original (real),574,,0.13066202090592335,
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,degraded,Deepfakes,200,0.89,,0.48449041811846694
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.9212410501193318,,0.3933560909083349
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,degraded,Face2Face,200,0.86,,0.509520905923345
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,degraded,FaceShifter,200,0.87,,0.47439895470383275
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,degraded,FaceSwap,200,0.89,,0.513397212543554
+train-BioDeepAV_seed123_T7-6A,BioDeepAV,T7-6A,123,0.09,Test 7,FF++,cross-dataset,degraded,NeuralTextures,199,0.8492462311557789,,0.4950098926689195
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,original,original (real),200,,0.145,
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,original,Deepfakes,200,0.81,,0.43332499999999996
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,original,DeepFakeDetection,838,0.7625298329355609,,0.29811455847255375
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,original,Face2Face,200,0.84,,0.48785
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,original,FaceShifter,200,0.84,,0.4746375
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,original,FaceSwap,200,0.87,,0.5132
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,original,NeuralTextures,200,0.85,,0.4631875
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,degraded,original (real),574,,0.13240418118466898,
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,degraded,Deepfakes,200,0.835,,0.4740940766550522
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.8054892601431981,,0.32408650927627586
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,degraded,Face2Face,200,0.885,,0.5100740418118468
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,degraded,FaceShifter,200,0.855,,0.4979398954703833
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,degraded,FaceSwap,200,0.865,,0.5113066202090593
+train-BioDeepAV_seed123_T7-6B,BioDeepAV,T7-6B,123,0.11,Test 7,FF++,cross-dataset,degraded,NeuralTextures,199,0.864321608040201,,0.5079010032742108
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,original,original (real),200,,0.495,
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,original,Deepfakes,200,0.505,,0.4925375
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.7673031026252983,,0.6656712410501193
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,original,Face2Face,200,0.495,,0.48397500000000004
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,original,FaceShifter,200,0.52,,0.52385
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,original,FaceSwap,200,0.515,,0.4926875
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,original,NeuralTextures,200,0.49,,0.4940625
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,degraded,original (real),574,,0.5905923344947736,
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.405,,0.4922822299651568
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.4892601431980907,,0.5436527571037729
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,degraded,Face2Face,200,0.405,,0.501824912891986
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.375,,0.4949738675958188
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.42,,0.5045470383275261
+train-BioDeepAV_seed2026_F0,BioDeepAV,F0,2026,0.52,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.4271356783919598,,0.507695270778982
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,original,original (real),200,,0.525,
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,original,Deepfakes,200,0.455,,0.4877125
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.8007159904534606,,0.670796539379475
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,original,Face2Face,200,0.45,,0.4983875
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,original,FaceShifter,200,0.57,,0.5556625
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,original,FaceSwap,200,0.48,,0.493925
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,original,NeuralTextures,200,0.47,,0.481375
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,degraded,original (real),574,,0.5487804878048781,
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.44,,0.49386324041811847
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.5262529832935561,,0.5517211628815913
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,degraded,Face2Face,200,0.485,,0.5254224738675958
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.465,,0.5236280487804879
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.505,,0.5178353658536585
+train-BioDeepAV_seed2026_F1,BioDeepAV,F1,2026,0.61,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.4321608040201005,,0.49981177665330134
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,original,original (real),200,,0.555,
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,original,Deepfakes,200,0.45,,0.5083
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.6610978520286396,,0.6464647971360381
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,original,Face2Face,200,0.445,,0.4995750000000001
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,original,FaceShifter,200,0.55,,0.5517625
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,original,FaceSwap,200,0.465,,0.5081875
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,original,NeuralTextures,200,0.425,,0.4772375
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,degraded,original (real),574,,0.5993031358885017,
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.415,,0.5060932055749129
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.44749403341288785,,0.5429864535604101
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,degraded,Face2Face,200,0.425,,0.5186803135888501
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.415,,0.5213893728222997
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.425,,0.5119642857142856
+train-BioDeepAV_seed2026_F2,BioDeepAV,F2,2026,0.53,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.38190954773869346,,0.48838267995027407
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,original,original (real),200,,0.3,
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,original,Deepfakes,200,0.715,,0.527375
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,original,DeepFakeDetection,838,0.8138424821002387,,0.606939140811456
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,original,Face2Face,200,0.705,,0.5073000000000001
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,original,FaceShifter,200,0.805,,0.5853
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,original,FaceSwap,200,0.725,,0.5142
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,original,NeuralTextures,200,0.695,,0.50825
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,degraded,original (real),574,,0.3205574912891986,
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,degraded,Deepfakes,200,0.69,,0.5196864111498258
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.7852028639618138,,0.5508469643168985
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,degraded,Face2Face,200,0.715,,0.5183536585365853
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,degraded,FaceShifter,200,0.755,,0.5549477351916376
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,degraded,FaceSwap,200,0.745,,0.5158188153310105
+train-BioDeepAV_seed2026_T5-5A,BioDeepAV,T5-5A,2026,0.01,Test 5,FF++,cross-dataset,degraded,NeuralTextures,199,0.6934673366834171,,0.5115035105842802
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,original,original (real),200,,0.305,
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,original,Deepfakes,200,0.705,,0.509175
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,original,DeepFakeDetection,838,0.7422434367541766,,0.5051372315035799
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,original,Face2Face,200,0.69,,0.5027
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,original,FaceShifter,200,0.785,,0.5609500000000001
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,original,FaceSwap,200,0.715,,0.5077499999999999
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,original,NeuralTextures,200,0.69,,0.49885
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,degraded,original (real),574,,0.34843205574912894,
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,degraded,Deepfakes,200,0.67,,0.5146515679442509
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.6288782816229117,,0.46429403008656744
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,degraded,Face2Face,200,0.68,,0.5169076655052265
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,degraded,FaceShifter,200,0.71,,0.5335801393728223
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,degraded,FaceSwap,200,0.705,,0.5128571428571429
+train-BioDeepAV_seed2026_T5-5C,BioDeepAV,T5-5C,2026,0.01,Test 5,FF++,cross-dataset,degraded,NeuralTextures,199,0.6884422110552764,,0.5110745364452927
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,original,original (real),200,,0.14,
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,original,Deepfakes,200,0.84,,0.44461249999999997
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,original,DeepFakeDetection,838,0.8579952267303103,,0.3662529832935561
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,original,Face2Face,200,0.855,,0.48667499999999997
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,original,FaceShifter,200,0.855,,0.47451250000000006
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,original,FaceSwap,200,0.885,,0.5190625
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,original,NeuralTextures,200,0.845,,0.44856250000000003
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,degraded,original (real),574,,0.1254355400696864,
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,degraded,Deepfakes,200,0.88,,0.4733841463414634
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.883054892601432,,0.397378859571071
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,degraded,Face2Face,200,0.9,,0.513366724738676
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,degraded,FaceShifter,200,0.86,,0.4929573170731707
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,degraded,FaceSwap,200,0.9,,0.5167857142857143
+train-BioDeepAV_seed2026_T7-6A,BioDeepAV,T7-6A,2026,0.18,Test 7,FF++,cross-dataset,degraded,NeuralTextures,199,0.8693467336683417,,0.4844124805210723
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,original,original (real),200,,0.165,
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,original,Deepfakes,200,0.8,,0.44486250000000005
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,original,DeepFakeDetection,838,0.7923627684964201,,0.35193317422434367
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,original,Face2Face,200,0.83,,0.49157500000000004
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,original,FaceShifter,200,0.825,,0.47075
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,original,FaceSwap,200,0.86,,0.514675
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,original,NeuralTextures,200,0.805,,0.46704999999999997
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,degraded,original (real),574,,0.1794425087108014,
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,degraded,Deepfakes,200,0.84,,0.49746080139372817
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.7852028639618138,,0.35361072073045996
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,degraded,Face2Face,200,0.845,,0.5026785714285714
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,degraded,FaceShifter,200,0.83,,0.48689024390243907
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,degraded,FaceSwap,200,0.865,,0.5003484320557491
+train-BioDeepAV_seed2026_T7-6B,BioDeepAV,T7-6B,2026,0.2,Test 7,FF++,cross-dataset,degraded,NeuralTextures,199,0.8442211055276382,,0.5046049060634181
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,original,original (real),200,,0.285,
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,original,Deepfakes,200,0.67,,0.4762875000000001
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.8090692124105012,,0.5531354415274463
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,original,Face2Face,200,0.65,,0.48668750000000005
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,original,FaceShifter,200,0.77,,0.5504625
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,original,FaceSwap,200,0.675,,0.47907500000000003
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,original,NeuralTextures,200,0.69,,0.492575
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,degraded,original (real),574,,0.41114982578397213,
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.53,,0.47578397212543555
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.5441527446300716,,0.45189517101444454
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,degraded,Face2Face,200,0.545,,0.5005487804878048
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.6,,0.5162587108013937
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.62,,0.5078484320557491
+train-BioDeepAV_seed42_F0,BioDeepAV,F0,42,0.5,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.5778894472361809,,0.4966776390664122
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,original,original (real),200,,0.51,
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,original,Deepfakes,200,0.49,,0.48401249999999996
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.815035799522673,,0.6654415274463008
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,original,Face2Face,200,0.48,,0.493525
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,original,FaceShifter,200,0.625,,0.5606
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,original,FaceSwap,200,0.5,,0.48802500000000004
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,original,NeuralTextures,200,0.485,,0.47957500000000003
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,degraded,original (real),574,,0.554006968641115,
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.445,,0.49454703832752606
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.5023866348448688,,0.5322860968125536
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,degraded,Face2Face,200,0.46,,0.5120078397212544
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.465,,0.5208580139372823
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.485,,0.5100914634146342
+train-BioDeepAV_seed42_F1,BioDeepAV,F1,42,0.63,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.4472361809045226,,0.4935478787666555
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,original,original (real),200,,0.395,
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,original,Deepfakes,200,0.605,,0.49670000000000003
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,original,DeepFakeDetection,838,0.7935560859188544,,0.6083233890214796
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,original,Face2Face,200,0.605,,0.49631249999999993
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,original,FaceShifter,200,0.68,,0.5435625000000001
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,original,FaceSwap,200,0.625,,0.49587500000000007
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,original,NeuralTextures,200,0.6,,0.48266250000000005
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,degraded,original (real),574,,0.47560975609756095,
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,degraded,Deepfakes,200,0.555,,0.4987151567944251
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.5119331742243437,,0.48437876809726155
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,degraded,Face2Face,200,0.545,,0.5181881533101045
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,degraded,FaceShifter,200,0.55,,0.5155531358885017
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,degraded,FaceSwap,200,0.585,,0.5143510452961673
+train-BioDeepAV_seed42_F2,BioDeepAV,F2,42,0.34,Final,FF++,cross-dataset,degraded,NeuralTextures,199,0.5175879396984925,,0.4987349640186998
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,original,original (real),200,,0.05,
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,original,Deepfakes,200,0.95,,0.49665
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,original,DeepFakeDetection,838,0.9928400954653938,,0.6062350835322196
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,original,Face2Face,200,0.945,,0.49610000000000004
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,original,FaceShifter,200,0.96,,0.5271
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,original,FaceSwap,200,0.95,,0.49802500000000005
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,original,NeuralTextures,200,0.95,,0.49245
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,degraded,original (real),574,,0.06445993031358885,
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,degraded,Deepfakes,200,0.94,,0.49596689895470386
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.9618138424821002,,0.5364148919361679
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,degraded,Face2Face,200,0.925,,0.5058797909407665
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,degraded,FaceShifter,200,0.91,,0.5193292682926829
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,degraded,FaceSwap,200,0.92,,0.5024041811846689
+train-BioDeepAV_seed42_T5-5A,BioDeepAV,T5-5A,42,0.02,Test 5,FF++,cross-dataset,degraded,NeuralTextures,199,0.9246231155778895,,0.5129042424666889
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,original,original (real),200,,0.175,
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,original,Deepfakes,200,0.84,,0.49497500000000005
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,original,DeepFakeDetection,838,0.8997613365155132,,0.5519630071599045
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,original,Face2Face,200,0.83,,0.49092500000000006
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,original,FaceShifter,200,0.84,,0.5266000000000001
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,original,FaceSwap,200,0.83,,0.4985
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,original,NeuralTextures,200,0.825,,0.49165000000000003
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,degraded,original (real),574,,0.2038327526132404,
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,degraded,Deepfakes,200,0.815,,0.5063327526132404
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.7971360381861575,,0.49839505043533217
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,degraded,Face2Face,200,0.83,,0.5095557491289199
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,degraded,FaceShifter,200,0.795,,0.5149477351916377
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,degraded,FaceSwap,200,0.815,,0.49966027874564456
+train-BioDeepAV_seed42_T5-5C,BioDeepAV,T5-5C,42,0.06,Test 5,FF++,cross-dataset,degraded,NeuralTextures,199,0.8090452261306532,,0.5211598059986342
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,original,original (real),200,,0.155,
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,original,Deepfakes,200,0.79,,0.4262625
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,original,DeepFakeDetection,838,0.7816229116945107,,0.3224194510739857
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,original,Face2Face,200,0.815,,0.47250000000000003
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,original,FaceShifter,200,0.815,,0.469175
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,original,FaceSwap,200,0.87,,0.5196875
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,original,NeuralTextures,200,0.81,,0.4493625
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,degraded,original (real),574,,0.17073170731707318,
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,degraded,Deepfakes,200,0.795,,0.4618205574912892
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.8257756563245824,,0.37195849583794166
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,degraded,Face2Face,200,0.83,,0.5007273519163763
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,degraded,FaceShifter,200,0.8,,0.47073606271777
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,degraded,FaceSwap,200,0.86,,0.515801393728223
+train-BioDeepAV_seed42_T7-6A,BioDeepAV,T7-6A,42,0.14,Test 7,FF++,cross-dataset,degraded,NeuralTextures,199,0.7889447236180904,,0.481020082993364
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,original,original (real),200,,0.21,
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,original,Deepfakes,200,0.755,,0.435425
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,original,DeepFakeDetection,838,0.46539379474940334,,0.22877386634844868
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,original,Face2Face,200,0.79,,0.48012499999999997
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,original,FaceShifter,200,0.78,,0.4577625
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,original,FaceSwap,200,0.81,,0.5177499999999999
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,original,NeuralTextures,200,0.77,,0.460775
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,degraded,original (real),574,,0.24912891986062718,
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,degraded,Deepfakes,200,0.74,,0.47349303135888504
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,degraded,DeepFakeDetection,838,0.47255369928400953,,0.2824409786034444
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,degraded,Face2Face,200,0.76,,0.4968162020905923
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,degraded,FaceShifter,200,0.745,,0.4661498257839721
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,degraded,FaceSwap,200,0.775,,0.508715156794425
+train-BioDeepAV_seed42_T7-6B,BioDeepAV,T7-6B,42,0.24,Test 7,FF++,cross-dataset,degraded,NeuralTextures,199,0.7336683417085427,,0.48697319349360035
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,original,original (real),200,,0.935,
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,original,Deepfakes,200,0.75,,0.92225
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9331742243436754,,0.9825178997613365
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,original,Face2Face,200,0.57,,0.860075
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,original,FaceShifter,200,0.67,,0.8996875
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,original,FaceSwap,200,0.59,,0.8723500000000001
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,original,NeuralTextures,200,0.335,,0.7641
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,degraded,original (real),574,,0.8519163763066202,
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,degraded,Deepfakes,200,0.73,,0.8709320557491289
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.8747016706443914,,0.9360889125427225
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,degraded,Face2Face,200,0.555,,0.8038196864111498
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,degraded,FaceShifter,200,0.595,,0.80904181184669
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,degraded,FaceSwap,200,0.59,,0.8122386759581881
+train-FFpp_seed123_F0,FF++,F0,123,0.57,Final,FF++,in-domain,degraded,NeuralTextures,199,0.3165829145728643,,0.6830931661793287
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,original,original (real),200,,0.91,
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,original,Deepfakes,200,0.84,,0.949175
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9439140811455847,,0.9838723150357995
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,original,Face2Face,200,0.68,,0.89705
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,original,FaceShifter,200,0.81,,0.9307624999999999
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,original,FaceSwap,200,0.71,,0.90215
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,original,NeuralTextures,200,0.47,,0.80845
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,degraded,original (real),574,,0.8780487804878049,
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,degraded,Deepfakes,200,0.765,,0.911411149825784
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.8937947494033412,,0.9599666952175829
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,degraded,Face2Face,200,0.675,,0.8658667247386759
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,degraded,FaceShifter,200,0.67,,0.8690984320557491
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,degraded,FaceSwap,200,0.68,,0.8653440766550523
+train-FFpp_seed123_F1,FF++,F1,123,0.67,Final,FF++,in-domain,degraded,NeuralTextures,199,0.41708542713567837,,0.7516327281004324
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,original,original (real),200,,0.93,
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,original,Deepfakes,200,0.82,,0.935475
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9606205250596659,,0.9882398568019094
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,original,Face2Face,200,0.64,,0.8915875000000001
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,original,FaceShifter,200,0.73,,0.9175250000000001
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,original,FaceSwap,200,0.635,,0.8894875
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,original,NeuralTextures,200,0.435,,0.7942750000000001
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,degraded,original (real),574,,0.872822299651568,
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,degraded,Deepfakes,200,0.79,,0.9038893728222996
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.9236276849642004,,0.9646141884194157
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,degraded,Face2Face,200,0.68,,0.8659799651567944
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,degraded,FaceShifter,200,0.675,,0.8621385017421603
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,degraded,FaceSwap,200,0.645,,0.8515461672473867
+train-FFpp_seed123_F2,FF++,F2,123,0.64,Final,FF++,in-domain,degraded,NeuralTextures,199,0.4120603015075377,,0.7335939278272897
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,original,original (real),200,,0.735,
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,original,Deepfakes,200,0.63,,0.7638999999999998
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,original,DeepFakeDetection,838,0.8937947494033412,,0.901390214797136
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,original,Face2Face,200,0.445,,0.6469500000000001
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,original,FaceShifter,200,0.635,,0.764125
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,original,FaceSwap,200,0.4,,0.608475
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,original,NeuralTextures,200,0.415,,0.621875
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,degraded,original (real),574,,0.6027874564459931,
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,degraded,Deepfakes,200,0.59,,0.6609581881533101
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,degraded,DeepFakeDetection,838,0.8317422434367542,,0.7979572235204111
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,degraded,Face2Face,200,0.465,,0.5700174216027875
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,degraded,FaceShifter,200,0.625,,0.6727090592334495
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,degraded,FaceSwap,200,0.455,,0.5700435540069686
+train-FFpp_seed123_T5-5A,FF++,T5-5A,123,0.75,Test 5,FF++,in-domain,degraded,NeuralTextures,199,0.45226130653266333,,0.573153222558787
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,original,original (real),200,,0.86,
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,original,Deepfakes,200,0.345,,0.6484249999999999
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,original,DeepFakeDetection,838,0.6694510739856802,,0.83763723150358
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,original,Face2Face,200,0.22,,0.57375
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,original,FaceShifter,200,0.295,,0.63115
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,original,FaceSwap,200,0.15,,0.549125
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,original,NeuralTextures,200,0.235,,0.56465
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,degraded,original (real),574,,0.7369337979094077,
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,degraded,Deepfakes,200,0.41,,0.6020993031358884
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,degraded,DeepFakeDetection,838,0.7231503579952268,,0.8057335367932608
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,degraded,Face2Face,200,0.34,,0.5475609756097561
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,degraded,FaceShifter,200,0.335,,0.5693815331010452
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,degraded,FaceSwap,200,0.305,,0.5507317073170731
+train-FFpp_seed123_T5-5C,FF++,T5-5C,123,0.77,Test 5,FF++,in-domain,degraded,NeuralTextures,199,0.27638190954773867,,0.5303608635512055
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,original,original (real),200,,0.78,
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,original,Deepfakes,200,0.685,,0.8209375
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,original,DeepFakeDetection,838,0.6467780429594272,,0.8057368735083531
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,original,Face2Face,200,0.425,,0.6571
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,original,FaceShifter,200,0.47,,0.7082
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,original,FaceSwap,200,0.235,,0.5570499999999999
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,original,NeuralTextures,200,0.45,,0.6752374999999999
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,degraded,original (real),574,,0.6114982578397212,
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,degraded,Deepfakes,200,0.71,,0.7179921602787457
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,degraded,DeepFakeDetection,838,0.7422434367541766,,0.7191140761561041
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,degraded,Face2Face,200,0.57,,0.6153005226480837
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,degraded,FaceShifter,200,0.62,,0.6476916376306621
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,degraded,FaceSwap,200,0.435,,0.5416768292682927
+train-FFpp_seed123_T7-6A,FF++,T7-6A,123,0.81,Test 7,FF++,in-domain,degraded,NeuralTextures,199,0.5376884422110553,,0.5961689983016125
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,original,original (real),200,,0.535,
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,original,Deepfakes,200,0.87,,0.8075875
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,original,DeepFakeDetection,838,0.89618138424821,,0.7704653937947494
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,original,Face2Face,200,0.695,,0.6619249999999999
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,original,FaceShifter,200,0.72,,0.6969500000000001
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,original,FaceSwap,200,0.535,,0.5663625
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,original,NeuralTextures,200,0.705,,0.6745625
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,degraded,original (real),574,,0.3780487804878049,
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,degraded,Deepfakes,200,0.855,,0.6995644599303136
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,degraded,DeepFakeDetection,838,0.931980906921241,,0.676154648948467
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,degraded,Face2Face,200,0.785,,0.6025827526132405
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,degraded,FaceShifter,200,0.825,,0.6319207317073171
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,degraded,FaceSwap,200,0.685,,0.5457665505226481
+train-FFpp_seed123_T7-6B,FF++,T7-6B,123,0.71,Test 7,FF++,in-domain,degraded,NeuralTextures,199,0.7386934673366834,,0.5862588202335721
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,original,original (real),200,,0.88,
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,original,Deepfakes,200,0.805,,0.9224500000000001
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9463007159904535,,0.9776163484486873
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,original,Face2Face,200,0.675,,0.8644625
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,original,FaceShifter,200,0.79,,0.9185375
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,original,FaceSwap,200,0.66,,0.870375
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,original,NeuralTextures,200,0.48,,0.7767250000000001
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,degraded,original (real),574,,0.7909407665505227,
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,degraded,Deepfakes,200,0.815,,0.867691637630662
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.9021479713603818,,0.919733811214689
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,degraded,Face2Face,200,0.695,,0.806829268292683
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,degraded,FaceShifter,200,0.725,,0.8345949477351915
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,degraded,FaceSwap,200,0.715,,0.8201480836236934
+train-FFpp_seed2026_F0,FF++,F0,2026,0.51,Final,FF++,in-domain,degraded,NeuralTextures,199,0.46733668341708545,,0.6926487839896345
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,original,original (real),200,,0.91,
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,original,Deepfakes,200,0.855,,0.9483374999999999
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9248210023866349,,0.9732368735083532
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,original,Face2Face,200,0.705,,0.8887625000000001
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,original,FaceShifter,200,0.795,,0.928575
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,original,FaceSwap,200,0.725,,0.9026625
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,original,NeuralTextures,200,0.515,,0.8125374999999999
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,degraded,original (real),574,,0.8536585365853658,
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,degraded,Deepfakes,200,0.83,,0.9136280487804878
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.918854415274463,,0.950105194880793
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,degraded,Face2Face,200,0.705,,0.8555226480836235
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,degraded,FaceShifter,200,0.735,,0.8802918118466898
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,degraded,FaceSwap,200,0.73,,0.8717682926829269
+train-FFpp_seed2026_F1,FF++,F1,2026,0.53,Final,FF++,in-domain,degraded,NeuralTextures,199,0.48743718592964824,,0.7458503317983646
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,original,original (real),200,,0.865,
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,original,Deepfakes,200,0.85,,0.9403125
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,original,DeepFakeDetection,838,0.964200477326969,,0.974510739856802
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,original,Face2Face,200,0.74,,0.8919125
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,original,FaceShifter,200,0.82,,0.9265749999999999
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,original,FaceSwap,200,0.78,,0.9079124999999999
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,original,NeuralTextures,200,0.525,,0.7937375
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,degraded,original (real),574,,0.7874564459930313,
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,degraded,Deepfakes,200,0.815,,0.8985322299651568
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.9367541766109785,,0.93813459955261
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,degraded,Face2Face,200,0.75,,0.8469381533101046
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,degraded,FaceShifter,200,0.81,,0.8683405923344947
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,degraded,FaceSwap,200,0.815,,0.8792465156794426
+train-FFpp_seed2026_F2,FF++,F2,2026,0.6,Final,FF++,in-domain,degraded,NeuralTextures,199,0.4824120603015075,,0.7227382557386234
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,original,original (real),200,,0.63,
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,original,Deepfakes,200,0.745,,0.75895
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,original,DeepFakeDetection,838,0.9224343675417661,,0.855483293556086
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,original,Face2Face,200,0.64,,0.7022499999999999
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,original,FaceShifter,200,0.825,,0.7899750000000001
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,original,FaceSwap,200,0.51,,0.637925
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,original,NeuralTextures,200,0.59,,0.646675
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,degraded,original (real),574,,0.4686411149825784,
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,degraded,Deepfakes,200,0.78,,0.6780662020905922
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,degraded,DeepFakeDetection,838,0.9427207637231504,,0.7881944733187529
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,degraded,Face2Face,200,0.75,,0.6506533101045296
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,degraded,FaceShifter,200,0.86,,0.6938414634146343
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,degraded,FaceSwap,200,0.705,,0.6066114982578397
+train-FFpp_seed2026_T5-5A,FF++,T5-5A,2026,0.67,Test 5,FF++,in-domain,degraded,NeuralTextures,199,0.6884422110552764,,0.6063593227461348
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,original,original (real),200,,0.77,
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,original,Deepfakes,200,0.605,,0.74555
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,original,DeepFakeDetection,838,0.8520286396181385,,0.8880310262529832
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,original,Face2Face,200,0.48,,0.6831499999999999
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,original,FaceShifter,200,0.66,,0.7650999999999999
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,original,FaceSwap,200,0.325,,0.6014125
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,original,NeuralTextures,200,0.445,,0.637375
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,degraded,original (real),574,,0.5592334494773519,
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,degraded,Deepfakes,200,0.71,,0.6858101045296167
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,degraded,DeepFakeDetection,838,0.9224343675417661,,0.8283951335933407
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,degraded,Face2Face,200,0.655,,0.6409494773519164
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,degraded,FaceShifter,200,0.755,,0.6819425087108014
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,degraded,FaceSwap,200,0.555,,0.5732229965156794
+train-FFpp_seed2026_T5-5C,FF++,T5-5C,2026,0.68,Test 5,FF++,in-domain,degraded,NeuralTextures,199,0.628140703517588,,0.5941904645177105
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,original,original (real),200,,0.66,
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,original,Deepfakes,200,0.805,,0.8355250000000001
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,original,DeepFakeDetection,838,0.7852028639618138,,0.774409307875895
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,original,Face2Face,200,0.55,,0.6686874999999999
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,original,FaceShifter,200,0.65,,0.7264750000000001
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,original,FaceSwap,200,0.38,,0.58855
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,original,NeuralTextures,200,0.585,,0.6744375
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,degraded,original (real),574,,0.5121951219512195,
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,degraded,Deepfakes,200,0.79,,0.7314503484320558
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,degraded,DeepFakeDetection,838,0.8138424821002387,,0.6855910039666369
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,degraded,Face2Face,200,0.675,,0.6240287456445992
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,degraded,FaceShifter,200,0.75,,0.6829398954703831
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,degraded,FaceSwap,200,0.595,,0.5881837979094076
+train-FFpp_seed2026_T7-6A,FF++,T7-6A,2026,0.76,Test 7,FF++,in-domain,degraded,NeuralTextures,199,0.6331658291457286,,0.5964666538266244
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,original,original (real),200,,0.625,
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,original,Deepfakes,200,0.86,,0.8323374999999998
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,original,DeepFakeDetection,838,0.8520286396181385,,0.7642810262529833
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,original,Face2Face,200,0.545,,0.6543625
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,original,FaceShifter,200,0.665,,0.715375
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,original,FaceSwap,200,0.45,,0.5858749999999999
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,original,NeuralTextures,200,0.625,,0.6855000000000001
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,degraded,original (real),574,,0.45121951219512196,
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,degraded,Deepfakes,200,0.835,,0.7302526132404182
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,degraded,DeepFakeDetection,838,0.9128878281622912,,0.6543433427856268
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,degraded,Face2Face,200,0.69,,0.5998649825783973
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,degraded,FaceShifter,200,0.815,,0.6756271777003484
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,degraded,FaceSwap,200,0.64,,0.5788501742160278
+train-FFpp_seed2026_T7-6B,FF++,T7-6B,2026,0.75,Test 7,FF++,in-domain,degraded,NeuralTextures,199,0.6934673366834171,,0.6053175284085934
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,original,original (real),200,,0.865,
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,original,Deepfakes,200,0.825,,0.91385
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9785202863961814,,0.9895346062052506
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,original,Face2Face,200,0.67,,0.8537625
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,original,FaceShifter,200,0.805,,0.9146500000000001
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,original,FaceSwap,200,0.715,,0.8654625
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,original,NeuralTextures,200,0.48,,0.7696125
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,degraded,original (real),574,,0.7630662020905923,
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,degraded,Deepfakes,200,0.825,,0.8549651567944251
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.951073985680191,,0.9401532602097247
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,degraded,Face2Face,200,0.72,,0.7981315331010453
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,degraded,FaceShifter,200,0.74,,0.8153266550522649
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,degraded,FaceSwap,200,0.715,,0.7992987804878049
+train-FFpp_seed42_F0,FF++,F0,42,0.44,Final,FF++,in-domain,degraded,NeuralTextures,199,0.5025125628140703,,0.6877943725596624
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,original,original (real),200,,0.87,
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,original,Deepfakes,200,0.875,,0.9409249999999999
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9594272076372315,,0.9816109785202864
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,original,Face2Face,200,0.715,,0.8895375
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,original,FaceShifter,200,0.805,,0.9277500000000001
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,original,FaceSwap,200,0.765,,0.9001375
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,original,NeuralTextures,200,0.515,,0.8005374999999999
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,degraded,original (real),574,,0.7979094076655052,
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,degraded,Deepfakes,200,0.84,,0.9064372822299651
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.9403341288782816,,0.9570592833442826
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,degraded,Face2Face,200,0.75,,0.85823606271777
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,degraded,FaceShifter,200,0.775,,0.8695993031358885
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,degraded,FaceSwap,200,0.775,,0.8649303135888502
+train-FFpp_seed42_F1,FF++,F1,42,0.52,Final,FF++,in-domain,degraded,NeuralTextures,199,0.5125628140703518,,0.7286694798031972
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,original,original (real),200,,0.91,
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,original,Deepfakes,200,0.825,,0.9371874999999998
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,original,DeepFakeDetection,838,0.9665871121718377,,0.9878371121718377
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,original,Face2Face,200,0.655,,0.8780249999999998
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,original,FaceShifter,200,0.77,,0.9180125
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,original,FaceSwap,200,0.685,,0.8977875000000001
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,original,NeuralTextures,200,0.4,,0.7803
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,degraded,original (real),574,,0.837979094076655,
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,degraded,Deepfakes,200,0.765,,0.8991158536585366
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,degraded,DeepFakeDetection,838,0.9391408114558473,,0.96329717345929
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,degraded,Face2Face,200,0.685,,0.843493031358885
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,degraded,FaceShifter,200,0.7,,0.8525653310104528
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,degraded,FaceSwap,200,0.7,,0.8640156794425087
+train-FFpp_seed42_F2,FF++,F2,42,0.63,Final,FF++,in-domain,degraded,NeuralTextures,199,0.4120603015075377,,0.7085514681421042
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,original,original (real),200,,0.605,
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,original,Deepfakes,200,0.8,,0.776525
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,original,DeepFakeDetection,838,0.8747016706443914,,0.8356205250596659
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,original,Face2Face,200,0.675,,0.6734499999999999
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,original,FaceShifter,200,0.75,,0.73725
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,original,FaceSwap,200,0.6,,0.6173
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,original,NeuralTextures,200,0.595,,0.62925
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,degraded,original (real),574,,0.42857142857142855,
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,degraded,Deepfakes,200,0.81,,0.6937891986062719
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,degraded,DeepFakeDetection,838,0.9284009546539379,,0.7938315468221167
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,degraded,Face2Face,200,0.74,,0.6146951219512196
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,degraded,FaceShifter,200,0.845,,0.6792073170731707
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,degraded,FaceSwap,200,0.675,,0.5841550522648083
+train-FFpp_seed42_T5-5A,FF++,T5-5A,42,0.67,Test 5,FF++,in-domain,degraded,NeuralTextures,199,0.7437185929648241,,0.5986465428186227
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,original,original (real),200,,0.74,
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,original,Deepfakes,200,0.71,,0.78085
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,original,DeepFakeDetection,838,0.7816229116945107,,0.8186992840095466
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,original,Face2Face,200,0.515,,0.6757249999999999
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,original,FaceShifter,200,0.645,,0.7425250000000001
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,original,FaceSwap,200,0.395,,0.604425
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,original,NeuralTextures,200,0.425,,0.6421749999999999
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,degraded,original (real),574,,0.5696864111498258,
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,degraded,Deepfakes,200,0.69,,0.6930313588850174
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,degraded,DeepFakeDetection,838,0.8233890214797136,,0.7537691367367135
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,degraded,Face2Face,200,0.595,,0.6124825783972125
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,degraded,FaceShifter,200,0.665,,0.668371080139373
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,degraded,FaceSwap,200,0.51,,0.5697386759581882
+train-FFpp_seed42_T5-5C,FF++,T5-5C,42,0.69,Test 5,FF++,in-domain,degraded,NeuralTextures,199,0.5628140703517588,,0.5977623308178523
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,original,original (real),200,,0.56,
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,original,Deepfakes,200,0.88,,0.8382125
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,original,DeepFakeDetection,838,0.8436754176610979,,0.7193675417661098
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,original,Face2Face,200,0.67,,0.66785
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,original,FaceShifter,200,0.735,,0.7082499999999999
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,original,FaceSwap,200,0.48,,0.555625
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,original,NeuralTextures,200,0.74,,0.7036499999999999
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,degraded,original (real),574,,0.41289198606271776,
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,degraded,Deepfakes,200,0.825,,0.7276350174216029
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,degraded,DeepFakeDetection,838,0.8424821002386634,,0.6042427215953032
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,degraded,Face2Face,200,0.735,,0.6134364111498257
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,degraded,FaceShifter,200,0.77,,0.6538414634146342
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,degraded,FaceSwap,200,0.635,,0.5462020905923345
+train-FFpp_seed42_T7-6A,FF++,T7-6A,42,0.72,Test 7,FF++,in-domain,degraded,NeuralTextures,199,0.7487437185929648,,0.6136256193861293
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,original,original (real),200,,0.72,
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,original,Deepfakes,200,0.775,,0.8226125
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,original,DeepFakeDetection,838,0.7088305489260143,,0.7780787589498808
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,original,Face2Face,200,0.53,,0.659375
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,original,FaceShifter,200,0.55,,0.6957125
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,original,FaceSwap,200,0.315,,0.541575
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,original,NeuralTextures,200,0.59,,0.704225
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,degraded,original (real),574,,0.60801393728223,
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,degraded,Deepfakes,200,0.71,,0.7310191637630663
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,degraded,DeepFakeDetection,838,0.6515513126491647,,0.6818728015101494
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,degraded,Face2Face,200,0.545,,0.6182186411149826
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,degraded,FaceShifter,200,0.615,,0.6592857142857143
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,degraded,FaceSwap,200,0.435,,0.5452264808362369
+train-FFpp_seed42_T7-6B,FF++,T7-6B,42,0.77,Test 7,FF++,in-domain,degraded,NeuralTextures,199,0.5829145728643216,,0.6325004815015846
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,original,original (real),200,,0.675,
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,original,Deepfakes,200,0.825,,0.8445124999999999
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,original,DeepFakeDetection,838,0.986873508353222,,0.9846778042959428
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,original,Face2Face,200,0.71,,0.767225
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,original,FaceShifter,200,0.815,,0.8182625
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,original,FaceSwap,200,0.72,,0.7549625000000001
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,original,NeuralTextures,200,0.61,,0.6964250000000001
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,degraded,original (real),574,,0.6376306620209059,
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,degraded,Deepfakes,200,0.74,,0.754324912891986
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,degraded,DeepFakeDetection,838,0.8233890214797136,,0.8311767689787366
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,degraded,Face2Face,200,0.68,,0.711284843205575
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,degraded,FaceShifter,200,0.705,,0.7123649825783972
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,degraded,FaceSwap,200,0.675,,0.7006097560975609
+train-Joint_seed123_F0,Joint,F0,123,0.51,Final,FF++,joint,degraded,NeuralTextures,199,0.5477386934673367,,0.6176571008351863
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,original,original (real),200,,0.75,
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,original,Deepfakes,200,0.79,,0.8487499999999999
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,original,DeepFakeDetection,838,0.9832935560859188,,0.9878371121718377
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,original,Face2Face,200,0.68,,0.775725
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,original,FaceShifter,200,0.77,,0.8244374999999999
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,original,FaceSwap,200,0.635,,0.7742500000000001
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,original,NeuralTextures,200,0.565,,0.68265
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,degraded,original (real),574,,0.6707317073170732,
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,degraded,Deepfakes,200,0.725,,0.785574912891986
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,degraded,DeepFakeDetection,838,0.8532219570405728,,0.8655740397328965
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,degraded,Face2Face,200,0.67,,0.7311149825783972
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,degraded,FaceShifter,200,0.67,,0.7340156794425087
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,degraded,FaceSwap,200,0.655,,0.7264634146341462
+train-Joint_seed123_F1,Joint,F1,123,0.61,Final,FF++,joint,degraded,NeuralTextures,199,0.5025125628140703,,0.6145010768126346
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,original,original (real),200,,0.735,
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,original,Deepfakes,200,0.775,,0.82365
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,original,DeepFakeDetection,838,0.9832935560859188,,0.9851431980906921
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,original,Face2Face,200,0.68,,0.7535500000000002
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,original,FaceShifter,200,0.765,,0.7998500000000001
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,original,FaceSwap,200,0.65,,0.753275
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,original,NeuralTextures,200,0.535,,0.66025
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,degraded,original (real),574,,0.6411149825783972,
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,degraded,Deepfakes,200,0.76,,0.7646864111498257
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,degraded,DeepFakeDetection,838,0.8902147971360382,,0.891650312258322
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,degraded,Face2Face,200,0.685,,0.7152134146341463
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,degraded,FaceShifter,200,0.705,,0.7262325783972126
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,degraded,FaceSwap,200,0.685,,0.7185104529616725
+train-Joint_seed123_F2,Joint,F2,123,0.54,Final,FF++,joint,degraded,NeuralTextures,199,0.5376884422110553,,0.6030676028224748
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,original,original (real),200,,0.005,
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,original,Deepfakes,200,0.99,,0.51895
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,original,DeepFakeDetection,838,1.0,,0.40851730310262535
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,original,Face2Face,200,0.995,,0.5019625000000001
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,original,FaceShifter,200,0.995,,0.5238
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,original,FaceSwap,200,0.995,,0.505625
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,original,NeuralTextures,200,0.995,,0.50405
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,degraded,original (real),574,,0.003484320557491289,
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,degraded,Deepfakes,200,0.995,,0.5070644599303136
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,degraded,DeepFakeDetection,838,1.0,,0.4250122658062585
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,degraded,Face2Face,200,0.995,,0.5140243902439025
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,degraded,FaceShifter,200,0.99,,0.5218945993031359
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,degraded,FaceSwap,200,0.99,,0.5242073170731708
+train-Joint_seed123_T7-6A,Joint,T7-6A,123,0.24,Test 7,FF++,joint,degraded,NeuralTextures,199,0.9899497487437185,,0.526666433211353
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,original,original (real),200,,0.02,
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,original,Deepfakes,200,0.985,,0.51725
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,original,DeepFakeDetection,838,1.0,,0.43738066825775657
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,original,Face2Face,200,0.99,,0.5069874999999999
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,original,FaceShifter,200,0.985,,0.5176000000000001
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,original,FaceSwap,200,0.995,,0.5102249999999999
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,original,NeuralTextures,200,0.985,,0.5055125
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,degraded,original (real),574,,0.01916376306620209,
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,degraded,Deepfakes,200,1.0,,0.4979878048780487
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,degraded,DeepFakeDetection,838,1.0,,0.4793310769793685
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,degraded,Face2Face,200,1.0,,0.5168118466898954
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,degraded,FaceShifter,200,0.985,,0.4950696864111498
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,degraded,FaceSwap,200,0.995,,0.5244120209059233
+train-Joint_seed123_T7-6B,Joint,T7-6B,123,0.33,Test 7,FF++,joint,degraded,NeuralTextures,199,0.9899497487437185,,0.5083737502845236
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,original,original (real),200,,0.495,
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,original,Deepfakes,200,0.68,,0.66815
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,original,DeepFakeDetection,838,0.9391408114558473,,0.9301819809069212
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,original,Face2Face,200,0.65,,0.608475
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,original,FaceShifter,200,0.725,,0.6697500000000001
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,original,FaceSwap,200,0.625,,0.6077625
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,original,NeuralTextures,200,0.565,,0.5662874999999999
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,degraded,original (real),574,,0.5296167247386759,
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,degraded,Deepfakes,200,0.585,,0.5929834494773519
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,degraded,DeepFakeDetection,838,0.7816229116945107,,0.7691169866864028
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,degraded,Face2Face,200,0.61,,0.5838719512195122
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,degraded,FaceShifter,200,0.565,,0.5688850174216027
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,degraded,FaceSwap,200,0.59,,0.5769642857142858
+train-Joint_seed2026_F0,Joint,F0,2026,0.58,Final,FF++,joint,degraded,NeuralTextures,199,0.49246231155778897,,0.5316215222453733
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,original,original (real),200,,0.485,
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,original,Deepfakes,200,0.79,,0.72665
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,original,DeepFakeDetection,838,0.954653937947494,,0.9451342482100238
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,original,Face2Face,200,0.73,,0.6541375
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,original,FaceShifter,200,0.865,,0.75085
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,original,FaceSwap,200,0.755,,0.6647125
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,original,NeuralTextures,200,0.685,,0.599725
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,degraded,original (real),574,,0.45121951219512196,
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,degraded,Deepfakes,200,0.745,,0.6691768292682927
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,degraded,DeepFakeDetection,838,0.8186157517899761,,0.7994041728688682
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,degraded,Face2Face,200,0.75,,0.6368074912891986
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,degraded,FaceShifter,200,0.75,,0.6409494773519164
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,degraded,FaceSwap,200,0.77,,0.6443074912891986
+train-Joint_seed2026_F1,Joint,F1,2026,0.58,Final,FF++,joint,degraded,NeuralTextures,199,0.6482412060301508,,0.558178523278413
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,original,original (real),200,,0.935,
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,original,Deepfakes,200,0.55,,0.8596625
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,original,DeepFakeDetection,838,0.8723150357995226,,0.9297374701670645
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,original,Face2Face,200,0.315,,0.775575
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,original,FaceShifter,200,0.37,,0.8230750000000001
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,original,FaceSwap,200,0.33,,0.7961750000000001
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,original,NeuralTextures,200,0.14,,0.683175
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,degraded,original (real),574,,0.9146341463414634,
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,degraded,Deepfakes,200,0.53,,0.81522212543554
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,degraded,DeepFakeDetection,838,0.7565632458233891,,0.854068089777386
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,degraded,Face2Face,200,0.36,,0.7610452961672475
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,degraded,FaceShifter,200,0.35,,0.7561324041811847
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,degraded,FaceSwap,200,0.38,,0.7681837979094076
+train-Joint_seed2026_F2,Joint,F2,2026,0.61,Final,FF++,joint,degraded,NeuralTextures,199,0.16080402010050251,,0.6381209181797489
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,original,original (real),200,,0.0,
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,original,Deepfakes,200,1.0,,0.572675
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,original,DeepFakeDetection,838,0.9916467780429594,,0.3411992840095466
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,original,Face2Face,200,1.0,,0.5182125
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,original,FaceShifter,200,1.0,,0.5328625
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,original,FaceSwap,200,1.0,,0.49963749999999996
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,original,NeuralTextures,200,0.99,,0.5477625
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,degraded,original (real),574,,0.0,
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,degraded,Deepfakes,200,1.0,,0.5296123693379791
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,degraded,DeepFakeDetection,838,0.986873508353222,,0.36503871005297167
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,degraded,Face2Face,200,1.0,,0.526154181184669
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,degraded,FaceShifter,200,0.995,,0.5381620209059234
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,degraded,FaceSwap,200,1.0,,0.5438545296167248
+train-Joint_seed2026_T7-6A,Joint,T7-6A,2026,0.23,Test 7,FF++,joint,degraded,NeuralTextures,199,0.9949748743718593,,0.5347819235550575
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,original,original (real),200,,0.0,
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,original,Deepfakes,200,1.0,,0.5235000000000001
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,original,DeepFakeDetection,838,1.0,,0.27985680190930784
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,original,Face2Face,200,1.0,,0.503125
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,original,FaceShifter,200,1.0,,0.539425
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,original,FaceSwap,200,1.0,,0.5230125
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,original,NeuralTextures,200,1.0,,0.51005
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,degraded,original (real),574,,0.0,
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,degraded,Deepfakes,200,1.0,,0.5196036585365854
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,degraded,DeepFakeDetection,838,1.0,,0.32402829867030347
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,degraded,Face2Face,200,1.0,,0.5161280487804878
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,degraded,FaceShifter,200,1.0,,0.5277308362369337
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,degraded,FaceSwap,200,1.0,,0.5373170731707317
+train-Joint_seed2026_T7-6B,Joint,T7-6B,2026,0.19,Test 7,FF++,joint,degraded,NeuralTextures,199,1.0,,0.5195927372051897
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,original,original (real),200,,0.9,
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,original,Deepfakes,200,0.805,,0.9316875
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,original,DeepFakeDetection,838,0.977326968973747,,0.9911366348448689
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,original,Face2Face,200,0.65,,0.8727749999999999
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,original,FaceShifter,200,0.725,,0.9126625
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,original,FaceSwap,200,0.645,,0.874025
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,original,NeuralTextures,200,0.475,,0.7999375000000001
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,degraded,original (real),574,,0.867595818815331,
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,degraded,Deepfakes,200,0.74,,0.8529573170731708
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,degraded,DeepFakeDetection,838,0.837708830548926,,0.9015284441968183
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,degraded,Face2Face,200,0.595,,0.7933928571428571
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,degraded,FaceShifter,200,0.55,,0.7937195121951219
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,degraded,FaceSwap,200,0.59,,0.8014547038327527
+train-Joint_seed42_F0,Joint,F0,42,0.58,Final,FF++,joint,degraded,NeuralTextures,199,0.37185929648241206,,0.6852555460227969
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,original,original (real),200,,0.915,
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,original,Deepfakes,200,0.795,,0.9366625
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,original,DeepFakeDetection,838,0.9558472553699284,,0.9872046539379474
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,original,Face2Face,200,0.62,,0.8724375
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,original,FaceShifter,200,0.685,,0.9208000000000001
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,original,FaceSwap,200,0.65,,0.8809
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,original,NeuralTextures,200,0.425,,0.7870625
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,degraded,original (real),574,,0.89198606271777,
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,degraded,Deepfakes,200,0.7,,0.8807665505226481
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,degraded,DeepFakeDetection,838,0.8126491646778043,,0.9162588459331575
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,degraded,Face2Face,200,0.525,,0.8163675958188154
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,degraded,FaceShifter,200,0.56,,0.8306663763066202
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,degraded,FaceSwap,200,0.595,,0.8326742160278745
+train-Joint_seed42_F1,Joint,F1,42,0.69,Final,FF++,joint,degraded,NeuralTextures,199,0.3165829145728643,,0.7035263425139635
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,original,original (real),200,,0.955,
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,original,Deepfakes,200,0.705,,0.9266125000000001
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,original,DeepFakeDetection,838,0.9212410501193318,,0.9830847255369928
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,original,Face2Face,200,0.53,,0.8672875
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,original,FaceShifter,200,0.58,,0.9001499999999999
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,original,FaceSwap,200,0.465,,0.8669625000000001
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,original,NeuralTextures,200,0.3,,0.7671375
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,degraded,original (real),574,,0.9128919860627178,
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,degraded,Deepfakes,200,0.64,,0.8679921602787457
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,degraded,DeepFakeDetection,838,0.7899761336515513,,0.9232659476270861
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,degraded,Face2Face,200,0.505,,0.8135409407665505
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,degraded,FaceShifter,200,0.45,,0.8154224738675957
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,degraded,FaceSwap,200,0.47,,0.8224303135888502
+train-Joint_seed42_F2,Joint,F2,42,0.69,Final,FF++,joint,degraded,NeuralTextures,199,0.2814070351758794,,0.6887792621644809
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,original,original (real),200,,0.0,
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,original,Deepfakes,200,1.0,,0.557875
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,original,DeepFakeDetection,838,1.0,,0.47571300715990456
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,original,Face2Face,200,1.0,,0.5118
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,original,FaceShifter,200,1.0,,0.5478375000000001
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,original,FaceSwap,200,1.0,,0.5017125
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,original,NeuralTextures,200,1.0,,0.533425
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,degraded,original (real),574,,0.0,
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,degraded,Deepfakes,200,1.0,,0.5323344947735192
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,degraded,DeepFakeDetection,838,1.0,,0.4667534281889017
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,degraded,Face2Face,200,1.0,,0.524904181184669
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,degraded,FaceShifter,200,1.0,,0.5300174216027874
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,degraded,FaceSwap,200,1.0,,0.5248170731707318
+train-Joint_seed42_T7-6A,Joint,T7-6A,42,0.22,Test 7,FF++,joint,degraded,NeuralTextures,199,1.0,,0.5282904067375204
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,original,original (real),200,,0.0,
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,original,Deepfakes,200,1.0,,0.533825
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,original,DeepFakeDetection,838,1.0,,0.30988365155131264
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,original,Face2Face,200,1.0,,0.507425
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,original,FaceShifter,200,1.0,,0.5241125
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,original,FaceSwap,200,1.0,,0.502325
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,original,NeuralTextures,200,1.0,,0.5171125
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,degraded,original (real),574,,0.0,
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,degraded,Deepfakes,200,1.0,,0.5243684668989547
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,degraded,DeepFakeDetection,838,1.0,,0.34258085037379526
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,degraded,Face2Face,200,1.0,,0.5227787456445993
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,degraded,FaceShifter,200,1.0,,0.5212587108013937
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,degraded,FaceSwap,200,1.0,,0.5302918118466898
+train-Joint_seed42_T7-6B,Joint,T7-6B,42,0.16,Test 7,FF++,joint,degraded,NeuralTextures,199,1.0,,0.5321993241468668
